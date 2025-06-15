@@ -2200,7 +2200,7 @@ r33 downgrade zod -> cham	1			100					2	ecoi,qty=3	r33s,qty=1						"r32s,qty=1"	
 																																																																																																								0
 EXCHANGES																																																																																																								0
 3x LPP + Coin = Larzuk's Puzzle Box	1			100					2	lpp,qty=3	ecoi,qty=2						lbox																																																																																							0
-3x exo + Coin = 1x mfo	1			100					2	exo,qty=6	ecoi,qty=1						mfo																																																																																							0
+6x exo + Coin = 1x mfo	1			100					2	exo,qty=6	ecoi,qty=1						mfo																																																																																							0
 																																																																																																								0
 GHEED'S CURIOUS BOX - PHASE 1 - ROLL																																																																																																								0
 Gheed's Curious Box Roll	1			100	18	361	0		2	gcbx	ecoi,qty=1						useitem				corruptnum	100		1501	1507																																																																															0

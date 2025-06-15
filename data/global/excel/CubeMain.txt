@@ -2240,4 +2240,3 @@ Mirror rare jewel	1			100					2	jew,rar	llmr						useitem				dye	100		4	4	mirror
 																																																																																																								0
 MISC																																																																																																								0
 Safely unsocket	1			100					3	any,sock	r24g,qty=1	tsc					useitem,rem																																																																																							0
-GHEED'S CURIOUS BOX - PHASE 1 - ROLL																																																																																																								0

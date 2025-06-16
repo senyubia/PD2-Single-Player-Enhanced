@@ -46,5 +46,5 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - Eternal Coin ID changed to ``ecoi``,
 - Eternal Coin ItemType changed from ``scro`` to ``spob``,
 - Eternal Coin costs 1m,
-- Eternal Coin used in most cubing recipes (3 or 2 used for uniques, 1 for sets, 3/2/1 used to downgrade HRs, 2 used to combine 3 puzzlepieces into a box, 1 used to combine 6 Exalted Orbs into a Mythic Orb, 1 used to open Gheed's Curious Box),
+- Eternal Coin used in most cubing recipes (3/2 used for uniques, 1 for sets, 3/2/1 used to downgrade HRs, 2 used to combine 3 puzzlepieces into a box, 1 used to combine 6 Exalted Orbs into a Mythic Orb, 1 used to open Gheed's Curious Box),
 - mob resists in t4s are the same as in vanilla.

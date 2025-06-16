@@ -34,12 +34,15 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - improved drop rates for super-rare utility items (e.g. puzzlepieces, mirrors, vials),
 - improved roll chances for desired charm affixes (e.g. skillers, life),
 - new items: Exalted Orb (used to craft set items), Mythic Orb (used to craft unique items), Gheed's Curious Box (contains random 50 pgems), Eternal Coin (used in cubing recipes),
-- added safe unsocketting recipe (don't eat socketed items) - item + Ist + tp scroll.
+- added safe unsocketting recipe (don't eat socketed items) - item + Ist + tp scroll,
+- Token of Absolution from Akara costs 2.5m, up from 500k,
+- new charm: Cain's Wisdom, cube any grand charm with 1 of each essence.
 
 **Main changes compared to PD2 Single Player+:**
 - Cain's Wisdom is now a grand charm,
+- Cain's Wisdom can drop starting from alvl 67; rarity set to 1, while Gheed's Fortune has rarity 9 (and alvl 70 as in vanilla),
 - modified improved drop rates (in general, rates are lower compared to SP+),
-- ItemType for added items changed to ``Single Player Orb`` with ID ``spob``,
+- ItemType for new items changed to ``Single Player Orb`` with ID ``spob``,
 - Eternal Coin ID changed to ``ecoi``,
 - Eternal Coin ItemType changed from ``scro`` to ``spob``,
 - Eternal Coin costs 1m,

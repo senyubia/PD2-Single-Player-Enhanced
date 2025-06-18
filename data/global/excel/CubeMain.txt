@@ -2118,65 +2118,8 @@ Convert rare quality amulet to set piece	1			100	18	361	0		3	amul,rar	"exo,qty=1
 Convert magic quality ring to set piece	1			100	18	361	0		3	ring,mag	"exo,qty=1"	ecoi,qty=1					usetype,set	99																																																																																						0
 Convert rare quality ring to set piece	1			100	18	361	0		3	ring,rar	"exo,qty=1"	ecoi,qty=1					usetype,set	99																																																																																						0
 																																																																																																								0
-CAIN'S WISDOM																																																																																																								0
-																																																																																																								0
-Grand Charm + TES + CEH + BET + FED = Cain's Wisdom	1			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			cm3,uni	67																																																																																						0
-																																																																																																								0
-RUNE DOWNGRADING - non-stacked																																																																																																								0
-																																																																																																								0
-r02 downgrade eld -> 3 el	1			100					2	"key,qty=1"	"r02,qty=1"						"r01s,qty=3"																																																																																							0
-r03 downgrade tir -> 3 eld	1			100					2	"key,qty=1"	"r03,qty=1"						"r02s,qty=3"																																																																																							0
-r04 downgrade nef -> 3 tir	1			100					2	"key,qty=1"	"r04,qty=1"						"r03s,qty=3"																																																																																							0
-r05 downgrade eth -> 3 nef	1			100					2	"key,qty=1"	"r05,qty=1"						"r04s,qty=3"																																																																																							0
-r06 downgrade ith ->3 eth	1			100					2	"key,qty=1"	"r06,qty=1"						"r05s,qty=3"																																																																																							0
-r07 downgrade tal -> 3 ith	1			100					2	"key,qty=1"	"r07,qty=1"						"r06s,qty=3"																																																																																							0
-r08 downgrade ral -> 3 tal	1			100					2	"key,qty=1"	"r08,qty=1"						"r07s,qty=3"																																																																																							0
-r09 downgrade ort -> 3 ral	1			100					2	"key,qty=1"	"r09,qty=1"						"r08s,qty=3"																																																																																							0
-r10 downgrade thul -> 3 ort	1			100					2	"key,qty=1"	"r10,qty=1"						"r09s,qty=3"																																																																																							0
-r11 downgrade amn -> 3 thul	1			100					2	"key,qty=1"	"r11,qty=1"						"r10s,qty=3"																																																																																							0
-r12 downgrade sol -> 3 amn	1			100					2	"key,qty=1"	"r12,qty=1"						"r11s,qty=3"																																																																																							0
-r13 downgrade shael -> 3 sol	1			100					2	"key,qty=1"	"r13,qty=1"						"r12s,qty=3"																																																																																							0
-r14 downgrade dol -> 3 shael	1			100					2	"key,qty=1"	"r14,qty=1"						"r13s,qty=3"																																																																																							0
-r15 downgrade hel -> 3 dol	1			100					2	"key,qty=1"	"r15,qty=1"						"r14s,qty=3"																																																																																							0
-r16 downgrade io -> 3 hel	1			100					2	"key,qty=1"	"r16,qty=1"						"r15s,qty=3"																																																																																							0
-r17 downgrade lum -> 3 io	1			100					2	"key,qty=1"	"r17,qty=1"						"r16s,qty=3"																																																																																							0
-r18 downgrade ko -> 3 lum	1			100					2	"key,qty=1"	"r18,qty=1"						"r17s,qty=3"																																																																																							0
-r19 downgrade fal -> 3 ko	1			100					2	"key,qty=1"	"r19,qty=1"						"r18s,qty=3"																																																																																							0
-r20 downgrade lem -> 3 fal	1			100					2	"key,qty=1"	"r20,qty=1"						"r19s,qty=3"																																																																																							0
-r21 downgrade pul -> 3 lem	1			100					2	"key,qty=1"	"r21,qty=1"						"r20s,qty=3"																																																																																							0
-r22 downgrade um -> 1 pul	1			100					2	"key,qty=1"	"r22,qty=1"						"r21s,qty=1"																																																																																							0
-r23 downgrade mal -> 1 um	1			100					2	"key,qty=1"	"r23,qty=1"						"r22s,qty=1"																																																																																							0
-r24 downgrade ist -> 1 mal	1			100					2	"key,qty=1"	"r24,qty=1"						"r23s,qty=1"																																																																																							0
-																																																																																																								0
-RUNE DOWNGRADING - stacked																																																																																																								0
-																																																																																																								0
-r02 downgrade eld -> 3 el	1			100					2	"key,qty=1"	"r02s,qty=1"						"r01s,qty=3"																																																																																							0
-r03 downgrade tir -> 3 eld	1			100					2	"key,qty=1"	"r03s,qty=1"						"r02s,qty=3"																																																																																							0
-r04 downgrade nef -> 3 tir	1			100					2	"key,qty=1"	"r04s,qty=1"						"r03s,qty=3"																																																																																							0
-r05 downgrade eth -> 3 nef	1			100					2	"key,qty=1"	"r05s,qty=1"						"r04s,qty=3"																																																																																							0
-r06 downgrade ith ->3 eth	1			100					2	"key,qty=1"	"r06s,qty=1"						"r05s,qty=3"																																																																																							0
-r07 downgrade tal -> 3 ith	1			100					2	"key,qty=1"	"r07s,qty=1"						"r06s,qty=3"																																																																																							0
-r08 downgrade ral -> 3 tal	1			100					2	"key,qty=1"	"r08s,qty=1"						"r07s,qty=3"																																																																																							0
-r09 downgrade ort -> 3 ral	1			100					2	"key,qty=1"	"r09s,qty=1"						"r08s,qty=3"																																																																																							0
-r10 downgrade thul -> 3 ort	1			100					2	"key,qty=1"	"r10s,qty=1"						"r09s,qty=3"																																																																																							0
-r11 downgrade amn -> 3 thul	1			100					2	"key,qty=1"	"r11s,qty=1"						"r10s,qty=3"																																																																																							0
-r12 downgrade sol -> 3 amn	1			100					2	"key,qty=1"	"r12s,qty=1"						"r11s,qty=3"																																																																																							0
-r13 downgrade shael -> 3 sol	1			100					2	"key,qty=1"	"r13s,qty=1"						"r12s,qty=3"																																																																																							0
-r14 downgrade dol -> 3 shael	1			100					2	"key,qty=1"	"r14s,qty=1"						"r13s,qty=3"																																																																																							0
-r15 downgrade hel -> 3 dol	1			100					2	"key,qty=1"	"r15s,qty=1"						"r14s,qty=3"																																																																																							0
-r16 downgrade io -> 3 hel	1			100					2	"key,qty=1"	"r16s,qty=1"						"r15s,qty=3"																																																																																							0
-r17 downgrade lum -> 3 io	1			100					2	"key,qty=1"	"r17s,qty=1"						"r16s,qty=3"																																																																																							0
-r18 downgrade ko -> 3 lum	1			100					2	"key,qty=1"	"r18s,qty=1"						"r17s,qty=3"																																																																																							0
-r19 downgrade fal -> 3 ko	1			100					2	"key,qty=1"	"r19s,qty=1"						"r18s,qty=3"																																																																																							0
-r20 downgrade lem -> 3 fal	1			100					2	"key,qty=1"	"r20s,qty=1"						"r19s,qty=3"																																																																																							0
-r21 downgrade pul -> 3 lem	1			100					2	"key,qty=1"	"r21s,qty=1"						"r20s,qty=3"																																																																																							0
-r22 downgrade um -> 1 pul	1			100					2	"key,qty=1"	"r22s,qty=1"						"r21s,qty=1"																																																																																							0
-r23 downgrade mal -> 1 um	1			100					2	"key,qty=1"	"r23s,qty=1"						"r22s,qty=1"																																																																																							0
-r24 downgrade ist -> 1 mal	1			100					2	"key,qty=1"	"r24s,qty=1"						"r23s,qty=1"																																																																																							0
-																																																																																																								0
 RUNE DOWNGRADING (High Runes) - non stacked																																																																																																								0
 																																																																																																								0
-r25 downgrade gul -> ist	1			100					2	ecoi,qty=1	"r25,qty=1"						"r24s,qty=1"																																																																																							0
 r26 downgrade vex -> gul	1			100					2	ecoi,qty=1	"r26,qty=1"						"r25s,qty=1"																																																																																							0
 r27 downgrade ohm -> vex	1			100					2	ecoi,qty=1	"r27,qty=1"						"r26s,qty=1"																																																																																							0
 r28 downgrade lo -> ohm	1			100					2	ecoi,qty=1	"r28,qty=1"						"r27s,qty=1"																																																																																							0
@@ -2188,7 +2131,6 @@ r33 downgrade zod -> cham	1			100					2	ecoi,qty=3	r33,qty=1						"r32s,qty=1"		
 																																																																																																								0
 RUNE DOWNGRADING (High Runes) -  stacked																																																																																																								0
 																																																																																																								0
-r25 downgrade gul -> ist	1			100					2	ecoi,qty=1	r25s,qty=1						"r24s,qty=1"																																																																																							0
 r26 downgrade vex -> gul	1			100					2	ecoi,qty=1	r26s,qty=1						"r25s,qty=1"																																																																																							0
 r27 downgrade ohm -> vex	1			100					2	ecoi,qty=1	r27s,qty=1						"r26s,qty=1"																																																																																							0
 r28 downgrade lo -> ohm	1			100					2	ecoi,qty=1	r28s,qty=1						"r27s,qty=1"																																																																																							0

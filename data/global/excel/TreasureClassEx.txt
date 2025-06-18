@@ -36,16 +36,16 @@ Runes 5			1						r09s	9	r10s	6	Runes 4	12																		0
 Runes 6			1						r11s	9	r12s	6	Runes 5	22																		0
 Runes 7			1						r13s	9	r14s	6	Runes 6	45																		0
 Runes 8			1						r15s	9	r16s	6	Runes 7	90																		0
-Runes 9			1						r17s	15	r18s	10	Runes 8	180																		0
-Runes 10			1						r19s	15	r20s	10	Runes 9	360																		0
-Runes 11			1						r21s	15	r22s	10	Runes 10	720																		0
-Runes 12			1						r23s	15	r24s	10	Runes 11	1066																		0
+Runes 9			1						r17s	21	r18s	14	Runes 8	180																		0
+Runes 10			1						r19s	21	r20s	14	Runes 9	360																		0
+Runes 11			1						r21s	21	r22s	14	Runes 10	720																		0
+Runes 12			1						r23s	21	r24s	14	Runes 11	1066																		0
 Runes 13			1						r25s	60	r26s	40	Runes 12	1519																		0
 Runes 14			1						r27s	60	r28s	40	Runes 13	2170																		0
 Runes 15			1						r29s	60	r30s	40	Runes 14	2941																		0
 Runes 16			1						r31s	60	r32s	40	Runes 15	3957																		0
 Runes 17			1						r33s	20	Runes 16	5170																				0
-Runes 12 equiv			1						r23s	15	r24s	10	Runes 11	1066																		0
+Runes 12 equiv			1						r23s	21	r24s	14	Runes 11	1066																		0
 Runes 13 equiv			1						r25s	60	r26s	40	Runes 12 equiv	1517																		0
 Runes 14 equiv			1						r27s	60	r28s	40	Runes 13 equiv	2170																		0
 Runes 15 equiv			1						r29s	60	r30s	40	Runes 14 equiv	2941																		0

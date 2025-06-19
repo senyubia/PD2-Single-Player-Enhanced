@@ -8,7 +8,7 @@ Based on [Project Diablo 2 Single Player+ mod by Lukaszpg](https://github.com/Lu
 If you haven't done it already, run the official PD2 launcher and set up your desired loot filter. Then:
 
 1. Get **PD2 S11 patch 2. This is important!** For other versions you'll have to manually merge differences into corresponding .txt files.
-2. Download ``data`` folder and place it in ``<YOUR D2 INSTALL PATH>/ProjectD2/``. Due to git quirkiness, on Windows (and *maybe* while using wine on *nix) you might have to change line endings to CRLF if your game crashes on launch.
+2. Download ``data`` folder and place it in ``<YOUR D2 INSTALL PATH>/ProjectD2/``.
 3. Create a new shortcut to ``<YOUR D2 INSTALL PATH>/ProjectD2/Diablo II.exe`` and include ``-direct -txt`` option string. You might also want to include ``-3dfx`` option if you plan on using D2GL.
 4. Use the newly created shortcut to play the game.
 
@@ -28,19 +28,21 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - slightly improved drop rate of maps scrolls in maps,
 - NoLimit flag for not-encounter-locked uniques set to 1 (the same unique may drop multiple times in a single game),
 - modified rarity of uniques with the same base (e.g. Tyrael's Might or high-level jewelery is more common),
-- improved drop rates for runes (r1-r8 vanilla, r9-r16 3x, r17-r24 5x, r25-r33 20x),
+- improved drop rates for runes (r1-r8 vanilla, r9-r16 3x, r17-r24 7x, r25-r33 20x),
 - improved drop rate for Horadrim Scarabs,
 - improved drop rates for uber ingredients,
 - improved drop rates for super-rare utility items (e.g. puzzlepieces, mirrors, vials),
 - improved roll chances for desired charm affixes (e.g. skillers, life),
 - new items: Exalted Orb (used to craft set items), Mythic Orb (used to craft unique items), Gheed's Curious Box (contains random 50 pgems), Eternal Coin (used in cubing recipes),
 - added safe unsocketting recipe (don't eat socketed items) - item + Ist + tp scroll,
-- Token of Absolution from Akara costs 2.5m, up from 500k,
-- new charm: Cain's Wisdom, cube any grand charm with 1 of each essence.
+- Token of Absolution from Akara costs 5m, up from 500k,
+- new grand charm: Cain's Wisdom.
 
 **Main changes compared to PD2 Single Player+:**
-- Cain's Wisdom is now a grand charm,
-- Cain's Wisdom can drop starting from alvl 67; rarity set to 1, while Gheed's Fortune has rarity 9 (and alvl 70 as in vanilla),
+- removed recipes to downgrade non-HRs and gul to ist,
+- Cain's Wisdom is now a grand charm requiring clvl 88 to use,
+- Cain's Wisdom can drop starting from alvl 87,
+- removed the recipe to turn essences into Cain's Wisdom,
 - modified improved drop rates (in general, rates are lower compared to SP+),
 - ItemType for new items changed to ``Single Player Orb`` with ID ``spob``,
 - Eternal Coin ID changed to ``ecoi``,

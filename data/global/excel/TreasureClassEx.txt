@@ -725,7 +725,7 @@ Andarielq (N)			7	995	995	1024	1024	1	Act 2 (N) Equip A	845	Act 2 (N) Good	133	t
 Andarielq (H)			7	995	995	1024	1024	1	Act 4 (H) Equip A	789	Act 4 (H) Good	127	tes	42	mfo	21																0
 Duriel - Base			7	983	983	983	1024	0	"gld,mul=1280"	228	Act 3 Equip A	395	Act 3 Junk	311	Act 3 Good	62																0
 Duriel (N) - Base			7	983	983	983	1024	0	"gld,mul=1536"	228	Act 3 (N) Equip A	395	Act 3 (N) Junk	311	Act 3 (N) Good	62	tes	20														0
-Duriel (H) - Base			7	983	983	983	1024	0	"gld,mul=2048"	65	Act 5 (H) Equip B	782	Act 5 (H) Junk	75	Act 5 (H) Good	45	tes	20	mfo	10												0
+Duriel (H) - Base			7	983	983	983	1024	0	"gld,mul=2048"	60	Act 5 (H) Equip B	787	Act 5 (H) Junk	75	Act 5 (H) Good	45	tes	20	mfo	10												0
 Durielq - Base			7	993	993	1024	1024	0	Act 3 Equip A	845	Act 3 Good	133																				0
 Durielq (N) - Base			7	993	993	1024	1024	0	Act 3 (N) Equip A	845	Act 3 (N) Good	133	tes	42																		0
 Durielq (H) - Base			7	993	993	1024	1024	0	Act 5 (H) Equip B	882	Act 5 (H) Good	53	tes	42	mfo	21																0

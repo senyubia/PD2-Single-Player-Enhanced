@@ -35,11 +35,11 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - improved roll chances for desired charm affixes (e.g. skillers, life),
 - new items: Exalted Orb (used to craft set items), Mythic Orb (used to craft unique items), Gheed's Curious Box (contains random 50 pgems), Eternal Coin (used in cubing recipes),
 - added safe unsocketting recipe (don't eat socketed items) - item + Ist + tp scroll,
-- Token of Absolution from Akara costs 5m, up from 500k,
+- Token of Absolution from Akara costs 3m, up from 500k,
 - new grand charm: Cain's Wisdom.
 
 **Main changes compared to PD2 Single Player+:**
-- removed recipes to downgrade non-HRs and gul to ist,
+- removed recipes to downgrade runes,
 - Cain's Wisdom is now a grand charm requiring clvl 88 to use,
 - Cain's Wisdom can drop starting from alvl 87,
 - removed the recipe to turn essences into Cain's Wisdom,
@@ -47,6 +47,5 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - ItemType for new items changed to ``Single Player Orb`` with ID ``spob``,
 - Eternal Coin ID changed to ``ecoi``,
 - Eternal Coin ItemType changed from ``scro`` to ``spob``,
-- Eternal Coin costs 1m,
-- Eternal Coin used in most cubing recipes (3/2 used for uniques, 1 for sets, 3/2/1 used to downgrade HRs, 2 used to combine 3 puzzlepieces into a box, 1 used to combine 6 Exalted Orbs into a Mythic Orb, 1 used to open Gheed's Curious Box),
+- Eternal Coin used in most cubing recipes (3/2 used for uniques, 1 for sets, 2 used to combine 3 puzzlepieces into a box, 1 used to combine 6 Exalted Orbs into a Mythic Orb, 1 used to open Gheed's Curious Box),
 - mob resists in t4s are the same as in vanilla.

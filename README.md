@@ -39,7 +39,9 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - Token of Absolution from Akara costs 3m, up from 500k,
 - new grand charm: Cain's Wisdom,
 - rejuvs worth 4x more,
-- rejuvs buyable from Anya, full rejuvs available in Hell.
+- rejuvs buyable from Anya, full rejuvs available in Hell,
+- crafting infusions can be crafted - 1 corresponding pgem + 1 jewel fragment + Fal,
+- reroll Rainbow Facet - Rainbow Facet + 2 of each type of pgem (excluding skulls).
 
 **Main changes compared to PD2 Single Player+:**
 - removed recipes to downgrade runes,
@@ -50,6 +52,9 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - ItemType for new items changed to ``Single Player Orb`` with ID ``spob``,
 - Eternal Coin ID changed to ``ecoi``,
 - Eternal Coin ItemType changed from ``scro`` to ``spob``,
-- Eternal Coin used in most cubing recipes (3/2 used for uniques, 1 for sets, 2 used to combine 3 puzzlepieces into a box, 1 used to combine 6 Exalted Orbs into a Mythic Orb, 1 used to open Gheed's Curious Box),
+- Eternal Coin used in most cubing recipes (3 used for uniques, 1 for sets, 2 used to combine 3 puzzlepieces into a box, 1 used to combine 6 Exalted Orbs into a Mythic Orb, 1 used to open Gheed's Curious Box),
 - deterministic jewellery creation - cube a ring/amulet with an orb to create a random unique with +100 lvl req, pick the desired unique by repeating the transmutation (the orb gets refunded), then cube additionally with Eternal Coins to finalize the transmutation (the orb and coins get consumed, the item gets rerolled into a proper version),
 - mob resists in t4s are the same as in vanilla.
+
+**Limitations:**
+- when crafting uniques, if a base has multiple uniques, the resulting item is random - unfixable as of S11, unless PD2 fixes the bug with outputting certain uniques by name.

@@ -37,7 +37,9 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - new items: Exalted Orb (used to craft set items), Mythic Orb (used to craft unique items), Gheed's Curious Box (contains random 50 pgems), Eternal Coin (used in cubing recipes),
 - added safe unsocketting recipe (don't eat socketed items) - item + Ist + tp scroll,
 - Token of Absolution from Akara costs 3m, up from 500k,
-- new grand charm: Cain's Wisdom.
+- new grand charm: Cain's Wisdom,
+- rejuvs worth 4x more,
+- rejuvs buyable from Anya, full rejuvs available in Hell.
 
 **Main changes compared to PD2 Single Player+:**
 - removed recipes to downgrade runes,

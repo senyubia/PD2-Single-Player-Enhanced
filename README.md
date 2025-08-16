@@ -28,6 +28,7 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - slightly improved drop rate of maps scrolls in maps,
 - NoLimit flag for not-encounter-locked uniques set to 1 (the same unique may drop multiple times in a single game),
 - modified rarity of uniques with the same base (e.g. Tyrael's Might or high-level jewelery is more common),
+- quest bug always active on all act bosses,
 - improved drop rates for runes (r1-r8 vanilla, r9-r16 3x, r17-r24 7x, r25-r33 20x),
 - improved drop rate for Horadrim Scarabs,
 - improved drop rates for uber ingredients,
@@ -48,4 +49,5 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - Eternal Coin ID changed to ``ecoi``,
 - Eternal Coin ItemType changed from ``scro`` to ``spob``,
 - Eternal Coin used in most cubing recipes (3/2 used for uniques, 1 for sets, 2 used to combine 3 puzzlepieces into a box, 1 used to combine 6 Exalted Orbs into a Mythic Orb, 1 used to open Gheed's Curious Box),
+- deterministic jewellery creation - cube a ring/amulet with an orb to create a random unique with +100 lvl req, pick the desired unique by repeating the transmutation (the orb gets refunded), then cube additionally with Eternal Coins to finalize the transmutation (the orb and coins get consumed, the item gets rerolled into a proper version),
 - mob resists in t4s are the same as in vanilla.

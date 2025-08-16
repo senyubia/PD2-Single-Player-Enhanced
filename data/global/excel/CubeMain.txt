@@ -2096,12 +2096,45 @@ Convert normal quality weapon to unique	1			100	18	361	0		3	weap,nor	"mfo,qty=1"
 Convert superior quality weapon to unique	1			100	18	361	0		3	weap,hiq	"mfo,qty=1"	ecoi,qty=3					usetype,uni	99																																																																																						0
 Convert magic quality weapon to unique	1			100	18	361	0		3	weap,mag	"mfo,qty=1"	ecoi,qty=3					usetype,uni	99																																																																																						0
 Convert rare quality weapon to unique	1			100	18	361	0		3	weap,rar	"mfo,qty=1"	ecoi,qty=3					usetype,uni	99																																																																																						0
-Convert magic quality ring to unique	1			100	18	361	0		3	ring,mag	"mfo,qty=1"	ecoi,qty=2					usetype,uni	99																																																																																						0
-Convert rare quality ring to unique	1			100	18	361	0		3	ring,rar	"mfo,qty=1"	ecoi,qty=2					usetype,uni	99																																																																																						0
-Convert magic quality amulet to unique	1			100	18	361	0		3	amul,mag	"mfo,qty=1"	ecoi,qty=2					usetype,uni	99																																																																																						0
-Convert rare quality amulet to unique	1			100	18	361	0		3	amul,rar	"mfo,qty=1"	ecoi,qty=2					usetype,uni	99																																																																																						0
-Convert magic quality grand charm to unique	1			100	18	361	0		3	cm3,mag	"mfo,qty=1"	ecoi,qty=2					cm3,uni	99																																																																																						0
+Convert magic quality grand charm to unique	1			100	18	361	0		3	cm3,mag	"mfo,qty=1"	ecoi,qty=3					cm3,uni	99																																																																																						0
 Mythic orb + 15 jewel fragments = random rainbow facet	1			100					3	"jewf,qty=15"	"mfo,qty=1"	ecoi,qty=2					jew,uni	99																																																																																						0
+																																																																																																								0
+MYTHIC ORB - DETERMINISTIC JEWELERY - ROLLING																																																																																																								0
+																																																																																																								0
+Convert magic quality ring to unique - preroll	1			100	18	361	0		2	ring,mag	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
+Convert rare quality ring to unique - preroll	1			100	18	361	0		2	ring,rar	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
+Reroll prerolled unique ring	1			100	18	361	2000		2	ring,uni	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
+Convert magic quality amulet to unique - preroll	1			100	18	361	0		2	amul,mag	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
+Convert rare quality amulet to unique - preroll	1			100	18	361	0		2	amul,rar	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
+Reroll prerolled unique amulet	1			100	18	361	2000		2	amul,uni	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
+																																																																																																								0
+MYTHIC ORB - DETERMINISTIC RINGS - WATCH OFFSETS 1 DOWN																																																																																																								0
+																																																																																																								0
+Convert prerolled ring to Wisp	1			100	18	361	2000		3	Wisp	"mfo,qty=1"	ecoi,qty=3					Constricting Ring	99																																																																																						0
+Convert prerolled ring to Constricting Loop	1			100	18	361	2000		3	Constricting Ring	"mfo,qty=1"	ecoi,qty=3					Nature's Peace	99																																																																																						0
+Convert prerolled ring to Nature's Peace	1			100	18	361	2000		3	Nature's Peace	"mfo,qty=1"	ecoi,qty=3					Bul Katho's Wedding Band	99																																																																																						0
+Convert prerolled ring to Bul Katho's Wedding Band	1			100	18	361	2000		3	Bul Katho's Wedding Band	"mfo,qty=1"	ecoi,qty=3					The Stone of Jordan	99																																																																																						0
+Convert prerolled ring to The Stone of Jordan	1			100	18	361	2000		3	The Stone of Jordan	"mfo,qty=1"	ecoi,qty=3					Carrion Wind	99																																																																																						0
+Convert prerolled ring to Carrion Wind	1			100	18	361	2000		3	Carrion Wind	"mfo,qty=1"	ecoi,qty=3					Dwarf Star	99																																																																																						0
+Convert prerolled ring to Dwarf Star	1			100	18	361	2000		3	Dwarf Star	"mfo,qty=1"	ecoi,qty=3					Raven Frost	99																																																																																						0
+Convert prerolled ring to Raven Frost	1			100	18	361	2000		3	Raven Frost	"mfo,qty=1"	ecoi,qty=3					Manald Heal	99																																																																																						0
+Convert prerolled ring to Manald Heal	1			100	18	361	2000		3	Manald Heal	"mfo,qty=1"	ecoi,qty=3					Nagelring	99																																																																																						0
+Convert prerolled ring to Nagelring	1			100	18	361	2000		3	Nagelring	"mfo,qty=1"	ecoi,qty=3					usetype,uni	10																																																																																						0
+																																																																																																								0
+MYTHIC ORB - DETERMINISTIC AMULETS - WATCH OFFSETS 1 DOWN																																																																																																								0
+																																																																																																								0
+Convert prerolled amulet to The Rising Sun	1			100	18	361	2000		3	The Rising Sun	"mfo,qty=1"	ecoi,qty=3					Seraph's Hymn	99																																																																																						0
+Convert prerolled amulet to Seraph's Hymn	1			100	18	361	2000		3	Seraph's Hymn	"mfo,qty=1"	ecoi,qty=3					Mara's Kaleidoscope	99																																																																																						0
+Convert prerolled amulet to Mara's Kaleidoscope	1			100	18	361	2000		3	Mara's Kaleidoscope	"mfo,qty=1"	ecoi,qty=3					Highlord's Wrath	99																																																																																						0
+Convert prerolled amulet to Highlord's Wrath	1			100	18	361	2000		3	Highlord's Wrath	"mfo,qty=1"	ecoi,qty=3					Metalgrid	99																																																																																						0
+Convert prerolled amulet to Metalgrid	1			100	18	361	2000		3	Metalgrid	"mfo,qty=1"	ecoi,qty=3					Atma's Scarab	99																																																																																						0
+Convert prerolled amulet to Atma's Scarab	1			100	18	361	2000		3	Atma's Scarab	"mfo,qty=1"	ecoi,qty=3					The Eye of Etlich	99																																																																																						0
+Convert prerolled amulet to The Eye of Etlich	1			100	18	361	2000		3	The Eye of Etlich	"mfo,qty=1"	ecoi,qty=3					Crescent Moon	99																																																																																						0
+Convert prerolled amulet to Crescent Moon	1			100	18	361	2000		3	Crescent Moon	"mfo,qty=1"	ecoi,qty=3					Saracen's Chance	99																																																																																						0
+Convert prerolled amulet to Saracen's Chance	1			100	18	361	2000		3	Saracen's Chance	"mfo,qty=1"	ecoi,qty=3					The Mahim-Oak Curio	99																																																																																						0
+Convert prerolled amulet to The Mahim-Oak Curio	1			100	18	361	2000		3	The Mahim-Oak Curio	"mfo,qty=1"	ecoi,qty=3					The Cat's Eye	99																																																																																						0
+Convert prerolled amulet to The Cat's Eye	1			100	18	361	2000		3	The Cat's Eye	"mfo,qty=1"	ecoi,qty=3					Nokozan Relic	99																																																																																						0
+Convert prerolled amulet to Nokozan Relic	1			100	18	361	2000		3	Nokozan Relic	"mfo,qty=1"	ecoi,qty=3					usetype,uni	14																																																																																						0
 																																																																																																								0
 EXALTED ORB																																																																																																								0
 																																																																																																								0
@@ -2113,10 +2146,35 @@ Convert normal quality weapon to set piece	1			100	18	361	0		3	weap,nor	"exo,qty
 Convert superior quality weapon to set piece	1			100	18	361	0		3	weap,hiq	"exo,qty=1"	ecoi,qty=1					usetype,set,noe	99																																																																																						0
 Convert magic quality weapon to set piece	1			100	18	361	0		3	weap,mag	"exo,qty=1"	ecoi,qty=1					usetype,set,noe	99																																																																																						0
 Convert rare quality weapon to set piece	1			100	18	361	0		3	weap,rar	"exo,qty=1"	ecoi,qty=1					usetype,set,noe	99																																																																																						0
-Convert magic quality amulet to set piece	1			100	18	361	0		3	amul,mag	"exo,qty=1"	ecoi,qty=1					usetype,set	99																																																																																						0
-Convert rare quality amulet to set piece	1			100	18	361	0		3	amul,rar	"exo,qty=1"	ecoi,qty=1					usetype,set	99																																																																																						0
-Convert magic quality ring to set piece	1			100	18	361	0		3	ring,mag	"exo,qty=1"	ecoi,qty=1					usetype,set	99																																																																																						0
-Convert rare quality ring to set piece	1			100	18	361	0		3	ring,rar	"exo,qty=1"	ecoi,qty=1					usetype,set	99																																																																																						0
+Convert magic quality amulet to set piece	0			100	18	361	0		3	amul	"exo,qty=1"	ecoi,qty=1					usetype,set	99																																																																																						0
+Convert magic quality ring to set piece	0			100	18	361	0		3	ring	"exo,qty=1"	ecoi,qty=1					usetype,set	99																																																																																						0
+																																																																																																								0
+EXALTED ORB - DETERMINISTIC JEWELERY - ROLLING																																																																																																								0
+																																																																																																								0
+Convert magic quality ring to set - preroll	1			100	18	361	0		2	ring,mag	"exo,qty=1"						usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
+Convert rare quality ring to set - preroll	1			100	18	361	0		2	ring,rar	"exo,qty=1"						usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
+Reroll prerolled set ring	1			100	18	361	2000		2	ring,set	"exo,qty=1"						usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
+Convert magic quality amulet to set - preroll	1			100	18	361	0		2	amul,mag	"exo,qty=1"						usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
+Convert rare quality amulet to set - preroll	1			100	18	361	0		2	amul,rar	"exo,qty=1"						usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
+Reroll prerolled set amulet	1			100	18	361	2000		2	amul,set	"exo,qty=1"						usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
+																																																																																																								0
+EXALTED ORB - DETERMINISTIC RING - WATCH OFFSETS 1 DOWN																																																																																																								0
+																																																																																																								0
+Convert prerolled ring to Bul-Kathos' Death Band	1			100	18	361	2000		3	Bul-Kathos' Death Band	"exo,qty=1"	ecoi,qty=1					Angelic Halo	99																																																																																						0
+Convert prerolled ring to Angelic Halo	1			100	18	361	2000		3	Angelic Halo	"exo,qty=1"	ecoi,qty=1					Cathan's Seal	99																																																																																						0
+Convert prerolled ring to Cathan's Seal	1			100	18	361	2000		3	Cathan's Seal	"exo,qty=1"	ecoi,qty=1					usetype,set	15																																																																																						0
+																																																																																																								0
+EXALTED ORB - DETERMINISTIC AMULETS - WATCH OFFSETS 1 DOWN																																																																																																								0
+																																																																																																								0
+Convert prerolled amulet to Telling of Beads	1			100	18	361	2000		3	Telling of Beads	"exo,qty=1"	ecoi,qty=1					Tal Rasha's Adjudication	99																																																																																						0
+Convert prerolled amulet to Tal Rasha's Adjudication	1			100	18	361	2000		3	Tal Rasha's Adjudication	"exo,qty=1"	ecoi,qty=1					Arcanna's Sign	99																																																																																						0
+Convert prerolled amulet to Arcanna's Sign	1			100	18	361	2000		3	Arcanna's Sign	"exo,qty=1"	ecoi,qty=1					Angelic Wings	99																																																																																						0
+Convert prerolled amulet to Angelic Wings	1			100	18	361	2000		3	Angelic Wings	"exo,qty=1"	ecoi,qty=1					Tancred's Weird	99																																																																																						0
+Convert prerolled amulet to Tancred's Weird	1			100	18	361	2000		3	Tancred's Weird	"exo,qty=1"	ecoi,qty=1					Cathan's Sigil	99																																																																																						0
+Convert prerolled amulet to Cathan's Sigil	1			100	18	361	2000		3	Cathan's Sigil	"exo,qty=1"	ecoi,qty=1					Vidala's Snare	99																																																																																						0
+Convert prerolled amulet to Vidala's Snare	1			100	18	361	2000		3	Vidala's Snare	"exo,qty=1"	ecoi,qty=1					Iratha's Collar	99																																																																																						0
+Convert prerolled amulet to Iratha's Collar	1			100	18	361	2000		3	Iratha's Collar	"exo,qty=1"	ecoi,qty=1					Civerb's Icon	99																																																																																						0
+Convert prerolled amulet to Civerb's Icon	1			100	18	361	2000		3	Civerb's Icon	"exo,qty=1"	ecoi,qty=1					usetype,set	13																																																																																						0
 																																																																																																								0
 EXCHANGES																																																																																																								0
 3x LPP + Coin = Larzuk's Puzzle Box	1			100					2	lpp,qty=3	ecoi,qty=2						lbox																																																																																							0

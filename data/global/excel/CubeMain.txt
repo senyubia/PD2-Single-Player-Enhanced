@@ -2086,6 +2086,8 @@ Lillith's Mirror bolts (rare)	1			100					2	"cqv,rar"	llmr						useitem	99		100	
 Lillith's Mirror arrows (craft)	1			100					2	"aqv,crf"	llmr						useitem	99		100	dye	100		4	4	mirrored	100		1	1																useitem	99		100	dye	100		21	21	mirrored	100		1	1																																													0
 Lillith's Mirror bolts (craft)	1			100					2	"cqv,crf"	llmr						useitem	99		100	dye	100		4	4	mirrored	100		1	1																useitem	99		100	dye	100		21	21	mirrored	100		1	1																																													0
 																																																																																																								0
+PD2 SPE																																																																																																								0
+																																																																																																								0
 MYTHIC ORB																																																																																																								0
 																																																																																																								0
 Convert normal quality armor to unique	1			100	18	361	0		3	armo,nor	"mfo,qty=1"	ecoi,qty=3					usetype,uni	99																																																																																						0
@@ -2097,7 +2099,7 @@ Convert superior quality weapon to unique	1			100	18	361	0		3	weap,hiq	"mfo,qty=
 Convert magic quality weapon to unique	1			100	18	361	0		3	weap,mag	"mfo,qty=1"	ecoi,qty=3					usetype,uni	99																																																																																						0
 Convert rare quality weapon to unique	1			100	18	361	0		3	weap,rar	"mfo,qty=1"	ecoi,qty=3					usetype,uni	99																																																																																						0
 Convert magic quality grand charm to unique	1			100	18	361	0		3	cm3,mag	"mfo,qty=1"	ecoi,qty=3					cm3,uni	99																																																																																						0
-Mythic orb + 15 jewel fragments = random rainbow facet	1			100					3	"jewf,qty=15"	"mfo,qty=1"	ecoi,qty=2					jew,uni	99																																																																																						0
+Mythic orb + 15 jewel fragments = random rainbow facet	1			100					3	"jewf,qty=15"	"mfo,qty=1"	ecoi,qty=3					jew,uni	99																																																																																						0
 																																																																																																								0
 MYTHIC ORB - DETERMINISTIC JEWELERY - ROLLING																																																																																																								0
 																																																																																																								0
@@ -2176,21 +2178,35 @@ Convert prerolled amulet to Vidala's Snare	1			100	18	361	2000		3	Vidala's Snare
 Convert prerolled amulet to Iratha's Collar	1			100	18	361	2000		3	Iratha's Collar	"exo,qty=1"	ecoi,qty=1					Civerb's Icon	99																																																																																						0
 Convert prerolled amulet to Civerb's Icon	1			100	18	361	2000		3	Civerb's Icon	"exo,qty=1"	ecoi,qty=1					usetype,set	13																																																																																						0
 																																																																																																								0
+REROLLING																																																																																																								0
+																																																																																																								0
+Reroll Rainbow Facet	1			100	18	361	0		7	jew,uni	"gprs,qty=2"	"gpys,qty=2"	"gpgs,qty=2"	"gpbs,qty=2"	"gpvs,qty=2"	"gpws,qty=2"	usetype,uni	99																																																																																						0
+																																																																																																								0
+CRAFTING																																																																																																								0
+																																																																																																								0
+Create crafting infusion - Caster	1			100	18	361	0		3	jewf,qty=1	gpvs,qty=1	r19s,qty=1					crfc																																																																																							0
+Create crafting infusion - Bountiful	1			100	18	361	0		3	jewf,qty=1	gpys,qty=1	r19s,qty=1					crfu																																																																																							0
+Create crafting infusion - Vampiric	1			100	18	361	0		3	jewf,qty=1	skzs,qty=1	r19s,qty=1					crfv																																																																																							0
+Create crafting infusion - Blood	1			100	18	361	0		3	jewf,qty=1	gprs,qty=1	r19s,qty=1					crfb																																																																																							0
+Create crafting infusion - Brilliant	1			100	18	361	0		3	jewf,qty=1	gpws,qty=1	r19s,qty=1					crfp																																																																																							0
+Create crafting infusion - Hitpower	1			100	18	361	0		3	jewf,qty=1	gpbs,qty=1	r19s,qty=1					crfh																																																																																							0
+Create crafting infusion - Safety	1			100	18	361	0		3	jewf,qty=1	gpgs,qty=1	r19s,qty=1					crfs																																																																																							0
+																																																																																																								0
 EXCHANGES																																																																																																								0
 3x LPP + Coin = Larzuk's Puzzle Box	1			100					2	lpp,qty=3	ecoi,qty=2						lbox																																																																																							0
 6x exo + Coin = 1x mfo	1			100					2	exo,qty=6	ecoi,qty=1						mfo																																																																																							0
 																																																																																																								0
 GHEED'S CURIOUS BOX - PHASE 1 - ROLL																																																																																																								0
-Gheed's Curious Box Roll	1			100	18	361	0		2	gcbx	ecoi,qty=1						useitem				corruptnum	100		1501	1507																																																																															0
+Gheed's Curious Box Roll	1			100	18	361	0		2	gcbx	ecoi,qty=1						useitem				corruptnum	100		1501	1520																																																																															0
 																																																																																																								0
 GHEED'S CURIOUS BOX - PHASE 2 - OUTCOME																																																																																																								0
-Perfect Amethysts	1			100	18	361	1501		1	gcbx							"gpvs,qty=50"																																																																																							0
-Perfets Topazes	1			100	18	361	1502		1	gcbx							"gpys,qty=50"																																																																																							0
-Perfect Skulls	1			100	18	361	1503		1	gcbx							"skzs,qty=50"																																																																																							0
-Perfect Rubys	1			100	18	361	1504		1	gcbx							"gprs,qty=50"																																																																																							0
-Perfect Diamonds	1			100	18	361	1505		1	gcbx							"gpws,qty=50"																																																																																							0
-Perfect Sapphires	1			100	18	361	1506		1	gcbx							"gpbs,qty=50"																																																																																							0
-Perfect Emeralds	1			100	18	361	1507		1	gcbx							"gpgs,qty=50"																																																																																							0
+Perfect Amethysts	1			100	16	361	1503		1	gcbx							"gpvs,qty=50"																																																																																							0
+Perfets Topazes	1			100	16	361	1506		1	gcbx							"gpys,qty=50"																																																																																							0
+Perfect Skulls	1			100	16	361	1508		1	gcbx							"skzs,qty=50"																																																																																							0
+Perfect Rubys	1			100	16	361	1511		1	gcbx							"gprs,qty=50"																																																																																							0
+Perfect Diamonds	1			100	16	361	1514		1	gcbx							"gpws,qty=50"																																																																																							0
+Perfect Sapphires	1			100	16	361	1517		1	gcbx							"gpbs,qty=50"																																																																																							0
+Perfect Emeralds	1			100	16	361	1520		1	gcbx							"gpgs,qty=50"																																																																																							0
 																																																																																																								0
 UNIQUE MIRRORING RECIPES																																																																																																								0
 Mirror unique non-corrupted armor	1			100	18	361	0		2	armo,uni	llmr						useitem				dye	100		4	4	mirrored	100		1	1																useitem																																																										0

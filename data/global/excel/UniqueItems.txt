@@ -392,14 +392,14 @@ Ondal's Wisdom	100	1		1	1	74	66	6cs	elder staff			3	5000				invcstu				cast2		10
 The Reedeemer	100	1		1	1	80	72	7sc	mighty scepter			3	5000								dmg%		250	300	dmg-demon		200	250	pal		2	2	ease		-60	-60	skill	Redemption	2	4	skill	Holy Bolt	2	4	light		3	3	reduce-ac		33	33	dmg		60	120	skill	119	2	4					splash	358	100	1	0
 Headhunter's Glory	100	1		1	1	83	75	ush	troll nest			3	5000				invbshu				ac		320	420	ac-miss		300	350	res-pois		30	40	sock		1	3	res-fire		20	30	heal-kill		5	7	hit-skill	AmpDmg Proc	12	31	curse-effectiveness		20	30																	0
 Steelrend	100	1		1	1	78	70	uhg	ogre gauntlets			3	5000								ac		170	210	str		15	20	dmg%		60	80	crush		20	30	thorns		250	250																									splash	358	100	1	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-ltng		1	74	pierce-ltng		3	5	extra-ltng		3	5	death-skill	Chain Lightning	100	47																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-cold	3	24	38	pierce-cold		3	5	extra-cold		3	5	death-skill	Blizzard	100	37																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-fire		17	45	pierce-fire		3	5	extra-fire		3	5	death-skill	Meteor	100	31																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-pois	50	187	187	pierce-pois		3	5	extra-pois		3	5	death-skill	Poison Nova	100	51																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-ltng		1	74	pierce-ltng		3	5	extra-ltng		3	5	levelup-skill	Nova	100	41																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-cold	3	24	38	pierce-cold		3	5	extra-cold		3	5	levelup-skill	Frost Nova	100	43																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-fire		17	45	pierce-fire		3	5	extra-fire		3	5	levelup-skill	Blaze	100	29																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-pois	50	187	187	pierce-pois		3	5	extra-pois		3	5	levelup-skill	Venom	100	23																																	0
+Old jewel 1																																																																					0
+Old jewel 2																																																																					0
+Old jewel 3																																																																					0
+Old jewel 4																																																																					0
+Old jewel 5																																																																					0
+Old jewel 6																																																																					0
+Old jewel 7																																																																					0
+Old jewel 8																																																																					0
 Hellfire Torch	100	1		0		120	75	cm2	charm			3	5000			flptrch	invtrch	item_gem	12	item_gem	randclassskill1		0	6	vit		30	60	enr		10	20	res-all		10	20	light		4	8																													0
 Itheraels Path	100	1		0		131	85	utb	mirrored boots			5	5000				dcloneboots				ac		40	60	cast2		20	20	move2		20	20	dex		10	15	vit		10	15	balance2		20	20																									0
 Overlords Helm	100	1		0		131	85	uhl	Giant Conch			3	5000	cred			dclonehelm				pierce-phys		15	15	lifesteal		5	8	ac		460	680	str		20	30	curse-effectiveness		-20	-20	vit		15	15	dex		15	15																					0
@@ -477,3 +477,12 @@ Bul Katho's Wedding Band	100	1		5	1	66	58	rin	Ring			5	5000	dpur	dpur						hp/lv
 Nature's Peace	100	1		8	1	77	69	rin	ring			5	5000	dgrn	dgrn						noheal		1	1	rip		1	1	red-dmg		7	11	res-ltng-max		1	3	charged	Oak Sage	27	2	res-cold-max		1	3	res-fire-max		1	3	res-pois-max		1	3																	0
 Constricting Ring	100	1		5	1	73	65	rin	Ring			5	5000								regen		-20	-20	cast2		20	20	howl		16	16	heal-kill		4	6	str		12	18						0																							0
 Wisp	100	1		5	1	84	76	rin	ring			5	5000	bwht	bwht						abs-ltng%		4	6	allskills		1	1	mag%		10	15	charged	Heart of Wolverine	13	2	charged	Spirit of Barbs	11	7																													0
+Rainbow Facet 1 other	100	1		1	1	85	49	jew	jewel			3	5000								dmg-ltng		1	74	pierce-ltng		3	5	extra-ltng		3	5	death-skill	Chain Lightning	100	47																																	0
+Rainbow Facet 1	100	1		1	1	85	49	jew	jewel			3	5000								dmg-ltng		1	74	pierce-ltng		3	5	extra-ltng		3	5	death-skill	Chain Lightning	100	47																																	0
+Rainbow Facet 2	100	1		2	1	85	49	jew	jewel			3	5000								dmg-cold	3	24	38	pierce-cold		3	5	extra-cold		3	5	death-skill	Blizzard	100	37																																	0
+Rainbow Facet 3	100	1		2	1	85	49	jew	jewel			3	5000								dmg-fire		17	45	pierce-fire		3	5	extra-fire		3	5	death-skill	Meteor	100	31																																	0
+Rainbow Facet 4	100	1		2	1	85	49	jew	jewel			3	5000								dmg-pois	50	187	187	pierce-pois		3	5	extra-pois		3	5	death-skill	Poison Nova	100	51																																	0
+Rainbow Facet 5	100	1		2	1	85	49	jew	jewel			3	5000								dmg-ltng		1	74	pierce-ltng		3	5	extra-ltng		3	5	levelup-skill	Nova	100	41																																	0
+Rainbow Facet 6	100	1		2	1	85	49	jew	jewel			3	5000								dmg-cold	3	24	38	pierce-cold		3	5	extra-cold		3	5	levelup-skill	Frost Nova	100	43																																	0
+Rainbow Facet 7	100	1		2	1	85	49	jew	jewel			3	5000								dmg-fire		17	45	pierce-fire		3	5	extra-fire		3	5	levelup-skill	Blaze	100	29																																	0
+Rainbow Facet 8	100	1		2	1	85	49	jew	jewel			3	5000								dmg-pois	50	187	187	pierce-pois		3	5	extra-pois		3	5	levelup-skill	Venom	100	23																																	0

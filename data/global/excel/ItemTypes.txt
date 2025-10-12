@@ -126,7 +126,7 @@ Scour	scou			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
 UpgradeMag	upma			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
 Upgrade Map	upmp			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
 Dungeon Scarab	scrb			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
-Puzzlebox	lbox			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
+Puzzlebox	lbox			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
 Stack gem	gsm	ggm		0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
 Stack Flawless Gem	gsm3	gsm	ggm3	0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
 Stack Perfect Gem	gsm4	gsm	ggm4	0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
@@ -137,7 +137,7 @@ Stack Ruby	gsmr	gsm	ggmr	0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
 Stack Sapphire	gsms	gsm	ggms	0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
 Stack Topaz	gsmt	gsm	ggmt	0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
 Stack Skull	gsmz	gsm	ggmz	0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
-Stack Rune	runs			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
+Stack Rune	runs			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
 Generic Gem	ggm			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
 Generic Flawless Gem	ggm3	ggm		0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
 Generic Perfect Gem	ggm4	ggm		0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
@@ -205,10 +205,10 @@ Amulet [S]	amus	amul		0	1	neck	neck			0	0	0	0			0	0	0	0	1	1	1	0	0		0		3	invamu1	
 Jewel Generic	jewg			0	0					0	0	0	0			0	0	0	0	0	0	0	0	0		0		0								0
 Jewel Fragments	jewf	jewg		0	0					0	0	0	1			1	0	0	0	0	0	0	0	0		0		0								0
 Scythe Type	sc9	pole		1	1	rarm	larm			0	0	0	0		1	0	0	0	0	3	4	6	0	3		0		0							weap	0
-Puzzlepiece	lpp			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
+Puzzlepiece	lpp			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
 General Melee	mgen	mele	gen	1	1					0	0	0	0		1	0	0	0	0	0	0	0	1	3		0		0								0
 Fortify Map	fort			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
-UberUnique	ubru			0	0					0	0	0	0			1	0	0	0	0	0	0	0	0		0		0								0
+UberUnique	ubru			0	0					0	0	0	0			1	0	0	0	0	0	0	0	0		0		0							misc	0
 Larzuks Malus	lmal			0	0					0	0	0	0			1	0	0	0	0	0	0	0	0		0		0							misc	0
 UberMap	ubmp			0	0					0	0	0	0			1	0	0	0	0	0	0	0	0		0		0								0
 Map T5	t5m			0	0					0	0	0	1		1	0	0	0	0	0	0	0	0	3		0		0							misc	0
@@ -220,7 +220,7 @@ ImbueRare Ready	irra			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
 RerollRare Ready	rrra			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
 UpgradeMag Ready	urma			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
 2H Sword	2hsw	swor	2han	1	1	rarm	larm			0	0	0	0		1	0	0	0	0	3	4	6	0	3		0		0							weap	0
-Craft Ingredient	crft			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
+Craft Ingredient	crft			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
 PVP Charm	chap	char		0	0					0	0	0	0			0	1	0	0	0	0	0	0	3		0		0								0
 Small Charm PVP	schp	chap		0	0					0	0	0	0	1		0	1	0	0	0	0	0	0	3		0		3	invch7pvps	invch7pvps	invch7pvps				misc	0
 Medium Charm PVP	mchp	chap		0	0					0	0	0	0	1		0	1	0	0	0	0	0	0	3		0		3	invch2pvpm	invch2pvpm	invch2pvpm				misc	0

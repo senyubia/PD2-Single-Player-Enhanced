@@ -239,9 +239,9 @@ Act 2 (H) Good	5	72	1						Jewelry C	240	Flawed Gem	38	Normal Gem	56	Flawless Ge
 Act 3 (H) Good	5	78	1						Jewelry C	240	Flawed Gem	38	Normal Gem	56	Flawless Gem	100	Perfect Gem	12	Runes 15 equiv	56	wss	8	Map Tier 1	4	gcbx	6	exo	8				0
 Act 4 (H) Good	5	82	1						Jewelry C	240	Flawed Gem	38	Normal Gem	56	Flawless Gem	100	Perfect Gem	12	Runes 16 equiv	56	wss	8	Map Tier 1	4	gcbx	6	exo	8				0
 Act 5 (H) Good	5	85	1						Jewelry C	240	Flawed Gem	38	Normal Gem	56	Flawless Gem	100	Perfect Gem	12	Runes 17 equiv	56	wss	8	Map Tier 1	4	gcbx	6	exo	8				0
-Map Good t1	20	85	1						Jewelry C	240	Normal Gem	86	Flawless Gem	100	Perfect Gem	12	Runes 17 equiv	56	wss	8	T1 Map Drop	20	gcbx	6	exo	6	mfo	4				0
-Map Good t2	20	86	1						Jewelry C	240	Normal Gem	86	Flawless Gem	100	Perfect Gem	12	Runes 17 equiv	56	wss	8	T2 Map Drop	20	gcbx	6	exo	5	mfo	5				0
-Map Good t3	20	87	1						Jewelry C	240	Normal Gem	86	Flawless Gem	100	Perfect Gem	12	Runes 17 equiv	56	wss	8	T3 Map Drop	20	gcbx	6	exo	4	mfo	6				0
+Map Good t1	20	85	1						Jewelry C	240	Normal Gem	88	Flawless Gem	100	Perfect Gem	12	Runes 17 equiv	56	wss	8	T1 Map Drop	20	gcbx	6	exo	5	mfo	3				0
+Map Good t2	20	86	1						Jewelry C	240	Normal Gem	88	Flawless Gem	100	Perfect Gem	12	Runes 17 equiv	56	wss	8	T2 Map Drop	20	gcbx	6	exo	4	mfo	4				0
+Map Good t3	20	87	1						Jewelry C	240	Normal Gem	88	Flawless Gem	100	Perfect Gem	12	Runes 17 equiv	56	wss	8	T3 Map Drop	20	gcbx	6	exo	3	mfo	5				0
 Act 1 Chest A	6	0	4					173	gld	295	Act 1 Junk	295	Act 1 Equip A	196	Act 1 Good	39																0
 Act 1 Chest B	6	5	4					173	gld	295	Act 1 Junk	295	Act 1 Equip B	196	Act 1 Good	39																0
 Act 1 Chest C	6	9	4					145	gld	272	Act 1 Junk	218	Act 2 Junk	54	Act 1 Equip C	272	Act 1 Good	36														0
@@ -1017,8 +1017,8 @@ Vial of Lightsong N				22500	100
 Vial of Lightsong NM				11250	100																											
 Vial of Lightsong H				3000	100																											
 Corrupted Zone				135																												
-Unique Map Monsters				1000	10																											
-Unique Map MapBoss				800																												
+Unique Map Monsters				3750	10																											
+Unique Map MapBoss				3000																												
 Rathma Jawbone N				0	100																											
 Rathma Jawbone NM				0	10																											
 Rathma Jawbone H				2250	1																											

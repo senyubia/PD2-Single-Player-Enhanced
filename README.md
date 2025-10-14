@@ -21,7 +21,7 @@ Your existing characters *should* be compatible with the mod. As long as your ch
 Using this mod online with the official PD2 gateway will *most likely* result in a ban.
 
 ## What is changed
-For the complete list of changes, get official PD2 (or SP+) .txt files and diff them with included files.
+For the complete list of changes, get official PD2 (or SP+) .txt files and diff them with included files. Also check release info for more up to date changes.
 
 **Main changes compared to vanilla PD2:**
 - cubing DClone, Rathma and Lucion ingredients give 3 separate entry talismans,

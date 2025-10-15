@@ -4,14 +4,14 @@ Old set amulet 1																																																																
 Civerb's Cudgel	Civerb's Vestments	gsc	Grand Scepter	7	13	9	lyel	lyel						5	2500	2	att		75	75	dmg-max		17	23	splash	358	100	1	dmg/lvl	8																							dmg-undead	0	100	100																																					0
 Hsarus' Iron Heel	Hsarus' Defense	mbt	Chain Boots	7	4	3	dred	dred						5	2500	2	res-fire		25	25	move2		20	20																													att/lvl	20																																							0
 Hsarus' Iron Fist	Hsarus' Defense	buc	Buckler	7	4	3	dred	dred						5	2500	2	red-dmg		2	2	str		20	20																													ac/lvl	20			splash		1	1																																	0
-Hsarus' Iron Stay	Hsarus' Defense	mbl	Belt	7	4	3	dred	dred						5	2500	2	res-cold		20	20	hp		20	20																													ac/lvl	20																																							0
+Old mbl 1																																																																																													0
 Cleglaw's Tooth	Cleglaw's Brace	lsd	Long Sword	7	6	4	lred	lred						5	2500	2	att%		30	30	deadly		50	50	splash	358	100	1																									dmg/lvl	10																																							0
 Cleglaw's Claw	Cleglaw's Brace	sml	Small Shield	7	6	4	lred	lred						5	2500	2	ac		17	17	res-pois-len		75	75																													res-all		15	15																																					0
 Cleglaw's Pincers	Cleglaw's Brace	mgl	Chain Gloves	7	6	4	lred	lred						5	2500	2	knock		1	1	slow		25	25	pois-min	0	52	52	pois-max	0	52	52	pois-len	0	75	75																	att/lvl	20																																							0
 Old set amulet 2																																																																																													0
-Iratha's Cuff	Iratha's Finery	tgl	Light Gauntlets	7	21	15	lgry	lgry						5	2500	2	res-cold		20	20	half-freeze		1	1	pierce		20	20																									swing2		20	20																																					0
-Iratha's Coil	Iratha's Finery	crn	Crown	7	21	15	lgry	lgry						5	2500	2	res-fire		30	30	res-ltng		30	30																													ac/lvl	16							ama		1	1																													0
-Iratha's Cord	Iratha's Finery	tbl	Heavy Belt	7	21	15	lgry	lgry						5	2500	2	ac		25	25	dmg-min		5	5																													dex		10	10					dmg-max		10	10																													0
+Old tgl 2																																																																																													0
+Old crn 1																																																																																													0
+Old tbl 2																																																																																													0
 Isenhart's Lightbrand	Isenhart's Armory	bsd	Broad Sword	7	11	8	lgld	lgld						5	2500	2	dmg-min		10	10	swing2		20	20	splash	358	100	1	att/lvl	10																							dmg-ltng/lvl	40																																							0
 Isenhart's Parry	Isenhart's Armory	gts	Gothic Shield	7	11	8	lgld	lgld						5	2500	2	ac		40	40	thorns/lvl	20																																							res-fire/lvl	8																															0
 Isenhart's Case	Isenhart's Armory	brs	Breast Plate	7	11	8	lgld	lgld						5	2500	2	ac		40	40	red-mag		2	4																													ac/lvl	16							res-cold/lvl	8																															0
@@ -22,7 +22,7 @@ Vidala's Ambush	Vidala's Rig	lea	Leather Armor	7	19	14	blac	blac						5	2500	2	a
 Old set amulet 3																																																																																													0
 Milabrega's Orb	Milabrega's Regalia	kit	Kite Shield	7	23	17	dblu	dblu						5	2500	2	mag%		20	60	ac		25	25	hp		50	50																									gethit-skill	Frost Nova	25	8					block		30	30																													0
 Milabrega's Rod	Milabrega's Regalia	wsp	War Scepter	7	23	17	dblu	dblu						5	2500	2	pal		1	1	dmg%		50	50	light		2	2	splash	358	100	1	dmg-cold		35	55																	hit-skill	Frost Nova	12	9																																					0
-Milabrega's Diadem	Milabrega's Regalia	crn	Crown	7	23	17	dblu	dblu						5	2500	2	hp		15	15	mana		15	15	dmg-cold		25	35																									res-cold		40	40																																					0
+Old crn 2																																																																																													0
 Milabrega's Robe	Milabrega's Regalia	aar	Ancient Armor	7	23	17	dblu	dblu						5	2500	2	thorns		13	13	red-dmg		2	2	dmg-cold		25	35	ac%		60	100																					hit-skill	Frost Nova	14	8																																					0
 Cathan's Rule	Cathan's Traps	bst	Battle Staff	7	15	11	dgrn	dgrn						5	2500	2	fireskill		1	2	fire-max		10	10	splash	358	100	1	cast2		10	10	cast-skill	46	12	10																	mana		50	50					res-all		10	10					reduce-ac		35	35																					0
 Cathan's Mesh	Cathan's Traps	chn	Chain Mail	7	15	11	dgrn	dgrn						5	2500	2	ac		15	15	ease		-50	-50	move3		20	20																									thorns/lvl	8							res-fire		30	30																													0
@@ -40,9 +40,9 @@ Sigon's Shelter	Sigon's Complete Steel	gth	Gothic Plate	7	9	6	whit	whit						5	2
 Sigon's Sabot	Sigon's Complete Steel	hbt	Greaves	7	9	6	whit	whit						5	2500	2	move2		20	20	res-cold		40	40																													att		50	50					mag%		50	50																													0
 Sigon's Wrap	Sigon's Complete Steel	hbl	Plated Belt	7	9	6	whit	whit						5	2500	2	res-fire		20	20	hp		20	20																													ac/lvl	16																																							0
 Sigon's Guard	Sigon's Complete Steel	tow	Tower Shield	7	9	6	whit	whit						5	2500	2	allskills		1	1	block		20	20	res-cold		30	30																																																																	0
-Infernal Cranium	Infernal Tools	cap	Cap	7	7	5	lyel	lyel						5	2500	2	res-all		10	10	dmg-to-mana		20	20																													ac/lvl	32																																							0
+Old cap 1																																																																																													0
 Infernal Spire	Infernal Tools	dgr	Dagger	7	7	5	lyel		invdgrgull					5	2500	2	dmg-min		8	8	nec		1	1	splash	358	100	1	deadly		20	20	dmg-undead		150	150																	att/lvl	20							oskill	73	2	2																													0
-Infernal Sign	Infernal Tools	tbl	Heavy Belt	7	7	5	lyel	lyel						5	2500	2	ac		25	25	hp		20	20																													res-pois		45	45					nofreeze		1	1																													0
+Old tbl 1																																																																																													0
 Berserker's Headgear	Berserker's Garb	hlm	Helm	7	5	3	dred	dred						5	2500	2	ac		15	15	res-fire		25	25																													att/lvl	16							bar		1	1																													0
 Berserker's Hauberk	Berserker's Garb	spl	Splint Mail	7	5	3	dred	dred						5	2500	2	red-mag		2	2	bar		1	1																													ac/lvl	36							dmg%/lvl	28																															0
 Berserker's Hatchet	Berserker's Garb	2ax	Double Axe	7	5	3	dred	dred						5	2500	2	att%		30	30	manasteal		5	5	splash	358	100	1																									dmg%		50	50					dmg/lvl	8																															0
@@ -56,7 +56,7 @@ Old set amulet 6																																																																
 Arctic Horn	Arctic Gear	swb	Short War Bow	7	3	2	lgld	lgld						5	2500	2	att%		20	20	dmg%		50	50	dmg-cold/lvl	16																											att/lvl	16							dmg-cold	75	20	30																													0
 Arctic Furs	Arctic Gear	qui	Quilted Armor	7	3	2	lgld	lgld						5	2500	2	ac%		275	325	res-all		10	10																													ac/lvl	24							res-cold		15	15																													0
 Arctic Binding	Arctic Gear	vbl	Light Belt	7	3	2	lgld	lgld						5	2500	2	res-cold		40	40	ac		30	30																													mag%		40	40					res-cold		10	10																													0
-Arctic Mitts	Arctic Gear	tgl	Light Gauntlets	7	3	2	lgld	lgld						5	2500	2	hp		20	20	swing1		10	10																													att		50	50	pierce		25	25	dex		10	10																													0
+Old tgl 1																																																																																													0
 Old set amulet 7																																																																																													0
 Arcanna's Deathwand	Arcanna's Tricks	wst	War Staff	7	20	15	blac	blac						5	2500	2	sor		1	1	deadly		25	50	dmg%		50	75	splash	358	100	1	cast2		10	10	cast-skill	84	15	2													mana		75	75					regen-mana		20	20					swing2		40	40																					0
 Arcanna's Head	Arcanna's Tricks	skp	Skull Cap	7	20	15	blac	blac						5	2500	2	regen		10	14	thorns		12	12	regen-mana		20	20	mana		30	40																					ac/lvl	24							res-ltng		25	25																													0
@@ -110,7 +110,7 @@ Magnus' Skin	Orphan's Call	xvg	Sharkskin Gloves	7	41	37	lgry	lgry						5	5000	2	
 Wihtstan's Guard	Orphan's Call	xml	Round Shield	7	41	29	lgry	lgry						5	5000	2	ac%		175	175	block3		40	40	block		55	55	half-freeze		1	1	light		5	5																									dmg%		150	150																													0
 Hwanin's Splendor	Hwanin's Majesty	xrn	Grand Crown	7	28	45								5	5000		regen		30	40	red-mag		10	10	res-cold		37	37	ac%		100	150	att		200	350																																																									0
 Hwanin's Refuge	Hwanin's Majesty	xcl	Tigulated Mail	7	28	30								5	5000		ac		200	200	res-pois		27	27	hp		100	100	gethit-skill	42	20	9																																																													0
-Hwanin's Seal	Hwanin's Majesty	mbl	Belt	7	28	35								5	5000		dmg-ltng		3	330	noheal		1	1	ac/lvl	12			dmg-to-mana		12	12	abs-ltng%		4	6																																																									0
+Old mbl 2																																																																																													0
 Hwanin's Justice	Hwanin's Majesty	9vo	Bill	7	28	28								5	5000	2	att		330	330	indestruct		1	1	hit-skill	45	10	3	swing3		40	40	dmg%		200	250	dmg-ltng		5	25	splash	358	100	1									hit-skill	static field	20	16																																					0
 Sazabi's Cobalt Redeemer	Sazabi's Grand Tribute	7ls	Cryptic Sword	7	34	73	dblu	dblu						5	5000		dmg%		150	250	dmg-cold	50	175	250	swing3		40	40	dmg-demon		318	318	indestruct		1	1	dex		15	15	str		5	5	splash	358	100	1	ethereal		1	1	heal-kill		10	14																																					0
 Sazabi's Ghost Liberator	Sazabi's Grand Tribute	upl	Balrog Skin	7	34	67	dblu	dblu						5	5000	2	ac		400	400	balance3		30	30	str		25	25	att-demon		300	300	hp		50	75	dmg-demon		100	150													regen		30	30																																					0
@@ -120,14 +120,14 @@ Bul-Kathos' Tribal Guardian	Bul-Kathos' Children	7fb	Colossal Sword	7	50	54	dgrn
 Old set ring 3																																																																																													0
 Cow King's Horns	Cow King's Leathers	xap	War Hat	7	20	25								5	5000		ac		75	75	nofreeze		1	1	dmg-to-mana		35	35	thorns		10	10	allskills		1	1																																																									0
 Cow King's Hide	Cow King's Leathers	stu	Studded Leather	7	20	18								5	5000		res-all		15	25	ac%		60	60	hp		30	30	gethit-skill	53	18	5																																																													0
-Cow King's Hoofs	Cow King's Leathers	vbt	Heavy Boots	7	20	13								5	5000		ac		25	35	move3		30	30	mag%		25	25	dex		20	20	dmg-fire		25	35																																																									0
+Old vbt 1																																																																																													0
 Naj's Puzzler	Naj's Ancient Set	6cs	Elder Staff	7	43	78								5	5000		enr		35	35	dmg%		150	150	charged	357	3	1	cast3		50	50	dmg-ltng		6	450	mana		70	70	allskills		3	3	rep-charge	33			splash	358	100	1																																									0
 Naj's Light Plate	Naj's Ancient Set	ult	Hellforge Plate	7	43	71								5	5000	2	ease		-60	-60	hp		65	65	res-all		25	25	dmg-to-mana		45	45	allskills		1	1	ac		300	300													cast2		20	20																																					0
 Naj's Circlet	Naj's Ancient Set	ci0	Circlet	7	43	28								5	5000	2	ac		75	75	dmg-fire		25	35	Light		5	5	str		15	15	gethit-skill	53	12	5	cast2		20	20													allskills		1	1																																					0
-McAuley's Paragon	McAuley's Folly	cap	Cap	3	20	25	lpur	lpur						5	5000		mag%		35	70	thorns		8	8	ac/lvl	8																																																																			0
-McAuley's Riprap	McAuley's Folly	vbt	Heavy Boots	7	20	20	lpur	lpur						5	5000		move3		40	40	att		100	100	str		5	5	dex		10	10																																																													0
-McAuley's Taboo	McAuley's Folly	vgl	Heavy Gloves	7	20	28	lpur	lpur						5	5000		ac		20	25	swing2		20	20	hp		40	40	dmg-pois	75	92	113																																																													0
-McAuley's Superstition	McAuley's Folly	bwn	Bone Wand	7	20	25	lpur	lpur						5	5000	2	dmg%	2	75	75	mana		25	25	manasteal		8	8	cast3		20	20	dmg-cold	50	25	75																	allskills		2	2	splash	358	100	1																																	0
+Old cap 2																																																																																													0
+Old vbt 2																																																																																													0
+McAuley's Taboo	McAuley's Folly	vgl	Heavy Gloves	7	21	28	lpur	lpur						5	5000		ac		20	25	swing2		20	20	hp		40	40	dmg-pois	75	92	113																																																													0
+McAuley's Superstition	McAuley's Folly	bwn	Bone Wand	7	21	25	lpur	lpur						5	5000	2	dmg%	2	75	75	mana		25	25	manasteal		8	8	cast3		20	20	dmg-cold	50	25	75																	allskills		2	2	splash	358	100	1																																	0
 Cathan's Seal	Cathan's Traps	rin	Ring	70	15	11	dgrn	dgrn						5	2500	2	lifesteal		6	6	red-dmg		2	2																													str		10	10					dmg-max		10	10																													0
 Angelic Halo	Angelical Raiment	rin	Ring	30	17	12	lgry	lgry						5	2500	2	regen		6	6	hp		20	20																													att/lvl	24							mag%		50	50																													0
 Bul-Kathos' Death Band	Bul-Kathos' Children	rin	Ring	10	50	69	dgrn	dgrn						5	5000	2	dmg%		20	30	att		100	100	res-ltng		15	25	red-dmg%		6	8																					nofreeze		1	1																																					0
@@ -140,3 +140,15 @@ Angelic Wings	Angelical Raiment	amu	Amulet	7	17	12	lgry	lgry						5	2500	2	light
 Arcanna's Sign	Arcanna's Tricks	amu	Amulet	3	20	15	blac	blac						5	2500	2	mana		35	35	regen-mana		20	20																													mag%		50	50					res-fire		30	30																													0
 Tal Rasha's Adjudication	Tal Rasha's Wrappings	amu	Amulet	3	26	67	dpur	dpur						5	5000	2	res-ltng		33	33	sor		2	2	hp		40	60	dmg-ltng		3	32	mana		32	52																																	cast2		10	10																					0
 Telling of Beads	The Disciple	amu	Amulet	3	39	30	lblu	lblu						5	5000	2	res-pois		35	50	allskills		1	1	res-cold		18	18	thorns		24	30																													mana		100	100																													0
+Hsarus' Iron Stay	Hsarus' Defense	mbl	Belt	7	4	3	dred	dred						5	2500	2	res-cold		20	20	hp		20	20																													ac/lvl	20																																							0
+Hwanin's Seal	Hwanin's Majesty	mbl	Belt	7	28	35								5	5000		dmg-ltng		3	330	noheal		1	1	ac/lvl	12			dmg-to-mana		12	12	abs-ltng%		4	6																																																									0
+Arctic Mitts	Arctic Gear	tgl	Light Gauntlets	7	3	2	lgld	lgld						5	2500	2	hp		20	20	swing1		10	10																													att		50	50	pierce		25	25	dex		10	10																													0
+Iratha's Cuff	Iratha's Finery	tgl	Light Gauntlets	7	21	15	lgry	lgry						5	2500	2	res-cold		20	20	half-freeze		1	1	pierce		20	20																									swing2		20	20																																					0
+Iratha's Coil	Iratha's Finery	crn	Crown	7	21	15	lgry	lgry						5	2500	2	res-fire		30	30	res-ltng		30	30																													ac/lvl	16							ama		1	1																													0
+Milabrega's Diadem	Milabrega's Regalia	crn	Crown	7	23	17	dblu	dblu						5	2500	2	hp		15	15	mana		15	15	dmg-cold		25	35																									res-cold		40	40																																					0
+Infernal Sign	Infernal Tools	tbl	Heavy Belt	7	7	5	lyel	lyel						5	2500	2	ac		25	25	hp		20	20																													res-pois		45	45					nofreeze		1	1																													0
+Iratha's Cord	Iratha's Finery	tbl	Heavy Belt	7	21	15	lgry	lgry						5	2500	2	ac		25	25	dmg-min		5	5																													dex		10	10					dmg-max		10	10																													0
+Infernal Cranium	Infernal Tools	cap	Cap	7	7	5	lyel	lyel						5	2500	2	res-all		10	10	dmg-to-mana		20	20																													ac/lvl	32																																							0
+McAuley's Paragon	McAuley's Folly	cap	Cap	3	21	25	lpur	lpur						5	5000		mag%		35	70	thorns		8	8	ac/lvl	8																																																																			0
+Cow King's Hoofs	Cow King's Leathers	vbt	Heavy Boots	7	20	13								5	5000		ac		25	35	move3		30	30	mag%		25	25	dex		20	20	dmg-fire		25	35																																																									0
+McAuley's Riprap	McAuley's Folly	vbt	Heavy Boots	7	21	20	lpur	lpur						5	5000		move3		40	40	att		100	100	str		5	5	dex		10	10																																																													0

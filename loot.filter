@@ -4,7 +4,7 @@
 //
 //	For Casual and EndGame Players
 // 
-//	Edited by Senyubia for PD2SPE v1.0.6
+//	Edited by Senyubia for PD2SPE v1.0.7
 
 //Define Filter Strict Levels
 ItemDisplayFilterName[]: Hide Just Trash Items
@@ -6184,17 +6184,26 @@ ItemDisplay[NMAG !RW SORSTAFF (FILTLVL<2 OR (CLVL<80 AND FILTLVL~2-4))]: %NAME%{
 // 	PD2SPE			//
 //////////////////////////////////
 
-ItemDisplay[mfo]: %SOUNDID-34%%BORDER-60%%DOT-69%%NAME%{%WHITE%Item, Jewellery: Non-%RED%Corrupted%WHITE% Normal/%BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%CORAL%Prerolled%WHITE%%NL%%NL%%WHITE%Jewellery + %GOLD%Mythic Orb%WHITE% = %CORAL%Prerolled%WHITE% Jewellery + %GOLD%Mythic Orb%WHITE%%NL%%NAME%%TAN%Note%WHITE%: Item + %GOLD%Mythic Orb%WHITE% + %ORANGE%Eternal Coins%WHITE% = New %GOLD%Unique%WHITE% Item}
+ItemDisplay[mfo]: %SOUNDID-34%%BORDER-60%%DOT-69%%NAME%{%NAME%%TAN%Note%WHITE%: Non-%RED%Corrupted%WHITE% Normal/%BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE% + %GOLD%Mythic Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE% + %ORANGE%Eternal Coins%WHITE% = New %GOLD%Unique%WHITE%%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%WHITE%Add 1 %ORANGE%Transient Coin%WHITE% to the first transmutation if you are creating an armor or a weapon%NL%%NL%%NAME%}
 
-ItemDisplay[exo]: %SOUNDID-1118%%MAP-7F%%PX-84%%NAME%{%WHITE%Item, Jewellery: Non-%RED%Corrupted%WHITE% Normal/%BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%CORAL%Prerolled%WHITE%%NL%%NL%%WHITE%Jewellery + %GREEN%Exalted Orb%WHITE% = %CORAL%Prerolled%WHITE% Jewellery + %GREEN%Exalted Orb%WHITE%%NL%%WHITE%Item + %GREEN%Exalted Orb%WHITE% + %ORANGE%Eternal Coins%WHITE% = New %GREEN%Set%WHITE% Item%NL%%NL%%NAME%%TAN%Note%WHITE%: 6 %GREEN%Exalted Orbs%WHITE% + %ORANGE%Eternal Coins%WHITE% = %GOLD%Mythic Orb%WHITE%}
+ItemDisplay[exo]: %SOUNDID-1118%%MAP-7F%%PX-84%%NAME%{%NAME%%TAN%Note%WHITE%: 6 %GREEN%Exalted Orbs%WHITE% + %ORANGE%Eternal Coins%WHITE% = %GOLD%Mythic Orb}%CONTINUE%
+ItemDisplay[exo]: %NAME%{%WHITE%Non-%RED%Corrupted%WHITE% Normal/%BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE% + %GREEN%Exalted Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE%%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[exo]: %NAME%{%CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE% + %ORANGE%Eternal Coins%WHITE% = New %GREEN%Set%WHITE%%NL%%NAME%}%CONTINUE%
+ItemDisplay[exo]: %NAME%{%WHITE%Add 1 %ORANGE%Transient Coin%WHITE% to the first transmutation if you are creating an armor or a weapon%NL%%NL%%NAME%}
 
-ItemDisplay[gcbx]: %SOUNDID-248%%MAP-0A%%PX-62%%NAME%{%CORAL%Prerolled%WHITE% %ORANGE%Gheed's Curious Box%WHITE% = 50 random gems%NL%%NAME%%TAN%Note%WHITE%: %ORANGE%Gheed's Curious Box%WHITE% + %ORANGE%Eternal Coins%WHITE% = %CORAL%Prerolled%WHITE% %ORANGE%Gheed's Curious Box%WHITE%}
+ItemDisplay[gcbx]: %SOUNDID-248%%MAP-0A%%PX-62%%NAME%{%NAME%%TAN%Note%WHITE%: %ORANGE%Gheed's Curious Box%WHITE% + %ORANGE%Eternal Coins%WHITE% = %ORANGE%Opened Gheed's Curious Box%WHITE%}
+
+ItemDisplay[gcbo]: %NAME%{%NAME%%TAN%Note%WHITE%: Probability distribution of gems from the box is the same as on mob drop}
 
 ItemDisplay[ecoi]: %NAME%{%NAME%%TAN%Note%WHITE%: Transmutation costs:}%CONTINUE%
 ItemDisplay[ecoi]: %NAME%{%WHITE%1 %ORANGE%coin%WHITE%: %GREEN%Set%WHITE% creation, %GREEN%Exalted Orb%WHITE% upgrade, %ORANGE%Gheed's Curious Box%WHITE% opening%NL%%NAME%}%CONTINUE%
 ItemDisplay[ecoi]: %NAME%{%GRAY%Base, Manald Heal, Nagelring, The Cat's Eye, Nokozan Relic%NL%%WHITE%2 %ORANGE%coins%WHITE%: %GOLD%Larzuk's Puzzlebox%WHITE% upgrade, %GOLD%Unique%WHITE% creation%NL%%NAME%}%CONTINUE%
 ItemDisplay[ecoi]: %NAME%{%GRAY%Raven Frost, The Eye of Etlich, Crescent Moon, Saracen's Chance%NL%%GRAY%Charm, Exceptional, Carrion Wind, Dwarf Star,%WHITE%%NL%4 %ORANGE%coins%WHITE%: %GOLD%Unique%WHITE% creation%NL%%NAME%}%CONTINUE%
 ItemDisplay[ecoi]: %NAME%{%GRAY%Elite, Other jewellery%NL%%WHITE%6 %ORANGE%coins%WHITE%: %GOLD%Unique%WHITE% creation%NL%%NAME%}
+
+ItemDisplay[tcoi]: %NAME%{%NAME%%TAN%Note%WHITE%: Sell the resulting %BLUE%Magic%WHITE% or %YELLOW%Rare%WHITE% if you try to make an invalid item}
 
 //////////////////////////////////
 //	FILTER CONT.		//
@@ -6204,7 +6213,7 @@ ItemDisplay[ecoi]: %NAME%{%GRAY%Elite, Other jewellery%NL%%WHITE%6 %ORANGE%coins
 ItemDisplay[UNI OR SET OR RW OR CRAFT OR GEMMED OR EQUIPPED OR SHOP OR leg]: %NAME%{%NAME%}
 
 //Notifying for Unknown Items (future proofing) (Thanks to BetweenWalls)
-ItemDisplay[(ILVL>1 OR QTY>0 OR PRICE>1) !(ARMOR OR WEAPON OR amu OR rin OR aqv OR cqv OR cm1 OR cm2 OR cm3 OR jew OR jewf OR RUNE>0 OR GEMTYPE>0 OR MAPTIER>-1 OR hp1 OR mp1 OR hp2 OR mp2 OR hp3 OR mp3 OR hp4 OR mp4 OR hp5 OR mp5 OR pvpp OR rvs OR rvl OR vps OR wms OR yps OR key OR tsc OR isc OR tbk OR ibk OR ear OR bks OR bkd OR box OR vip OR tr1 OR ass OR j34 OR g34 OR xyz OR bbb OR qbr OR qey OR qhr OR mss OR ice OR tr2 OR toa OR tes OR ceh OR bet OR fed OR dhn OR bey OR mbr OR pk1 OR pk2 OR pk3 OR std OR wss OR cwss OR lpp OR lbox OR lmal OR crfb OR crfc OR crfh OR crfs OR crfv OR crfu OR crfp OR rtp OR rid OR rkey OR lsvl OR llmr OR ubtm OR uba OR ubaa OR ubab OR ubac OR dcma OR dcso OR dcho OR dcbl OR rtma OR rtmv OR rtmo OR cm2f OR rtmf OR iwss OR scrb OR upmp OR scou OR irma OR irra OR urma OR rrra OR imma OR imra OR upma OR rera OR fort OR ram OR luca OR lucb OR lucc OR lucd OR imrn OR cm1p OR cm2p OR cm3p OR mfo OR exo OR ecoi OR gcbx)]: %SOUNDID-705%%MAP-0A%%PX-62%%NAME%{%NAME%%CL%%WHITE%Item description will be adjusted later during the season.%CL%%TAN%Note%WHITE%: This item is recently added to the game.}	// notifications for unknown items (the first group of conditions including ilvl/qty/price is a workaround for !GOLD>0 since that doesn't work like other conditions)
+ItemDisplay[(ILVL>1 OR QTY>0 OR PRICE>1) !(ARMOR OR WEAPON OR amu OR rin OR aqv OR cqv OR cm1 OR cm2 OR cm3 OR jew OR jewf OR RUNE>0 OR GEMTYPE>0 OR MAPTIER>-1 OR hp1 OR mp1 OR hp2 OR mp2 OR hp3 OR mp3 OR hp4 OR mp4 OR hp5 OR mp5 OR pvpp OR rvs OR rvl OR vps OR wms OR yps OR key OR tsc OR isc OR tbk OR ibk OR ear OR bks OR bkd OR box OR vip OR tr1 OR ass OR j34 OR g34 OR xyz OR bbb OR qbr OR qey OR qhr OR mss OR ice OR tr2 OR toa OR tes OR ceh OR bet OR fed OR dhn OR bey OR mbr OR pk1 OR pk2 OR pk3 OR std OR wss OR cwss OR lpp OR lbox OR lmal OR crfb OR crfc OR crfh OR crfs OR crfv OR crfu OR crfp OR rtp OR rid OR rkey OR lsvl OR llmr OR ubtm OR uba OR ubaa OR ubab OR ubac OR dcma OR dcso OR dcho OR dcbl OR rtma OR rtmv OR rtmo OR cm2f OR rtmf OR iwss OR scrb OR upmp OR scou OR irma OR irra OR urma OR rrra OR imma OR imra OR upma OR rera OR fort OR ram OR luca OR lucb OR lucc OR lucd OR imrn OR cm1p OR cm2p OR cm3p OR mfo OR exo OR ecoi OR gcbx OR gcbo OR tcoi)]: %SOUNDID-705%%MAP-0A%%PX-62%%NAME%{%NAME%%CL%%WHITE%Item description will be adjusted later during the season.%CL%%TAN%Note%WHITE%: This item is recently added to the game.}	// notifications for unknown items (the first group of conditions including ilvl/qty/price is a workaround for !GOLD>0 since that doesn't work like other conditions)
 
 //HIDE EVERYTHING ELSE
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) !ID (FILTLVL<2 OR (CLVL<41 FILTLVL<5))]: %NAME%

@@ -4,7 +4,7 @@
 //
 //	For Casual and EndGame Players
 // 
-//	Edited by Senyubia for PD2SPE v1.0.7
+//	Edited by Senyubia for PD2SPE v1.0.9
 
 //Define Filter Strict Levels
 ItemDisplayFilterName[]: Hide Just Trash Items
@@ -6188,8 +6188,7 @@ ItemDisplay[mfo]: %SOUNDID-34%%BORDER-60%%DOT-69%%NAME%{%NAME%%TAN%Note%WHITE%: 
 ItemDisplay[mfo]: %NAME%{%CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE% + %ORANGE%Eternal Coins%WHITE% = New %GOLD%Unique%WHITE%%NL%%NAME%}%CONTINUE%
 ItemDisplay[mfo]: %NAME%{%WHITE%Add 1 %ORANGE%Transient Coin%WHITE% to the first transmutation if you are creating an armor or a weapon%NL%%NL%%NAME%}
 
-ItemDisplay[exo]: %SOUNDID-1118%%MAP-7F%%PX-84%%NAME%{%NAME%%TAN%Note%WHITE%: 6 %GREEN%Exalted Orbs%WHITE% + %ORANGE%Eternal Coins%WHITE% = %GOLD%Mythic Orb}%CONTINUE%
-ItemDisplay[exo]: %NAME%{%WHITE%Non-%RED%Corrupted%WHITE% Normal/%BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE% + %GREEN%Exalted Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE%%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[exo]: %SOUNDID-1118%%MAP-7F%%PX-84%%NAME%{%NAME%%TAN%Note%WHITE%: %WHITE%Non-%RED%Corrupted%WHITE% Normal/%BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE% + %GREEN%Exalted Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE%}%CONTINUE%
 ItemDisplay[exo]: %NAME%{%CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE% + %ORANGE%Eternal Coins%WHITE% = New %GREEN%Set%WHITE%%NL%%NAME%}%CONTINUE%
 ItemDisplay[exo]: %NAME%{%WHITE%Add 1 %ORANGE%Transient Coin%WHITE% to the first transmutation if you are creating an armor or a weapon%NL%%NL%%NAME%}
 
@@ -6198,7 +6197,7 @@ ItemDisplay[gcbx]: %SOUNDID-248%%MAP-0A%%PX-62%%NAME%{%NAME%%TAN%Note%WHITE%: %O
 ItemDisplay[gcbo]: %NAME%{%NAME%%TAN%Note%WHITE%: Probability distribution of gems from the box is the same as on mob drop}
 
 ItemDisplay[ecoi]: %NAME%{%NAME%%TAN%Note%WHITE%: Transmutation costs:}%CONTINUE%
-ItemDisplay[ecoi]: %NAME%{%WHITE%1 %ORANGE%coin%WHITE%: %GREEN%Set%WHITE% creation, %GREEN%Exalted Orb%WHITE% upgrade, %ORANGE%Gheed's Curious Box%WHITE% opening%NL%%NAME%}%CONTINUE%
+ItemDisplay[ecoi]: %NAME%{%WHITE%1 %ORANGE%coin%WHITE%: %GREEN%Set%WHITE% creation, %ORANGE%Gheed's Curious Box%WHITE% opening%NL%%NAME%}%CONTINUE%
 ItemDisplay[ecoi]: %NAME%{%GRAY%Base, Manald Heal, Nagelring, The Cat's Eye, Nokozan Relic%NL%%WHITE%2 %ORANGE%coins%WHITE%: %GOLD%Larzuk's Puzzlebox%WHITE% upgrade, %GOLD%Unique%WHITE% creation%NL%%NAME%}%CONTINUE%
 ItemDisplay[ecoi]: %NAME%{%GRAY%Raven Frost, The Eye of Etlich, Crescent Moon, Saracen's Chance%NL%%GRAY%Charm, Exceptional, Carrion Wind, Dwarf Star,%WHITE%%NL%4 %ORANGE%coins%WHITE%: %GOLD%Unique%WHITE% creation%NL%%NAME%}%CONTINUE%
 ItemDisplay[ecoi]: %NAME%{%GRAY%Elite, Other jewellery%NL%%WHITE%6 %ORANGE%coins%WHITE%: %GOLD%Unique%WHITE% creation%NL%%NAME%}

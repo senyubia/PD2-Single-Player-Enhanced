@@ -2090,12 +2090,16 @@ PD2 SPE																																																																									
 																																																																																																								0
 MYTHIC ORB - PREROLL																																																																																																								0
 																																																																																																								0
+Convert inferior armor to preroll	1			100	18	361	0		3	armo,low	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Convert normal armor to preroll	1			100	18	361	0		3	armo,nor	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
+Convert superior armor to preroll	1			100	18	361	0		3	armo,hiq	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Convert magic armor to preroll	1			100	18	361	0		3	armo,mag	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Convert rare armor to preroll	1			100	18	361	0		3	armo,rar	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Reroll prerolled unique armor	1			100	18	361	2000		2	armo,uni	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 																																																																																																								0
+Convert inferior weapon to preroll	1			100	18	361	0		3	weap,low	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Convert normal weapon to preroll	1			100	18	361	0		3	weap,nor	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
+Convert superior weapon to preroll	1			100	18	361	0		3	weap,hiq	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Convert magic weapon to preroll	1			100	18	361	0		3	weap,mag	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Convert rare weapon to preroll	1			100	18	361	0		3	weap,rar	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Reroll prerolled unique weapon	1			100	18	361	2000		2	weap,uni	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
@@ -2111,9 +2115,10 @@ Convert magic quality amulet to preroll	1			100	18	361	0		2	amul,mag	"mfo,qty=1"
 Convert rare quality amulet to preroll	1			100	18	361	0		2	amul,rar	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Reroll prerolled unique amulet	1			100	18	361	2000		2	amul,uni	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 																																																																																																								0
-Convert magic quality jewel to unique - preroll	1			100	18	361	0		2	jew,mag	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
-Convert rare quality jewel to unique - preroll	1			100	18	361	0		2	jew,rar	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
-Reroll prerolled unique jewel	1			100	18	361	2000		2	jew,uni	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
+LVL 85 HERE FOR COMPAT WITH UNIQ MAP																																																																																																								0
+Convert magic quality jewel to unique - preroll	1			100	18	361	0		2	jew,mag	"mfo,qty=1"						usetype,uni	85			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
+Convert rare quality jewel to unique - preroll	1			100	18	361	0		2	jew,rar	"mfo,qty=1"						usetype,uni	85			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
+Reroll prerolled unique jewel	1			100	18	361	2000		2	jew,uni	"mfo,qty=1"						usetype,uni	85			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 																																																																																																								0
 MYTHIC ORB - CONVERSION - WATCH OFFSETS 1 DOWN																																																																																																								0
 																																																																																																								0
@@ -2177,12 +2182,16 @@ Convert prerolled elite weapon to unique	1			100	18	361	2000		3	weap,eli,uni	"mf
 																																																																																																								0
 EXALTED ORB - PREROLL																																																																																																								0
 																																																																																																								0
+Convert inferior armor to set preroll	1			100	18	361	0		3	armo,low	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Convert normal armor to set preroll	1			100	18	361	0		3	armo,nor	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
+Convert superior armor to set preroll	1			100	18	361	0		3	armo,hiq	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Convert magic armor to set preroll	1			100	18	361	0		3	armo,mag	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Convert rare armor to set preroll	1			100	18	361	0		3	armo,rar	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Reroll prerolled set armor	1			100	18	361	2000		2	armo,set	"exo,qty=1"						usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 																																																																																																								0
+Convert inferior weapon to set preroll	1			100	18	361	0		3	weap,low	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Convert normal weapon to set preroll	1			100	18	361	0		3	weap,nor	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
+Convert superior weapon to set preroll	1			100	18	361	0		3	weap,hiq	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Convert magic weapon to set preroll	1			100	18	361	0		3	weap,mag	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Convert rare weapon to set preroll	1			100	18	361	0		3	weap,rar	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Reroll prerolled set weapon	1			100	18	361	2000		2	weap,set	"exo,qty=1"						usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
@@ -2240,7 +2249,6 @@ Create crafting infusion - Safety	1			100	18	361	0		3	jewf,qty=1	gpgs,qty=1	r19s
 EXCHANGES																																																																																																								0
 																																																																																																								0
 3x LPP + 2x Coin = Larzuk's Puzzle Box	1			100					2	lpp,qty=3	ecoi,qty=2						lbox																																																																																							0
-6x exo + 1x Coin = 1x mfo	1			100					2	exo,qty=6	ecoi,qty=1						mfo																																																																																							0
 																																																																																																								0
 GHEED'S CURIOUS BOX																																																																																																								0
 																																																																																																								0

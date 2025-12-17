@@ -35,6 +35,7 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - improved drop rates for super-rare utility items (e.g. puzzlepieces, mirrors, vials),
 - improved drop rates for uniques/sets,
 - improved roll chances for desired charm affixes (e.g. skillers, life),
+- improved sell values on higher difficulties - they continue on increasing by 5k per act,
 - new items: Exalted Orb (used to craft set items), Mythic Orb (used to craft unique items), (Opened) Gheed's Curious Box (contains random 50 pgems), Eternal Coin (used in cubing recipes), Transient Coin (used in armour/weapon set/unique crafting),
 - added safe unsocketting recipe (don't eat socketed items) - item + Ist + tp scroll,
 - new grand charm: Cain's Wisdom,

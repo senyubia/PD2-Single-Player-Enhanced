@@ -1,5 +1,5 @@
 # PD2-Single-Player-Enhanced
-Updated to: **S12 patch 3**
+Updated to: **S13 patch 2**
 ## What is it
 Mod for Project Diablo 2 to enhance single player experience, mainly by improving drop rates of certain items and adding some QoL™ changes, while maintaining fairness.
 

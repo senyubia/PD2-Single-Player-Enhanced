@@ -236,14 +236,14 @@ Act 2 (N) Good	5	42	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	1
 Act 3 (N) Good	5	46	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	wss	2	Runes 10	14										0
 Act 4 (N) Good	5	51	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	wss	2	Runes 11	14										0
 Act 5 (N) Good	5	57	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	wss	2	Runes 12 equiv	14										0
-Act 1 (H) Good	5	66	1						Jewelry C	480	Flawed Gem	82	Normal Gem	112	Flawless Gem	200	Perfect Gem	24	Runes 13 equiv	112	wss	16	Map Tier 1	4	gcbx	14	exo	12				0
-Act 2 (H) Good	5	72	1						Jewelry C	480	Flawed Gem	82	Normal Gem	112	Flawless Gem	200	Perfect Gem	24	Runes 14 equiv	112	wss	16	Map Tier 1	4	gcbx	14	exo	12				0
-Act 3 (H) Good	5	78	1						Jewelry C	480	Flawed Gem	82	Normal Gem	112	Flawless Gem	200	Perfect Gem	24	Runes 15 equiv	112	wss	16	Map Tier 1	4	gcbx	14	exo	12				0
-Act 4 (H) Good	5	82	1						Jewelry C	480	Flawed Gem	82	Normal Gem	112	Flawless Gem	200	Perfect Gem	24	Runes 16 equiv	112	wss	16	Map Tier 1	4	gcbx	14	exo	12				0
-Act 5 (H) Good	5	85	1						Jewelry C	480	Flawed Gem	82	Normal Gem	112	Flawless Gem	200	Perfect Gem	24	Runes 17 equiv	112	wss	16	Map Tier 1	4	gcbx	14	exo	12				0
-Map Good t1	20	85	1						Jewelry C	960	Normal Gem	382	Flawless Gem	400	Perfect Gem	48	Runes 17 equiv	224	wss	32	T1 Map Drop	64	gcbx	20	exo	17	mfo	5				0
-Map Good t2	20	86	1						Jewelry C	960	Normal Gem	382	Flawless Gem	400	Perfect Gem	48	Runes 17 equiv	224	wss	32	T2 Map Drop	64	gcbx	20	exo	15	mfo	7				0
-Map Good t3	20	87	1						Jewelry C	960	Normal Gem	382	Flawless Gem	400	Perfect Gem	48	Runes 17 equiv	224	wss	32	T3 Map Drop	64	gcbx	20	exo	12	mfo	10				0
+Act 1 (H) Good	5	66	1						Jewelry C	480	Flawed Gem	84	Normal Gem	112	Flawless Gem	200	Perfect Gem	24	Runes 13 equiv	112	wss	16	Map Tier 1	4	gcbx	12	exo	12				0
+Act 2 (H) Good	5	72	1						Jewelry C	480	Flawed Gem	84	Normal Gem	112	Flawless Gem	200	Perfect Gem	24	Runes 14 equiv	112	wss	16	Map Tier 1	4	gcbx	12	exo	12				0
+Act 3 (H) Good	5	78	1						Jewelry C	480	Flawed Gem	84	Normal Gem	112	Flawless Gem	200	Perfect Gem	24	Runes 15 equiv	112	wss	16	Map Tier 1	4	gcbx	12	exo	12				0
+Act 4 (H) Good	5	82	1						Jewelry C	480	Flawed Gem	84	Normal Gem	112	Flawless Gem	200	Perfect Gem	24	Runes 16 equiv	112	wss	16	Map Tier 1	4	gcbx	12	exo	12				0
+Act 5 (H) Good	5	85	1						Jewelry C	480	Flawed Gem	84	Normal Gem	112	Flawless Gem	200	Perfect Gem	24	Runes 17 equiv	112	wss	16	Map Tier 1	4	gcbx	12	exo	12				0
+Map Good t1	20	85	1						Jewelry C	960	Normal Gem	321	Flawless Gem	400	Perfect Gem	48	Runes 17 equiv	224	wss	32	T1 Map Drop	128	gcbx	17	exo	17	mfo	5				0
+Map Good t2	20	86	1						Jewelry C	960	Normal Gem	321	Flawless Gem	400	Perfect Gem	48	Runes 17 equiv	224	wss	32	T2 Map Drop	128	gcbx	17	exo	15	mfo	7				0
+Map Good t3	20	87	1						Jewelry C	960	Normal Gem	321	Flawless Gem	400	Perfect Gem	48	Runes 17 equiv	224	wss	32	T3 Map Drop	128	gcbx	17	exo	12	mfo	10				0
 Act 1 Chest A	6	0	4					173	gld	295	Act 1 Junk	295	Act 1 Equip A	196	Act 1 Good	39																0
 Act 1 Chest B	6	5	4					173	gld	295	Act 1 Junk	295	Act 1 Equip B	196	Act 1 Good	39																0
 Act 1 Chest C	6	9	4					145	gld	272	Act 1 Junk	218	Act 2 Junk	54	Act 1 Equip C	272	Act 1 Good	36														0
@@ -751,7 +751,7 @@ Diabloq (N)			7	993	993	1024	1024	0	Act 5 (N) Equip A	936	Act 5 (N) Good	54	bet	
 Diabloq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip A	881	Act 5 (H) Good	53	bet	34	dcso	26	mfo	4														0
 Summoner			5	900	900	972	1024	4	"gld,mul=1280"	248	Act 2 Equip C	414	Act 3 Junk	138	Act 2 Good	82	Act 3 Magic A	110														0
 Summoner (N)			5	900	900	972	1024	4	"gld,mul=1536"	248	Act 2 (N) Equip C	414	Act 3 (N) Junk	138	Act 2 (N) Good	82	Act 3 (N) Magic A	110														0
-Summoner (H)			5	900	900	972	1024	4	"gld,mul=2048"	134	Act 2 (H) Equip C	403	Act 3 (H) Junk	134	Act 2 (H) Good	80	Act 3 (H) Magic A	107	pk2	135												0
+Summoner (H)			5	900	900	972	1024	4	"gld,mul=2048"	188	Act 2 (H) Equip C	403	Act 3 (H) Junk	134	Act 2 (H) Good	80	Act 3 (H) Magic A	107	pk2	81												0
 Council			3	650	800	800	1024	4	"gld,mul=1280"	248	Act 4 Equip A	414	Act 4 Junk	138	Act 4 Good	82	Act 4 Magic A	110														0
 Council (N)			3	650	800	800	1024	4	"gld,mul=1536"	248	Act 4 (N) Equip A	414	Act 4 (N) Junk	138	Act 4 (N) Good	82	Act 4 (N) Magic A	110														0
 Council (H)			3	650	800	800	1024	4	"gld,mul=2048"	248	Act 4 (H) Equip A	414	Act 4 (H) Junk	138	Act 4 (H) Good	82	Act 4 (H) Magic A	110														0
@@ -776,7 +776,7 @@ Haphesto (N)			5	800	800	900	1024	3	"gld,mul=1536"	340	Act 5 (N) Equip A	461	Act
 Haphesto (H)			5	800	800	900	1024	3	"gld,mul=2048"	340	Act 5 (H) Equip A	461	Act 5 (H) Junk	121	Act 5 (H) Good	72																0
 Nihlathak			5	900	900	900	1024	3	"gld,mul=1280"	340	Act 5 Equip B	461	Act 5 Junk	121	Act 5 Good	72																0
 Nihlathak (N)			5	900	900	900	1024	3	"gld,mul=1536"	340	Act 5 (N) Equip B	461	Act 5 (N) Junk	121	Act 5 (N) Good	72																0
-Nihlathak (H)			5	900	900	900	1024	2	"gld,mul=2048"	236	Act 5 (H) Equip B	451	Act 5 (H) Junk	71	Act 5 (H) Good	71	pk3	120														0
+Nihlathak (H)			5	900	900	900	1024	2	"gld,mul=2048"	284	Act 5 (H) Equip B	451	Act 5 (H) Junk	71	Act 5 (H) Good	71	pk3	72														0
 Baal			7	993	993	1024	1024	0	Act 1 (N) Equip A	945	Act 1 (N) Good	54																				0
 Baal (N)			7	993	993	1024	1024	0	Act 1 (H) Equip A	936	Act 1 (H) Good	54	fed	17	exo	9																0
 Baal (H)			7	993	993	1024	1024	0	Act 5 (H) Equip B	873	Act 5 (H) Good	53	fed	34	dcso	34	mfo	4														0
@@ -785,13 +785,13 @@ Baalq (N)			7	993	993	1024	1024	0	Act 1 (H) Equip A	936	Act 1 (H) Good	54	fed	17
 Baalq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip B	873	Act 5 (H) Good	53	fed	34	dcso	34	mfo	4														0
 Blood Raven			5	800	800	972	1024	3	"gld,mul=1280"	340	Act 1 Equip B	461	Act 1 Junk	121	Act 1 Good	121																0
 Blood Raven (N)			5	800	800	972	1024	3	"gld,mul=1536"	340	Act 1 (N) Equip B	461	Act 1 (N) Junk	121	Act 1 (N) Good	121																0
-Blood Raven (H)			5	800	800	972	1024	3	"gld,mul=2048"	236	Act 1 (H) Equip B	461	Act 1 (H) Junk	121	Act 1 (H) Good	121	pk1	130														0
+Blood Raven (H)			5	800	800	972	1024	3	"gld,mul=2048"	288	Act 1 (H) Equip B	461	Act 1 (H) Junk	121	Act 1 (H) Good	121	pk1	78														0
 Smith			-3					0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
 Smith (N)			-3					0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
 Smith (H)			-3					0	Act 1 (H) Uitem C	1	Act 1 (H) Melee B	2																				0
 Izual			5	800	800	972	1024	3	"gld,mul=1280"	340	Act 4 Equip B	461	Act 4 Junk	121	Act 4 Good	121																0
 Izual (N)			5	800	800	972	1024	3	"gld,mul=1536"	340	Act 4 (N) Equip B	461	Act 4 (N) Junk	121	Act 4 (N) Good	121																0
-Izual (H)			5	800	800	972	1024	3	"gld,mul=2048"	236	Act 4 (H) Equip B	461	Act 4 (H) Junk	121	Act 4 (H) Good	121	pk3	130														0
+Izual (H)			5	800	800	972	1024	3	"gld,mul=2048"	288	Act 4 (H) Equip B	461	Act 4 (H) Junk	121	Act 4 (H) Good	121	pk3	78														0
 Act 1 Super A	18	0	-4	800	800	972	1024	0	Act 1 Uitem A	2	Act 1 Cpot A	2																				0
 Act 1 Super B	18	5	-4	800	800	972	1024	0	Act 1 Uitem B	2	Act 1 Cpot B	2																				0
 Act 1 Super C	18	9	-4	800	800	972	1024	0	Act 1 Uitem C	2	Act 1 Cpot C	2																				0
@@ -903,14 +903,14 @@ Countess Rune (N)			3					10	Runes 8	20																						0
 Countess Rune (H)			3					10	Runes 12 equiv	30																						0
 Countess Item			5					1	"gld,mul=1280"	228	Act 1 Equip C	395	Act 2 Junk	311	Act 2 Good	62																0
 Countess Item (N)			5					1	"gld,mul=1536"	228	Act 1 (N) Equip C	395	Act 2 (N) Junk	311	Act 2 (N) Good	62																0
-Countess Item (H)			5					1	"gld,mul=2048"	148	Act 1 (H) Equip C	395	Act 2 (H) Junk	311	Act 2 (H) Good	62	pk1	100														0
+Countess Item (H)			5					1	"gld,mul=2048"	188	Act 1 (H) Equip C	395	Act 2 (H) Junk	311	Act 2 (H) Good	62	pk1	60														0
 Countess			-2	883	883	883	1024	0	Countess Rune	1	Countess Item	1																				0
 Countess (N)			-2	883	883	983	1024	0	Countess Rune (N)	1	Countess Item (N)	1																				0
 Countess (H)			-2	883	883	983	1024	0	Countess Rune (H)	1	Countess Item (H)	1																				0
 Uber Andariel			-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																				0
 Uber Duriel			-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																				0
 Uber Izual			-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																				0
-Bloodwitch (H)			5	800	800	972	1024	3	"gld,mul=2048"	236	Act 2 (H) Equip B	461	Act 2 (H) Junk	121	Act 2 (H) Good	121	pk2	130														0
+Bloodwitch (H)			5	800	800	972	1024	3	"gld,mul=2048"	288	Act 2 (H) Equip B	461	Act 2 (H) Junk	121	Act 2 (H) Good	121	pk2	78														0
 Treasure Fallen Gem H			2					37	Perfect Gem	16	Flawless Gem	4	gcbx	3																		0
 Treasure Fallen Map			2					12	T3 Map Drop	4	irma	1	irra	2	rrra	2	urma	1	scou	1												0
 Treasure Fallen Rune H			2					12	Runes 17	7																						0
@@ -1018,7 +1018,7 @@ Lillith Mirror H				3000	100																											0
 Vial of Lightsong N				7500	100																											0
 Vial of Lightsong NM				3750	100																											0
 Vial of Lightsong H				1000	100																											0
-Corrupted Zone				300																												0
+Corrupted Zone				150																												0
 Unique Map Monsters				3750	10																											0
 Unique Map MapBoss				3000																												0
 Rathma Jawbone N				0	100																											0
@@ -1038,10 +1038,10 @@ T4MidMapBoss		90	6	950	960	990	1024	0	Act 5 (H) Equip C	701	Jewelry C	100	Runes 
 T4FinalMapBoss		90	6	950	960	990	1024	0	Act 5 (H) Equip C	701	Jewelry C	100	Runes 17 equiv	30	wss	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10	scrb	60	exo	10	mfo	32				0
 LucionChestLow		90	6	800	900	990	1024	0	Act 5 (H) Equip C	165	Act 5 (H) Good	100	Runes 15 equiv	30	wss	25	exo	10	mfo	25												0
 LucionChestHigh		90	6	950	960	990	1024	0	Act 5 (H) Equip C	743	Jewelry C	100	Runes 17 equiv	30	scrb	60																0
-Demonic Cube N				9600	10																											0
-Demonic Cube NM				4800	10																											0
-Demonic Cube H				1899	10																											0
-Corrupted Zone T1 Maps				300																												0
+Demonic Cube N				5000	10																											0
+Demonic Cube NM				2500	10																											0
+Demonic Cube H				800	10																											0
+Corrupted Zone T1 Maps				150																												0
 InvaderLightArmor			1	850	850	1307	200		uul	1	uea	1	ula	1	utu	1	urs	1	utp	1												0
 InvaderMediumArmor			1	850	850	1307	200		ung	1	ucl	1	uhn	1	upl	1																0
 InvaderHeavyArmor			1	850	850	1307	200		ult	2	uul	2	uar	1	uth	2	uld	2														0

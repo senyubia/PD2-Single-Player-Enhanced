@@ -2348,16 +2348,16 @@ MYTHIC ORB																																																																						
 Convert magic armor to preroll	1			100	18	361	0		3	armo,mag	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Convert rare armor to preroll	1			100	18	361	0		3	armo,rar	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Reroll prerolled unique armor	1			100	18	361	2000		2	armo,uni	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
-Convert prerolled base armor to unique	1			100	18	361	2000		3	armo,bas,uni	"mfo,qty=1"	ecoi,qty=2					useitem,reg	99																																																																																						0
-Convert prerolled exceptional armor to unique	1			100	18	361	2000		3	armo,exc,uni	"mfo,qty=1"	ecoi,qty=4					useitem,reg	99																																																																																						0
-Convert prerolled elite armor to unique	1			100	18	361	2000		3	armo,eli,uni	"mfo,qty=1"	ecoi,qty=6					useitem,reg	99																																																																																						0
+Convert prerolled base armor to unique	1			100	18	361	2000		3	armo,bas,uni	"mfo,qty=1"	ecoi,qty=2					useitem,reg	99																												tcoi																																																										0
+Convert prerolled exceptional armor to unique	1			100	18	361	2000		3	armo,exc,uni	"mfo,qty=1"	ecoi,qty=4					useitem,reg	99																												tcoi																																																										0
+Convert prerolled elite armor to unique	1			100	18	361	2000		3	armo,eli,uni	"mfo,qty=1"	ecoi,qty=6					useitem,reg	99																												tcoi																																																										0
 																																																																																																								0
 Convert magic weapon to preroll	1			100	18	361	0		3	weap,mag	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Convert rare weapon to preroll	1			100	18	361	0		3	weap,rar	"mfo,qty=1"	tcoi					usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Reroll prerolled unique weapon	1			100	18	361	2000		2	weap,uni	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
-Convert prerolled base weapon to unique	1			100	18	361	2000		3	weap,bas,uni	"mfo,qty=1"	ecoi,qty=2					useitem,reg	99																																																																																						0
-Convert prerolled exceptional weapon to unique	1			100	18	361	2000		3	weap,exc,uni	"mfo,qty=1"	ecoi,qty=4					useitem,reg	99																																																																																						0
-Convert prerolled elite weapon to unique	1			100	18	361	2000		3	weap,eli,uni	"mfo,qty=1"	ecoi,qty=6					useitem,reg	99																																																																																						0
+Convert prerolled base weapon to unique	1			100	18	361	2000		3	weap,bas,uni	"mfo,qty=1"	ecoi,qty=2					useitem,reg	99																												tcoi																																																										0
+Convert prerolled exceptional weapon to unique	1			100	18	361	2000		3	weap,exc,uni	"mfo,qty=1"	ecoi,qty=4					useitem,reg	99																												tcoi																																																										0
+Convert prerolled elite weapon to unique	1			100	18	361	2000		3	weap,eli,uni	"mfo,qty=1"	ecoi,qty=6					useitem,reg	99																												tcoi																																																										0
 																																																																																																								0
 Convert magic gcharm to preroll	1			100	18	361	0		2	cm3,mag	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
 Reroll prerolled unique gcharm	1			100	18	361	2000		2	cm3,uni	"mfo,qty=1"						usetype,uni	99			levelreq	100		100	100	corruptnum	100		2000	2000																"mfo,qty=1"																																																										0
@@ -2390,12 +2390,12 @@ EXALTED ORB																																																																					
 Convert magic armor to set preroll	1			100	18	361	0		3	armo,mag	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Convert rare armor to set preroll	1			100	18	361	0		3	armo,rar	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Reroll prerolled set armor	1			100	18	361	2000		2	armo,set	"exo,qty=1"						usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
-Convert prerolled armor to set	1			100	18	361	2000		3	armo,set	"exo,qty=1"	ecoi,qty=1					useitem,reg	99																																																																																						0
+Convert prerolled armor to set	1			100	18	361	2000		3	armo,set	"exo,qty=1"	ecoi,qty=1					useitem,reg	99																												tcoi																																																										0
 																																																																																																								0
 Convert magic weapon to set preroll	1			100	18	361	0		3	weap,mag	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Convert rare weapon to set preroll	1			100	18	361	0		3	weap,rar	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Reroll prerolled set weapon	1			100	18	361	2000		2	weap,set	"exo,qty=1"						usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
-Convert prerolled weapon to set	1			100	18	361	2000		3	weap,set	"exo,qty=1"	ecoi,qty=1					useitem,reg	99																																																																																						0
+Convert prerolled weapon to set	1			100	18	361	2000		3	weap,set	"exo,qty=1"	ecoi,qty=1					useitem,reg	99																												tcoi																																																										0
 																																																																																																								0
 Convert magic ring to set preroll	1			100	18	361	0		2	ring,mag	"exo,qty=1"						usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Convert rare ring to set preroll	1			100	18	361	0		2	ring,rar	"exo,qty=1"						usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
@@ -2420,7 +2420,10 @@ Create Safety crafting infusion	1			100	18	361	0		3	jewf,qty=1	gpgs,qty=1	r19s,q
 EXCHANGES																																																																																																								0
 																																																																																																								0
 3x LPP + 2x Coin = Larzuk's Puzzle Box	1			100					2	lpp,qty=3	ecoi,qty=2						lbox																																																																																							0
-																																																																																																								0
+2x gcbx + key = 1x ecoi	1			100					2	key,qty=1	gcbx,qty=2						useitem			100																										ecoi,qty=1																																																										0
+1x exo + key = 1x ecoi	1			100					2	key,qty=1	exo,qty=1						useitem			100																										ecoi,qty=1																																																										0
+1x mfo + key = 2x ecoi	1			100					2	key,qty=1	mfo,qty=1						useitem			100																										ecoi,qty=2																																																										0
+																	useitem			100																																																																																				0
 GHEED'S CURIOUS BOX																																																																																																								0
 																																																																																																								0
 Gheed's Curious Box Roll	1			100	18	361	0		2	gcbx,qty=1	ecoi,qty=1						gcbo				corruptnum	100		1501	1520																																																																															0

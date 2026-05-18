@@ -5,7 +5,7 @@
 //
 //	For Casual and EndGame Players
 // 
-//	Edited by Senyubia for PD2SPE v3.0.0
+//	Edited by Senyubia for PD2SPE v3.0.1
 
 //Define Filter Strict Levels
 ItemDisplayFilterName[]: Hide Just Trash Items
@@ -18,7 +18,7 @@ ItemDisplayFilterName[]: Strict Filter - w/o Potions
 ItemDisplayFilterName[]: Max-Strictness Filter
 
 //Show info about current Filter Level in description of Horadric Cube
-ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%item.filter ver 13.3.2 PD2SPE v3.0.0 %BLACK%| %GRAY% updated: 2026-05-17}%CONTINUE%
+ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%item.filter ver 13.3.2 PD2SPE v3.0.1 %BLACK%| %GRAY% updated: 2026-05-18}%CONTINUE%
 ItemDisplay[box FILTLVL=0]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%0 - %TAN%Show All Items%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
 ItemDisplay[box FILTLVL=1]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%1 - %TAN%Hide Just Trash Items%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
 ItemDisplay[box FILTLVL=2]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%2 - %TAN%More Notify%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
@@ -385,9 +385,18 @@ ItemDisplay[neg UNI !ID !TOWN]: %SOUNDID-4699%%NAME%{%NAME%}%CONTINUE% //fallen_
 ItemDisplay[jew UNI !ID !TOWN]: %SOUNDID-2669%%NAME%{%NAME%}%CONTINUE% //shrine_gemupgrade - for Rainbow Facet
 ItemDisplay[(uba OR ubaa OR ubab OR ubac) !TOWN]: %SOUNDID-4609%%NAME%{%NAME%}%CONTINUE% //wussie_let_us_out_2 - for Uber Ancients
 ItemDisplay[cm3 UNI !ID !TOWN]: %SOUNDID-3918%%NAME%{%NAME%}%CONTINUE% //gheed_greeting_time_2 - for Gheed's Fortune
-//Runes and Larzuk Puzzlepiece
-ItemDisplay[RUNE>25 !TOWN]: %SOUNDID-418%%NAME%{%NAME%}%CONTINUE% //cairn_success - for HRs 
-ItemDisplay[(RUNE~20-25 OR lpp) !TOWN]: %SOUNDID-248%%NAME%{%NAME%}%CONTINUE% //item_whip - for Mid Runes an Larzuk Puzzlepiece
+
+//////////////////////////////////
+// 	PD2SPE			//
+//////////////////////////////////
+
+// Only sound for puzzlepiece
+ItemDisplay[lpp !TOWN]: %SOUNDID-248%%NAME%{%NAME%}%CONTINUE% //item_whip - for Mid Runes an Larzuk Puzzlepiece
+
+//////////////////////////////////
+//	FILTER CONT.		//
+//////////////////////////////////
+
 //UBER SUPER RARE UNIQUES
 ItemDisplay[(PD2UBERUNI1 OR PD2UBERUNI2) !TOWN]: %SOUNDID-27%%NAME%{%NAME%}%CONTINUE% //quest_anyasteam - for Uber Items
 //GG Items
@@ -3000,11 +3009,18 @@ ItemDisplay[(gpvs OR gpys OR gpbs OR gpgs OR gprs OR gpws OR skzs)]: %DOT-70%%NA
 //Hide Flawlesses on Max Strict Level
 ItemDisplay[(GEM<5 OR (gzvs OR glys OR glbs OR glgs OR glrs OR glws)) !(skl OR skls) !(TOWN OR INVENTORY OR STASH OR CUBE) FILTLVL>7]:{%NAME%}%CONTINUE%
 
-//Runes Apperance
-ItemDisplay[RUNE<17]: %ORANGE%%RUNENAME% %GRAY%[%TAN%%RUNENUM%%GRAY%]{%NAME%}%CONTINUE%
-ItemDisplay[RUNE~17-19]: %ORANGE%%RUNENAME% Rune %GRAY%[%TAN%%RUNENUM%%GRAY%]{%NAME%}%CONTINUE%
+//////////////////////////////////
+// 	PD2SPE			//
+//////////////////////////////////
+
+// Less flashy rune look
+ItemDisplay[RUNE<20]: %ORANGE%%RUNENAME% Rune %GRAY%[%TAN%%RUNENUM%%GRAY%]{%NAME%}%CONTINUE%
 ItemDisplay[RUNE~20-25]: %ORANGE%%RUNENAME% Rune %GRAY%[%RED%%RUNENUM%%GRAY%]{%NAME%}%CONTINUE%
 ItemDisplay[RUNE>25]: %ORANGE%%RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]{%NAME%}%CONTINUE%
+
+//////////////////////////////////
+//	FILTER CONT.		//
+//////////////////////////////////
 
 //All Charms
 ItemDisplay[(cm1 OR cm2 OR cm3) MAG !ID]: %DOT-9B%%PURPLE%*%BLUE%   %NAME%   %PURPLE%*
@@ -5177,12 +5193,16 @@ ItemDisplay[pk3]: %DOT-62%%ORANGE%%NAME%{%TAN%Key %WHITE%from: %PURPLE%Nihlathak
 //Organs
 ItemDisplay[(mbr OR bey OR dhn)]: %PX-9D%%NAME%{%WHITE%to get %RED%Pandemonium Talisman%NL%%TAN%Note%WHITE%: Cube %ORANGE%One of each %WHITE%of the three Organs}
 
-//Runes Pings/Notifies
-ItemDisplay[(RUNE<17)]: %PX-62%%TIER-3%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[(RUNE<17) (CLVL<80 AND FILTLVL<6)]: %PX-62%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[(RUNE~17-19)]: %PX-62%%TIER-5%%TAN%*  %NAME%%TAN%  *{%NAME%}%CONTINUE%
-ItemDisplay[RUNE>19 AND RUNE<26]: %DOT-62%%RED%*     %NAME%%RED%     *{%NAME%}%CONTINUE%
-ItemDisplay[RUNE>25]: %BORDER-62%%GREEN%*%PURPLE%*%RED%*          %NAME%%RED%          *%PURPLE%*%GREEN%*{%NAME%}%CONTINUE%
+//////////////////////////////////
+// 	PD2SPE			//
+//////////////////////////////////
+
+// Uniform rune notifs and pings
+ItemDisplay[RUNE>0]: %DOT-62%%NAME%{%NAME%}%CONTINUE%
+
+//////////////////////////////////
+//	FILTER CONT.		//
+//////////////////////////////////
 
 //Runes Notes
 ItemDisplay[RUNE>0]: %NAME%{%RUNENAME% %WHITE%is Required for RuneWords:%NL%%NAME%}%CONTINUE%
@@ -5376,15 +5396,24 @@ ItemDisplay[NMAG !RW SORSTAFF (FILTLVL<2 OR (CLVL<80 AND FILTLVL~2-5))]: %NAME%{
 // 	PD2SPE			//
 //////////////////////////////////
 
+// new items
+
 ItemDisplay[mfo]: %SOUNDID-34%%BORDER-60%%DOT-69%%NAME%{%NAME%%TAN%Note%WHITE%: Non-%RED%Corrupted %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE% + %GOLD%Mythic Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE%}%CONTINUE%
 ItemDisplay[mfo]: %NAME%{%CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE% + %ORANGE%Eternal Coins%WHITE% = New %GOLD%Unique%WHITE%%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%WHITE%Add 1 %ORANGE%Transient Coin%WHITE% to the first transmutation if you are creating an armor or a weapon%NL%%NL%%NAME%}
+ItemDisplay[mfo]: %NAME%{%WHITE%Add 1 %ORANGE%Transient Coin%WHITE% to the first transmutation if you are creating an armor or a weapon%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%ORANGE%Transient Coin%WHITE% will be refunded after creating an item%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%RED%You must preroll and create an item in the same game%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%GOLD%Mythic Orb%WHITE% + %GRAY%key%WHITE% = %ORANGE%Eternal Coins%WHITE%%NL%%NL%%NAME%}
 
 ItemDisplay[exo]: %SOUNDID-1118%%MAP-7F%%PX-84%%NAME%{%NAME%%TAN%Note%WHITE%: %WHITE%Non-%RED%Corrupted %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE% + %GREEN%Exalted Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE%}%CONTINUE%
 ItemDisplay[exo]: %NAME%{%CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE% + %ORANGE%Eternal Coins%WHITE% = New %GREEN%Set%WHITE%%NL%%NAME%}%CONTINUE%
-ItemDisplay[exo]: %NAME%{%WHITE%Add 1 %ORANGE%Transient Coin%WHITE% to the first transmutation if you are creating an armor or a weapon%NL%%NL%%NAME%}
+ItemDisplay[exo]: %NAME%{%WHITE%Add 1 %ORANGE%Transient Coin%WHITE% to the first transmutation if you are creating an armor or a weapon%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[exo]: %NAME%{%ORANGE%Transient Coin%WHITE% will be refunded after creating an item%NL%%NAME%}%CONTINUE%
+ItemDisplay[exo]: %NAME%{%RED%You must preroll and create an item in the same game%NL%%NAME%}%CONTINUE%
+ItemDisplay[exo]: %NAME%{%GREEN%Exalted Orb%WHITE% + %GRAY%key%WHITE% = %ORANGE%Eternal Coins%WHITE%%NL%%NL%%NAME%}
 
-ItemDisplay[gcbx]: %SOUNDID-248%%MAP-0A%%PX-62%%NAME%{%NAME%%TAN%Note%WHITE%: %ORANGE%Gheed's Curious Box%WHITE% + %ORANGE%Eternal Coins%WHITE% = %ORANGE%Opened Gheed's Curious Box%WHITE%}
+ItemDisplay[gcbx]: %SOUNDID-248%%MAP-0A%%PX-62%%NAME%{%NAME%%TAN%Note%WHITE%: %ORANGE%Gheed's Curious Box%WHITE% + %ORANGE%Eternal Coins%WHITE% = %ORANGE%Opened Gheed's Curious Box%WHITE%}%CONTINUE%
+ItemDisplay[gcbx]: %NAME%{%WHITE%2 %ORANGE%Gheed's Curious Box%WHITE% + %GRAY%key%WHITE% = %ORANGE%Eternal Coins%WHITE%%NL%%NL%%NAME%}
 
 ItemDisplay[gcbo]: %NAME%{%NAME%%TAN%Note%WHITE%: Probability distribution of gems from the box is the same as on mob drop}
 

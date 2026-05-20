@@ -5,7 +5,7 @@
 //
 //	For Casual and EndGame Players
 // 
-//	Edited by Senyubia for PD2SPE v3.0.1
+//	Edited by Senyubia for PD2SPE v3.1.0
 
 //Define Filter Strict Levels
 ItemDisplayFilterName[]: Hide Just Trash Items
@@ -18,7 +18,7 @@ ItemDisplayFilterName[]: Strict Filter - w/o Potions
 ItemDisplayFilterName[]: Max-Strictness Filter
 
 //Show info about current Filter Level in description of Horadric Cube
-ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%item.filter ver 13.3.2 PD2SPE v3.0.1 %BLACK%| %GRAY% updated: 2026-05-18}%CONTINUE%
+ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%item.filter ver 13.3.2 PD2SPE v3.1.0 %BLACK%| %GRAY% updated: 2026-05-20}%CONTINUE%
 ItemDisplay[box FILTLVL=0]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%0 - %TAN%Show All Items%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
 ItemDisplay[box FILTLVL=1]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%1 - %TAN%Hide Just Trash Items%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
 ItemDisplay[box FILTLVL=2]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%2 - %TAN%More Notify%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
@@ -4922,7 +4922,18 @@ ItemDisplay[(ARMOR OR WEAPON OR QUIVER) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]
 //Project Diablo 2 items
 ItemDisplay[wss]: %MAP-0A%%DOT-66%%NAME% %ORANGE%*{%RED%Warning%WHITE%: It can Brick your Item%NL%%TAN%Note%WHITE%: Use to %RED%Corrupt %WHITE%Item/Map:}
 ItemDisplay[iwss]: %MAP-0A%%DOT-66%%NAME% %ORANGE%*{%WHITE%Random Event to Your Map%NL%%TAN%Note%WHITE%: Use to %PURPLE%Add %WHITE%a Guaranteed}
-ItemDisplay[scrb]: %MAP-A9%%NAME% %ORANGE%*{%NAME%}//{%RED%Group Dungeon%NL%%TAN%Note%WHITE%: Cube it with %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map to Make:}
+
+//////////////////////////////////
+// 	PD2SPE			//
+//////////////////////////////////
+
+// add info about map multiplication
+ItemDisplay[scrb]: %MAP-A9%%NAME% %ORANGE%*{%TAN%Note%WHITE%: Cube it with %GOLD%Cartographer's Orb%WHITE% and a map to multiply maps}
+
+//////////////////////////////////
+//	FILTER CONT.		//
+//////////////////////////////////
+
 ItemDisplay[ubtm]: %MAP-A9%%GRAY%* %NAME% %GRAY%*{%GRAY%(It will create 3 Portals to come back Max 3 Times)%NL%%TAN%Note%WHITE%: Entrance to Uber Tristram}
 ItemDisplay[imra]: %NAME% %ORANGE%*{%WHITE%Map + %GOLD%Orb %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Any Rune%NL%%TAN%Note%WHITE%: Imbue White Map to %YELLOW%Rare%WHITE%:%NL%}%CONTINUE%
 ItemDisplay[rera]: %NAME% %ORANGE%*{%YELLOW%Map %WHITE%+ %GOLD%Orb %WHITE%+ Perf Gem + %ORANGE%Any Rune%NL%%TAN%Note%WHITE%: ReRoll %YELLOW%Rare %WHITE%Map:%NL%}%CONTINUE%
@@ -4941,7 +4952,18 @@ ItemDisplay[lbox]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%      
 ItemDisplay[lpp]: %DOT-0A%%PX-62%%GRAY%*%YELLOW%*   %NAME%   %YELLOW%*%GRAY%*{%WHITE%Two-Handed Weapon = 2-4 max%NL%One-Handed Weapon = 1-2 max%NL%Helmet, Chest, Shield = 1-2 max%NL%%TAN%Note%WHITE%: Use to %TAN%Socket %WHITE%Normal/%BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%ORANGE%Crafted %WHITE%Item}
 ItemDisplay[lmal]: %GOLD%%NAME% %ORANGE%*{%WHITE%All Types of Items = 1 max%NL%%TAN%Note%WHITE%: Use to %TAN%Socket %WHITE%an Item}
 ItemDisplay[lsvl]: %BORDER-9B%%DOT-62%%GREEN%*%SAGE%*%WHITE%*%CORAL%*%RED%*        %NAME%        %RED%*%CORAL%*%WHITE%*%SAGE%*%GREEN%*{%TAN%Note%WHITE%: %WHITE%This item is %PURPLE%E%RED%x%ORANGE%t%YELLOW%re%ORANGE%m%RED%e%PURPLE%l%RED%y Rare%WHITE%.}
-ItemDisplay[llmr]: %BORDER-9B%%DOT-62%%GREEN%*%SAGE%*%WHITE%*%CORAL%*%RED%*        %NAME%        %RED%*%CORAL%*%WHITE%*%SAGE%*%GREEN%*{%RED%You Can't remove socketed Misc from it%NL%%WHITE%Their colors will be changed to Black and White.%NL%Can't be used in any cube recipes.%NL%%RED%Warning%WHITE%: Items will be marked as %PURPLE%Mirrored %WHITE%and%NL%%WHITE%Only works with %BLUE%magic%WHITE%/%YELLOW%rare%WHITE%/%ORANGE%craft %WHITE%equipment%NL%%TAN%Note%WHITE%: %WHITE%This item is %PURPLE%E%RED%x%ORANGE%t%YELLOW%re%ORANGE%m%RED%e%PURPLE%l%RED%y Rare%WHITE%.}
+
+//////////////////////////////////
+// 	PD2SPE			//
+//////////////////////////////////
+
+// lilith's mirror also works on uniques/sets
+ItemDisplay[llmr]: %BORDER-9B%%DOT-62%%GREEN%*%SAGE%*%WHITE%*%CORAL%*%RED%*        %NAME%        %RED%*%CORAL%*%WHITE%*%SAGE%*%GREEN%*{%RED%You Can't remove socketed Misc from it%NL%%WHITE%Their colors will be changed to Black and White.%NL%Can't be used in any cube recipes.%NL%%RED%Warning%WHITE%: Items will be marked as %PURPLE%Mirrored %WHITE%and%NL%%TAN%Note%WHITE%: %WHITE%This item is %PURPLE%E%RED%x%ORANGE%t%YELLOW%re%ORANGE%m%RED%e%PURPLE%l%RED%y Rare%WHITE%.}
+
+//////////////////////////////////
+//	FILTER CONT.		//
+//////////////////////////////////
+
 ItemDisplay[rkey]: %MAP-0A%%PX-62%%GRAY%*%LIGHT_GRAY%*%YELLOW%*   %NAME%   %YELLOW%*%LIGHT_GRAY%*%GRAY%*{%NAME%}
 ItemDisplay[imrn]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*{%TAN%Note%WHITE%: Use to %CORAL%ReRoll %WHITE%an %GOLD%Unique %WHITE%or %GREEN%Set %WHITE%Item}
 //EARS
@@ -5398,32 +5420,29 @@ ItemDisplay[NMAG !RW SORSTAFF (FILTLVL<2 OR (CLVL<80 AND FILTLVL~2-5))]: %NAME%{
 
 // new items
 
-ItemDisplay[mfo]: %SOUNDID-34%%BORDER-60%%DOT-69%%NAME%{%NAME%%TAN%Note%WHITE%: Non-%RED%Corrupted %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE% + %GOLD%Mythic Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE% + %ORANGE%Eternal Coins%WHITE% = New %GOLD%Unique%WHITE%%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%WHITE%Add 1 %ORANGE%Transient Coin%WHITE% to the first transmutation if you are creating an armor or a weapon%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%ORANGE%Transient Coin%WHITE% will be refunded after creating an item%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %SOUNDID-34%%BORDER-60%%DOT-69%%NAME%{%NAME%%TAN%Note%WHITE%: Non-%RED%Corrupted %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE% + %ORANGE%Eternal Coin%WHITE% + %ORANGE%Essences%WHITE% = %GOLD%Unique%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%WHITE%Add %ORANGE%Transient Coin%WHITE% to first preroll if creating equipment%NL%%NL%%NAME%}%CONTINUE%
 ItemDisplay[mfo]: %NAME%{%RED%You must preroll and create an item in the same game%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%GOLD%Mythic Orb%WHITE% + %GRAY%key%WHITE% = %ORANGE%Eternal Coins%WHITE%%NL%%NL%%NAME%}
+ItemDisplay[mfo]: %NAME%{%ORANGE%Essences%WHITE%: %BLUE%Blue%WHITE% + %YELLOW%Yellow%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%WHITE%+ %RED%Red%WHITE% if Exceptional/Elite or Grand Charm%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%WHITE%+ %GREEN%Green%WHITE% if Elite or Jewellery%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%GOLD%Mythic Orb%WHITE% + %GRAY%key%WHITE% = %ORANGE%Eternal Coin%NL%%NL%%NAME%}
 
-ItemDisplay[exo]: %SOUNDID-1118%%MAP-7F%%PX-84%%NAME%{%NAME%%TAN%Note%WHITE%: %WHITE%Non-%RED%Corrupted %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE% + %GREEN%Exalted Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE%}%CONTINUE%
-ItemDisplay[exo]: %NAME%{%CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE% + %ORANGE%Eternal Coins%WHITE% = New %GREEN%Set%WHITE%%NL%%NAME%}%CONTINUE%
-ItemDisplay[exo]: %NAME%{%WHITE%Add 1 %ORANGE%Transient Coin%WHITE% to the first transmutation if you are creating an armor or a weapon%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[exo]: %NAME%{%ORANGE%Transient Coin%WHITE% will be refunded after creating an item%NL%%NAME%}%CONTINUE%
+ItemDisplay[exo]: %SOUNDID-1118%%MAP-7F%%PX-84%%NAME%{%NAME%%TAN%Note%WHITE%: %WHITE%Non-%RED%Corrupted %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb}%CONTINUE%
+ItemDisplay[exo]: %NAME%{%CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE% + %ORANGE%Eternal Coin%WHITE% + %BLUE%Blue%ORANGE% Essence%WHITE% = %GREEN%Set%NL%%NAME%}%CONTINUE%
+ItemDisplay[exo]: %NAME%{%WHITE%Add %ORANGE%Transient Coin%WHITE% to first preroll if creating equipment%NL%%NL%%NAME%}%CONTINUE%
 ItemDisplay[exo]: %NAME%{%RED%You must preroll and create an item in the same game%NL%%NAME%}%CONTINUE%
-ItemDisplay[exo]: %NAME%{%GREEN%Exalted Orb%WHITE% + %GRAY%key%WHITE% = %ORANGE%Eternal Coins%WHITE%%NL%%NL%%NAME%}
+ItemDisplay[exo]: %NAME%{%GREEN%Exalted Orb%WHITE% + %GRAY%key%WHITE% = %ORANGE%Eternal Coin%WHITE%%NL%%NL%%NAME%}
 
-ItemDisplay[gcbx]: %SOUNDID-248%%MAP-0A%%PX-62%%NAME%{%NAME%%TAN%Note%WHITE%: %ORANGE%Gheed's Curious Box%WHITE% + %ORANGE%Eternal Coins%WHITE% = %ORANGE%Opened Gheed's Curious Box%WHITE%}%CONTINUE%
-ItemDisplay[gcbx]: %NAME%{%WHITE%2 %ORANGE%Gheed's Curious Box%WHITE% + %GRAY%key%WHITE% = %ORANGE%Eternal Coins%WHITE%%NL%%NL%%NAME%}
+ItemDisplay[gcbx]: %SOUNDID-248%%MAP-0A%%PX-62%%NAME%{%NAME%%TAN%Note%WHITE%: %ORANGE%Gheed's Curious Box%WHITE% + %ORANGE%Eternal Coin%WHITE% = %ORANGE%Opened Gheed's Curious Box%WHITE%}%CONTINUE%
+ItemDisplay[gcbx]: %NAME%{%WHITE%2 %ORANGE%Gheed's Curious Box%WHITE% + %GRAY%key%WHITE% = %ORANGE%Eternal Coin%WHITE%%NL%%NL%%NAME%}
 
 ItemDisplay[gcbo]: %NAME%{%NAME%%TAN%Note%WHITE%: Probability distribution of gems from the box is the same as on mob drop}
 
-ItemDisplay[ecoi]: %NAME%{%NAME%%TAN%Note%WHITE%: Transmutation costs:}%CONTINUE%
-ItemDisplay[ecoi]: %NAME%{%WHITE%1 %ORANGE%coin%WHITE%: %GREEN%Set%WHITE% creation, %ORANGE%Gheed's Curious Box%WHITE% opening%NL%%NAME%}%CONTINUE%
-ItemDisplay[ecoi]: %NAME%{%WHITE%2 %ORANGE%coins%WHITE%: %GOLD%Larzuk's Puzzlebox%WHITE% upgrade, Base %GOLD%Unique%WHITE% creation%NL%%NAME%}%CONTINUE%
-ItemDisplay[ecoi]: %NAME%{%WHITE%4 %ORANGE%coins%WHITE%: Exceptional and Grand Charm %GOLD%Unique%WHITE% creation%NL%%NAME%}%CONTINUE%
-ItemDisplay[ecoi]: %NAME%{%WHITE%6 %ORANGE%coins%WHITE%: Elite and Jewellery %GOLD%Unique%WHITE% creation%NL%%NAME%}
+ItemDisplay[ecoi]: %NAME%{%NAME%}%CONTINUE%
 
-ItemDisplay[tcoi]: %NAME%{%NAME%%TAN%Note%WHITE%: Sell the resulting %BLUE%Magic%WHITE% or %YELLOW%Rare%WHITE% if you tried to make an invalid item}
+ItemDisplay[tcoi]: %NAME%{%NAME%%TAN%Note%WHITE%: Refunded on successful item creation}
 
 //////////////////////////////////
 //	FILTER CONT.		//

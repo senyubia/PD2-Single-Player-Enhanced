@@ -42,6 +42,7 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - crafting infusions can be crafted - 1 corresponding pgem + 1 jewel fragment + Fal,
 - using 3 Larzuk's Puzzlepieces and Eternal Coins you can upgrade them to Larzuk's Puzzlebox,
 - Anya sells HRs, rejuvs, rare misc items (including ToA moved from Akara) and mod items; you might need Gheed's Fortune to buy some of them,
+- maps can be multiplied by using Horadrim Scarab and Cartographer Orb (only t1-t3 maps),
 - changed launch splash, main menu, tcp/ip menu and character select screens to LoD (delete ``data/global/ui`` if you don't want that).
 
 **Main changes compared to PD2 Single Player+:**
@@ -54,5 +55,5 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - Eternal Coin ID changed to ``ecoi``,
 - Eternal Coin ItemType changed from ``scro`` to ``spob``,
 - Eternal Coin used in most cubing recipes (check lootfilter notes on orbs),
-- deterministic unique/set creation - cube a base with an orb (and a Transient Coin if base is armour/weapon) to create a random unique with +100 lvl req, pick the desired item by repeating the transmutation with the orb only (the orb gets refunded), then cube with Eternal Coins to finalize the transmutation (the orb and coins get consumed, the item gets rerolled into a proper version),
+- deterministic unique/set creation - cube a base with an orb (and a Transient Coin if base is armour/weapon) to create a random unique with +100 lvl req, pick the desired item by repeating the transmutation with the orb only (the orb gets refunded), then cube with Eternal Coin and essences to finalize the transmutation (the orb and coins get consumed, the item gets rerolled into a proper version),
 - mob resists in t4s are the same as in vanilla.

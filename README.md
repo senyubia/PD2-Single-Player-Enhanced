@@ -39,8 +39,8 @@ For the complete list of changes, get official PD2 (or SP+) .txt files and diff 
 - new items: Exalted Orb (used to craft set items), Mythic Orb (used to craft unique items), (Opened) Gheed's Curious Box (contains random 50 pgems), Eternal Coin (used in cubing recipes), Transient Coin (used in armour/weapon set/unique crafting),
 - added safe unsocketting recipe (don't eat socketed items) - item + Ist + tp scroll,
 - new grand charm: Cain's Wisdom,
-- crafting infusions can be crafted - 1 corresponding pgem + 1 jewel fragment + Fal,
-- using 3 Larzuk's Puzzlepieces and Eternal Coins you can upgrade them to Larzuk's Puzzlebox,
+- crafting infusions can be crafted - 1 corresponding pgem + fragment of potential,
+- using 3 Larzuk's Puzzlepieces and fragment of potential you can upgrade them to Larzuk's Puzzlebox,
 - Anya sells HRs, rejuvs, rare misc items (including ToA moved from Akara) and mod items; you might need Gheed's Fortune to buy some of them,
 - maps can be multiplied by using Horadrim Scarab and Cartographer Orb (only t1-t3 maps),
 - changed launch splash, main menu, tcp/ip menu and character select screens to LoD (delete ``data/global/ui`` if you don't want that).

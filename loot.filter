@@ -5,7 +5,7 @@
 //
 //	For Casual and EndGame Players
 // 
-//	Edited by Senyubia for PD2SPE v3.1.0
+//	Edited by Senyubia for PD2SPE v3.2.0
 
 //Define Filter Strict Levels
 ItemDisplayFilterName[]: Hide Just Trash Items
@@ -18,7 +18,7 @@ ItemDisplayFilterName[]: Strict Filter - w/o Potions
 ItemDisplayFilterName[]: Max-Strictness Filter
 
 //Show info about current Filter Level in description of Horadric Cube
-ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%item.filter ver 13.3.2 PD2SPE v3.1.0 %BLACK%| %GRAY% updated: 2026-05-20}%CONTINUE%
+ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%item.filter ver 13.3.2 PD2SPE v3.2.0 %BLACK%| %GRAY% updated: 2026-05-25}%CONTINUE%
 ItemDisplay[box FILTLVL=0]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%0 - %TAN%Show All Items%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
 ItemDisplay[box FILTLVL=1]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%1 - %TAN%Hide Just Trash Items%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
 ItemDisplay[box FILTLVL=2]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%2 - %TAN%More Notify%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
@@ -4993,6 +4993,29 @@ ItemDisplay[uba]: %MAP-0A%%PX-62%%GRAY%*%RED%* %NAME% %RED%*%GRAY%*{%TAN%Note%WH
 
 //Project Diablo 2 Maps
 ItemDisplay[MAPTIER>0 NMAG]: %WHITE%%NAME%%CONTINUE%
+
+//////////////////////////////////
+// 	PD2SPE			//
+//////////////////////////////////
+
+// get rid of unique name for magic/rare maps to try to avoid overflow
+
+// t1
+ItemDisplay[(MAPTIER=1 OR t51 OR t58) MAG]: %BLUE%%BASENAME%%CONTINUE%
+ItemDisplay[(MAPTIER=1 OR t51 OR t58) RARE]: %YELLOW%%BASENAME%%CONTINUE%
+
+// t2
+ItemDisplay[(MAPTIER=2 OR t53 OR t52 OR t57) MAG]: %BLUE%%BASENAME%%CONTINUE%
+ItemDisplay[(MAPTIER=2 OR t53 OR t52 OR t57) RARE]: %YELLOW%%BASENAME%%CONTINUE%
+
+// t3
+ItemDisplay[(MAPTIER=3 OR (MAPTIER=5 !t51 !t52 !t53 !t57 !t58)) MAG]: %BLUE%%BASENAME%%CONTINUE%
+ItemDisplay[(MAPTIER=3 OR (MAPTIER=5 !t51 !t52 !t53 !t57 !t58)) RARE]: %YELLOW%%BASENAME%%CONTINUE%
+
+//////////////////////////////////
+//	FILTER CONT.		//
+//////////////////////////////////
+
 ItemDisplay[MAPTIER=1 OR t51 OR t58]: %GRAY%[%DARK_GREEN%T1%GRAY%] %NAME% %DARK_GREEN%*%CONTINUE%
 ItemDisplay[MAPTIER=2 OR t53 OR t52 OR t57]: %GRAY%[%TAN%T2%GRAY%] %NAME% %TAN%*%CONTINUE%
 ItemDisplay[MAPTIER=3 OR (MAPTIER=5 !t51 !t52 !t53 !t57 !t58)]: %GRAY%[%ORANGE%T3%GRAY%] %NAME% %ORANGE%*%CONTINUE%
@@ -5000,130 +5023,112 @@ ItemDisplay[MAPTIER=4]: %GRAY%[%RED%D%GRAY%] %NAME% %RED%*%CONTINUE%
 ItemDisplay[MAPTIER>0 (!ID OR NMAG) !UNI]: %MAP-7F%%NAME%%CONTINUE%
 ItemDisplay[MAPTIER>0 !ID UNI]: %MAP-7F%%DOT-68%%RED%*%GREEN%*%YELLOW%*          %NAME%          %YELLOW%*%GREEN%*%RED%*%CONTINUE%
 ItemDisplay[MAPTIER~1-3 NMAG]: %NAME%{%TAN%Note%WHITE%: To Modify Maps visit Anya}%CONTINUE%
-ItemDisplay[MAPTIER=1]: %NAME%{%WHITE%3x%BLUE%M%WHITE%a%YELLOW%p %WHITE%Tier: %DARK_GREEN%1 %WHITE%= Random Tier: %DARK_GREEN%1 %WHITE%Map%CL%%NAME%}%CONTINUE%
-ItemDisplay[MAPTIER=2]: %NAME%{%WHITE%3x%BLUE%M%WHITE%a%YELLOW%p %WHITE%Tier: %TAN%2 %WHITE%= Random Tier: %TAN%2 %WHITE%Map%CL%%NAME%}%CONTINUE%
-ItemDisplay[MAPTIER=3]: %NAME%{%WHITE%3x%BLUE%M%WHITE%a%YELLOW%p %WHITE%Tier: %ORANGE%3 %WHITE%= Random Tier: %ORANGE%3 %WHITE%Map%CL%%NAME%}%CONTINUE%
-ItemDisplay[MAPTIER=4]: %NAME%{%WHITE%3x%BLUE%M%WHITE%a%YELLOW%p %WHITE%Tier: %RED%4 %WHITE%= Random Tier: %RED%4 %WHITE%Map%CL%%NAME%}%CONTINUE%
+
+//////////////////////////////////
+// 	PD2SPE			//
+//////////////////////////////////
+
+// add info about map roulette only to white maps
+ItemDisplay[MAPTIER=1 NMAG]: %NAME%{%WHITE%3x%BLUE%M%WHITE%a%YELLOW%p %WHITE%Tier: %DARK_GREEN%1 %WHITE%= Random Tier: %DARK_GREEN%1 %WHITE%Map%CL%%NAME%}%CONTINUE%
+ItemDisplay[MAPTIER=2 NMAG]: %NAME%{%WHITE%3x%BLUE%M%WHITE%a%YELLOW%p %WHITE%Tier: %TAN%2 %WHITE%= Random Tier: %TAN%2 %WHITE%Map%CL%%NAME%}%CONTINUE%
+ItemDisplay[MAPTIER=3 NMAG]: %NAME%{%WHITE%3x%BLUE%M%WHITE%a%YELLOW%p %WHITE%Tier: %ORANGE%3 %WHITE%= Random Tier: %ORANGE%3 %WHITE%Map%CL%%NAME%}%CONTINUE%
+ItemDisplay[MAPTIER=4 NMAG]: %NAME%{%WHITE%3x%BLUE%M%WHITE%a%YELLOW%p %WHITE%Tier: %RED%4 %WHITE%= Random Tier: %RED%4 %WHITE%Map%CL%%NAME%}%CONTINUE%
+
+//////////////////////////////////
+//	FILTER CONT.		//
+//////////////////////////////////
+
 ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]: %NAME%{%GRAY%(without PermaDeath on HC)%CL%You can challenge other Players here%CL%%TAN%Note%WHITE%: PvP Arena}%CONTINUE%
+
+//////////////////////////////////
+// 	PD2SPE			//
+//////////////////////////////////
+
+// remove line about boss damage and monsters higher res, leave only actual res values
 
 //Map Immunes (Fire/Cold/Light/Poison/Magic/Phys)
 //UNKNOWN MAPS
-ItemDisplay[MAPTIER~1-5 !KNOWNMAPS]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[MAPTIER~1-5 !KNOWNMAPS]: %NAME%{%RED%F%WHITE%:%GRAY%??? %BLACK%| %BLUE%C%WHITE%:%GRAY%??? %BLACK%| %YELLOW%L%WHITE%:%GRAY%??? %BLACK%| %GREEN%P%WHITE%:%GRAY%??? %BLACK%| %ORANGE%M%WHITE%:%GRAY%??? %BLACK%| %GOLD%P%WHITE%:%GRAY%???%CL%%NAME%}%CONTINUE%
 //Ruins of Viz-Jun Map
-ItemDisplay[t11]: %NAME%{%WHITE%Boss Damage: %ORANGE%Magic %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t11]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:%CORAL%120 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:80 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:%CORAL%115%CL%%NAME%}%CONTINUE%
 //Horazon's Memory Map
-ItemDisplay[t12]: %NAME%{%WHITE%Boss Damage: %GOLD%Phys %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t12]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:%CORAL%120 %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:%CORAL%115%CL%%NAME%}%CONTINUE%
 //Bastion Keep Map
-ItemDisplay[t13]: %NAME%{%WHITE%Boss Damage: %BLUE%Cold %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t13]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:%CORAL%120 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:85 %BLACK%| %ORANGE%M%WHITE%:%CORAL%105 %BLACK%| %GOLD%P%WHITE%:%CORAL%115%CL%%NAME%}%CONTINUE%
 //Sanatorium Map
-ItemDisplay[t14]: %NAME%{%WHITE%Boss Damage: %GOLD%Phys%WHITE%/%ORANGE%Magic %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t14]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:%CORAL%120 %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:%CORAL%105 %BLACK%| %GOLD%P%WHITE%:60%CL%%NAME%}%CONTINUE%
 //Royal Crypts Map
-ItemDisplay[t15]: %NAME%{%WHITE%Boss Damage: %GOLD%Phys%WHITE%/%ORANGE%Magic %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t15]: %NAME%{%RED%F%WHITE%:%CORAL%120 %BLACK%| %BLUE%C%WHITE%:%CORAL%120 %BLACK%| %YELLOW%L%WHITE%:80 %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:45 %BLACK%| %GOLD%P%WHITE%:50%CL%%NAME%}%CONTINUE%
 //Ruined Cistern Map
-ItemDisplay[t16]: %NAME%{%WHITE%Boss Damage: %GOLD%Phys%WHITE%/%GREEN%Poison %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t16]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:%CORAL%120 %BLACK%| %ORANGE%M%WHITE%:%CORAL%105 %BLACK%| %GOLD%P%WHITE%:60%CL%%NAME%}%CONTINUE%
 //Halls of Torture
-ItemDisplay[t17]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t17]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:%CORAL%120 %BLACK%| %YELLOW%L%WHITE%:%CORAL%120 %BLACK%| %GREEN%P%WHITE%:85 %BLACK%| %ORANGE%M%WHITE%:35 %BLACK%| %GOLD%P%WHITE%:50%CL%%NAME%}%CONTINUE%
 //Phlegethon Map
-ItemDisplay[t21]: %NAME%{%WHITE%Boss Damage: %RED%Fire %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t21]: %NAME%{%RED%F%WHITE%:%CORAL%120 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:80 %BLACK%| %GREEN%P%WHITE%:%CORAL%120 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:50%CL%%NAME%}%CONTINUE%
 //Torajan Jungle Map
-ItemDisplay[t22]: %NAME%{%WHITE%Boss Damage: %GOLD%Phys%WHITE%/%GREEN%Poison %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t22]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:%CORAL%120 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:%CORAL%120 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:50%CL%%NAME%}%CONTINUE%
 //Arreat Battlefield Map
-ItemDisplay[t23]: %NAME%{%WHITE%Boss Damage: %GOLD%Phys%WHITE%/%ORANGE%Magic %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t23]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:%CORAL%120 %BLACK%| %GREEN%P%WHITE%:%CORAL%120 %BLACK%| %ORANGE%M%WHITE%:%CORAL%105 %BLACK%| %GOLD%P%WHITE%:50%CL%%NAME%}%CONTINUE%
 //Tomb of Zoltun Kulle Map
-ItemDisplay[t24]: %NAME%{%WHITE%Boss Damage: %GOLD%Phys%WHITE%/%GREEN%Poison %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t24]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:%CORAL%120 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:%CORAL%115%CL%%NAME%}%CONTINUE%
 //Sewers of Harrogath Map
-ItemDisplay[t25]: %NAME%{%WHITE%Boss Damage: %YELLOW%Light %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t25]: %NAME%{%RED%F%WHITE%:%CORAL%120 %BLACK%| %BLUE%C%WHITE%:80 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:%CORAL%120 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:66%CL%%NAME%}%CONTINUE%
 //Shadows of Westmarch Map
-ItemDisplay[t26]: %NAME%{%WHITE%Boss Damage: %GOLD%Phys%WHITE%/%ORANGE%Magic %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t26]: %NAME%{%RED%F%WHITE%:%CORAL%120 %BLACK%| %BLUE%C%WHITE%:85 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:%CORAL%105 %BLACK%| %GOLD%P%WHITE%:50%CL%%NAME%}%CONTINUE%
 //Demon Road
-ItemDisplay[t27]: %NAME%{%WHITE%Boss Damage: %GOLD%Phys %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t27]: %NAME%{%RED%F%WHITE%:%CORAL%120 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:%CORAL%120 %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:40 %BLACK%| %GOLD%P%WHITE%:%CORAL%115%CL%%NAME%}%CONTINUE%
 //Skovos Stronghold
-ItemDisplay[t28]: %NAME%{%WHITE%Boss Damage: %GOLD%Phys%WHITE%/%ORANGE%Magic %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t28]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:%CORAL%120 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:%CORAL%120 %BLACK%| %ORANGE%M%WHITE%:40 %BLACK%| %GOLD%P%WHITE%:55%CL%%NAME%}%CONTINUE%
 //River of Blood Map
-ItemDisplay[t31]: %NAME%{%WHITE%Boss Damage: %GREEN%Poison%WHITE%/%BLUE%Cold %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t31]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:%CORAL%120 %BLACK%| %GREEN%P%WHITE%:%CORAL%120 %BLACK%| %ORANGE%M%WHITE%:%CORAL%105 %BLACK%| %GOLD%P%WHITE%:66%CL%%NAME%}%CONTINUE%
 //Throne of Insanity Map
-ItemDisplay[t32]: %NAME%{%WHITE%Boss Damage: %RED%Fire %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t32]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:%CORAL%120 %BLACK%| %ORANGE%M%WHITE%:75 %BLACK%| %GOLD%P%WHITE%:%CORAL%115%CL%%NAME%}%CONTINUE%
 //Lost Temple Map
-ItemDisplay[t33]: %NAME%{%WHITE%Boss Damage: %GREEN%Poison%WHITE%/%GOLD%Phys %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t33]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:%CORAL%120 %BLACK%| %YELLOW%L%WHITE%:80 %BLACK%| %GREEN%P%WHITE%:80 %BLACK%| %ORANGE%M%WHITE%:%CORAL%105 %BLACK%| %GOLD%P%WHITE%:55%CL%%NAME%}%CONTINUE%
 //Ancestral Trial Map
-ItemDisplay[t34]: %NAME%{%WHITE%Boss Damage: %BLUE%Cold %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t34]: %NAME%{%RED%F%WHITE%:%CORAL%120 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:%CORAL%120 %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:50%CL%%NAME%}%CONTINUE%
 //Blood Moon Map
-ItemDisplay[t35]: %NAME%{%WHITE%Boss Damage: %GOLD%Phys%WHITE%/%YELLOW%Light %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t35]: %NAME%{%RED%F%WHITE%:65 %BLACK%| %BLUE%C%WHITE%:65 %BLACK%| %YELLOW%L%WHITE%:65 %BLACK%| %GREEN%P%WHITE%:65 %BLACK%| %ORANGE%M%WHITE%:33 %BLACK%| %GOLD%P%WHITE%:50%CL%%NAME%}%CONTINUE%
 //Fall of Caldeum Map
-ItemDisplay[t36]: %NAME%{%WHITE%Boss Damage: %GOLD%Phys %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t36]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:%CORAL%120 %BLACK%| %GREEN%P%WHITE%:80 %BLACK%| %ORANGE%M%WHITE%:%CORAL%105 %BLACK%| %GOLD%P%WHITE%:%CORAL%115%CL%%NAME%}%CONTINUE%
 //Pandemonium Citadel Map
-ItemDisplay[t37]: %NAME%{%WHITE%Boss Damage: %RED%Fire%WHITE%/%GOLD%Phys %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t37]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:%CORAL%120 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:80 %BLACK%| %ORANGE%M%WHITE%:%CORAL%105 %BLACK%| %GOLD%P%WHITE%:50%CL%%NAME%}%CONTINUE%
 //Canyon of Sescheron Map
-ItemDisplay[t38]: %NAME%{%WHITE%Boss Damage: %BLUE%Cold %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t38]: %NAME%{%RED%F%WHITE%:%CORAL%120 %BLACK%| %BLUE%C%WHITE%:80 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:55 %BLACK%| %GOLD%P%WHITE%:%CORAL%115%CL%%NAME%}%CONTINUE%
 //Kehjistan Marketplace Map
-ItemDisplay[t39]: %NAME%{%WHITE%Boss Damage: %GOLD%Phys %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t39]: %NAME%{%RED%F%WHITE%:%CORAL%120 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:%CORAL%115%CL%%NAME%}%CONTINUE%
 //Ashen Plains Map
-ItemDisplay[t3a]: %NAME%{%WHITE%Boss Damage: %RED%Fire%WHITE%/%YELLOW%Light %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t3a]: %NAME%{%RED%F%WHITE%:%CORAL%120 %BLACK%| %BLUE%C%WHITE%:%CORAL%130 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:50%CL%%NAME%}%CONTINUE%
 //Kyovoshad
-ItemDisplay[t3b]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t3b]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:66%CL%%NAME%}%CONTINUE%
 //Cathedral of Light Map
-ItemDisplay[t41]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t41]: %NAME%{%RED%F%WHITE%:%CORAL%145 %BLACK%| %BLUE%C%WHITE%:%CORAL%145 %BLACK%| %YELLOW%L%WHITE%:%CORAL%145 %BLACK%| %GREEN%P%WHITE%:%CORAL%145 %BLACK%| %ORANGE%M%WHITE%:%CORAL%145 %BLACK%| %GOLD%P%WHITE%:%CORAL%120%CL%%NAME%}%CONTINUE%
 //Plains of Torment Map
-ItemDisplay[t42]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t43]: %NAME%{%RED%F%WHITE%:%CORAL%145 %BLACK%| %BLUE%C%WHITE%:%CORAL%145 %BLACK%| %YELLOW%L%WHITE%:%CORAL%145 %BLACK%| %GREEN%P%WHITE%:%CORAL%145 %BLACK%| %ORANGE%M%WHITE%:%CORAL%145 %BLACK%| %GOLD%P%WHITE%:%CORAL%120%CL%%NAME%}%CONTINUE%
 //Sanctuary of Sin Map
-ItemDisplay[t43]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t43]: %NAME%{%RED%F%WHITE%:%CORAL%145 %BLACK%| %BLUE%C%WHITE%:%CORAL%165 %BLACK%| %YELLOW%L%WHITE%:%CORAL%145 %BLACK%| %GREEN%P%WHITE%:%CORAL%165 %BLACK%| %ORANGE%M%WHITE%:%CORAL%145 %BLACK%| %GOLD%P%WHITE%:%CORAL%120%CL%%NAME%}%CONTINUE%
 //Steppes of Daken-Shar
-ItemDisplay[t44]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t44]: %NAME%{%RED%F%WHITE%:%CORAL%145 %BLACK%| %BLUE%C%WHITE%:%CORAL%145 %BLACK%| %YELLOW%L%WHITE%:%CORAL%145 %BLACK%| %GREEN%P%WHITE%:%CORAL%145 %BLACK%| %ORANGE%M%WHITE%:%CORAL%145 %BLACK%| %GOLD%P%WHITE%:%CORAL%120%CL%%NAME%}%CONTINUE%
 //Zhar's Sanctum Map
-ItemDisplay[t51]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t51]: %NAME%{%RED%F%WHITE%:85 %BLACK%| %BLUE%C%WHITE%:85 %BLACK%| %YELLOW%L%WHITE%:85 %BLACK%| %GREEN%P%WHITE%:95 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:65%CL%%NAME%}%CONTINUE%
 //Stygian Caverns Map
-ItemDisplay[t52]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t52]: %NAME%{%RED%F%WHITE%:70 %BLACK%| %BLUE%C%WHITE%:65 %BLACK%| %YELLOW%L%WHITE%:65 %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:55%CL%%NAME%}%CONTINUE%
 //Fallen Gardens Map
-ItemDisplay[t53]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t53]: %NAME%{%RED%F%WHITE%:70 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:65 %BLACK%| %GREEN%P%WHITE%:80 %BLACK%| %ORANGE%M%WHITE%:80 %BLACK%| %GOLD%P%WHITE%:65%CL%%NAME%}%CONTINUE%
 //Imperial Palace
-ItemDisplay[t54]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t54]: %NAME%{%RED%F%WHITE%:65 %BLACK%| %BLUE%C%WHITE%:65 %BLACK%| %YELLOW%L%WHITE%:65 %BLACK%| %GREEN%P%WHITE%:65 %BLACK%| %ORANGE%M%WHITE%:20 %BLACK%| %GOLD%P%WHITE%:20%CL%%NAME%}%CONTINUE%
 //Outer Void
-ItemDisplay[t55]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t55]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:50 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:30 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:50%CL%%NAME%}%CONTINUE%
 //City of Ureh
-ItemDisplay[t56]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t56]: %NAME%{%RED%F%WHITE%:85 %BLACK%| %BLUE%C%WHITE%:80 %BLACK%| %YELLOW%L%WHITE%:%CORAL%100%GRAY%? %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:65%CL%%NAME%}%CONTINUE%
 //Djinn's Domain
-ItemDisplay[t57]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t57]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:75 %BLACK%| %YELLOW%L%WHITE%:75 %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:55%CL%%NAME%}%CONTINUE%
 //Na-Krul's Abyss
-ItemDisplay[t58]: %NAME%{%WHITE%Boss Damage: %GRAY%Missing Data %BLACK%| %WHITE%Monsters Highest Res:%CL%%NAME%}%CONTINUE%
 ItemDisplay[t58]: %NAME%{%RED%F%WHITE%:75 %BLACK%| %BLUE%C%WHITE%:85 %BLACK%| %YELLOW%L%WHITE%:80 %BLACK%| %GREEN%P%WHITE%:75 %BLACK%| %ORANGE%M%WHITE%:50 %BLACK%| %GOLD%P%WHITE%:50%CL%%NAME%}%CONTINUE%
+
+//////////////////////////////////
+//	FILTER CONT.		//
+//////////////////////////////////
 
 // ==============================
 // EXPERIMENTAL MAP SCORING SYSTEM START
@@ -5193,9 +5198,18 @@ Formula[MFC]: max(1,min(10,round(if((((100+STAT372)*(100+STAT370)*(80+STAT372)*(
 // DISPLAY
 // ==============================
 
-ItemDisplay[MAPTIER=1 (MAG OR RARE)]: %NAME%{%WHITE%Exp. Rating: %BLUE%%FORMULAXPA% %BLACK%| %WHITE%MF Rating: %BLUE%%FORMULAMFA% %DARK_GREEN%[1-10]%CL%%NAME%}%CONTINUE%
-ItemDisplay[MAPTIER=2 (MAG OR RARE)]: %NAME%{%WHITE%Exp. Rating: %BLUE%%FORMULAXPB% %BLACK%| %WHITE%MF Rating: %BLUE%%FORMULAMFB% %DARK_GREEN%[1-10]%CL%%NAME%}%CONTINUE%
-ItemDisplay[MAPTIER=3 (MAG OR RARE)]: %NAME%{%WHITE%Exp. Rating: %BLUE%%FORMULAXPC% %BLACK%| %WHITE%MF Rating: %BLUE%%FORMULAMFC% %DARK_GREEN%[1-10]%CL%%NAME%}%CONTINUE%
+//////////////////////////////////
+// 	PD2SPE			//
+//////////////////////////////////
+
+// make desc more succint to (try to) avoid overflow
+ItemDisplay[MAPTIER=1 (MAG OR RARE)]: %NAME%{%WHITE%XP: %BLUE%%FORMULAXPA% %BLACK%| %WHITE%MF: %BLUE%%FORMULAMFA% %CL%%NAME%}%CONTINUE%
+ItemDisplay[MAPTIER=2 (MAG OR RARE)]: %NAME%{%WHITE%XP: %BLUE%%FORMULAXPB% %BLACK%| %WHITE%MF: %BLUE%%FORMULAMFB% %CL%%NAME%}%CONTINUE%
+ItemDisplay[MAPTIER=3 (MAG OR RARE)]: %NAME%{%WHITE%XP: %BLUE%%FORMULAXPC% %BLACK%| %WHITE%MF: %BLUE%%FORMULAMFC% %CL%%NAME%}%CONTINUE%
+
+//////////////////////////////////
+//	FILTER CONT.		//
+//////////////////////////////////
 
 // ==============================
 // EXPERIMENTAL MAP SCORING SYSTEM STOP
@@ -5420,6 +5434,8 @@ ItemDisplay[NMAG !RW SORSTAFF (FILTLVL<2 OR (CLVL<80 AND FILTLVL~2-5))]: %NAME%{
 
 // new items
 
+Alias[PD2SPE]: (mfo OR exo OR gcbx OR gcbo OR ecoi OR tcoi OR dye OR fpot OR wssl)
+
 ItemDisplay[mfo]: %SOUNDID-34%%BORDER-60%%DOT-69%%NAME%{%NAME%%TAN%Note%WHITE%: Non-%RED%Corrupted %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb}%CONTINUE%
 ItemDisplay[mfo]: %NAME%{%CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE% + %ORANGE%Eternal Coin%WHITE% + %ORANGE%Essences%WHITE% = %GOLD%Unique%NL%%NAME%}%CONTINUE%
 ItemDisplay[mfo]: %NAME%{%WHITE%Add %ORANGE%Transient Coin%WHITE% to first preroll if creating equipment%NL%%NL%%NAME%}%CONTINUE%
@@ -5427,22 +5443,49 @@ ItemDisplay[mfo]: %NAME%{%RED%You must preroll and create an item in the same ga
 ItemDisplay[mfo]: %NAME%{%ORANGE%Essences%WHITE%: %BLUE%Blue%WHITE% + %YELLOW%Yellow%NL%%NL%%NAME%}%CONTINUE%
 ItemDisplay[mfo]: %NAME%{%WHITE%+ %RED%Red%WHITE% if Exceptional/Elite or Grand Charm%NL%%NAME%}%CONTINUE%
 ItemDisplay[mfo]: %NAME%{%WHITE%+ %GREEN%Green%WHITE% if Elite or Jewellery%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%GOLD%Mythic Orb%WHITE% + %GRAY%key%WHITE% = %ORANGE%Eternal Coin%NL%%NL%%NAME%}
+ItemDisplay[mfo]: %NAME%{%GOLD%Mythic Orb%WHITE% + %GRAY%key%WHITE% = %RED%Fragment of Potential%NL%%NL%%NAME%}
 
 ItemDisplay[exo]: %SOUNDID-1118%%MAP-7F%%PX-84%%NAME%{%NAME%%TAN%Note%WHITE%: %WHITE%Non-%RED%Corrupted %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb}%CONTINUE%
 ItemDisplay[exo]: %NAME%{%CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE% + %ORANGE%Eternal Coin%WHITE% + %BLUE%Blue%ORANGE% Essence%WHITE% = %GREEN%Set%NL%%NAME%}%CONTINUE%
 ItemDisplay[exo]: %NAME%{%WHITE%Add %ORANGE%Transient Coin%WHITE% to first preroll if creating equipment%NL%%NL%%NAME%}%CONTINUE%
 ItemDisplay[exo]: %NAME%{%RED%You must preroll and create an item in the same game%NL%%NAME%}%CONTINUE%
-ItemDisplay[exo]: %NAME%{%GREEN%Exalted Orb%WHITE% + %GRAY%key%WHITE% = %ORANGE%Eternal Coin%WHITE%%NL%%NL%%NAME%}
+ItemDisplay[exo]: %NAME%{%GREEN%Exalted Orb%WHITE% + %GRAY%key%WHITE% = %RED%Fragment of Potential%WHITE%%NL%%NL%%NAME%}
 
 ItemDisplay[gcbx]: %SOUNDID-248%%MAP-0A%%PX-62%%NAME%{%NAME%%TAN%Note%WHITE%: %ORANGE%Gheed's Curious Box%WHITE% + %ORANGE%Eternal Coin%WHITE% = %ORANGE%Opened Gheed's Curious Box%WHITE%}%CONTINUE%
-ItemDisplay[gcbx]: %NAME%{%WHITE%2 %ORANGE%Gheed's Curious Box%WHITE% + %GRAY%key%WHITE% = %ORANGE%Eternal Coin%WHITE%%NL%%NL%%NAME%}
+ItemDisplay[gcbx]: %NAME%{%ORANGE%Gheed's Curious Box%WHITE% = %ORANGE%Opened Gheed's Curious Box%WHITE% (imperfect)%NL%%NAME%}
 
 ItemDisplay[gcbo]: %NAME%{%NAME%%TAN%Note%WHITE%: Probability distribution of gems from the box is the same as on mob drop}
 
 ItemDisplay[ecoi]: %NAME%{%NAME%}%CONTINUE%
 
 ItemDisplay[tcoi]: %NAME%{%NAME%%TAN%Note%WHITE%: Refunded on successful item creation}
+
+ItemDisplay[dye]: %NAME%{%NAME%%TAN%Note%WHITE%: Cube with item and gems to apply color}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Only armor and weapons are dyeable%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Colors and required perf gems:%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Original (nothing)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%White (O)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Grey (O%GRAY%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Black (%GRAY%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Blue (%BLUE%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Red (%RED%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Green (%GREEN%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Yellow (%YELLOW%OO%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Gold (%YELLOW%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Purple (%PURPLE%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Orange (%RED%O%YELLOW%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Add O/%GRAY%O%WHITE% to make color lighter/darker where applicable%NL%%NAME%}
+
+ItemDisplay[fpot]: %NAME%{%NAME%%TAN%Note%WHITE%: Known recipes:}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%WHITE%Perf gem + %RED%Fragment%WHITE% = %ORANGE%Crafting infusion%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%WHITE%3 %GOLD%Larzuk's Piece%WHITE% + %RED%Fragment%WHITE% = %GOLD%Larzuk's Box%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%GOLD%Larzuk's Box%WHITE% + %RED%Worldstone Shard%WHITE% + %RED%Fragment%WHITE% = %GOLD%Demonic Cube%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%WHITE%3 %ORANGE%Lower Tier Essence%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Higher Tier Essence%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%ORANGE%Higher Tier Essence%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Lower Tier Essence%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%ORANGE%Higher Tier Rune%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Lower Tier Rune%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%RED%Worldstone Shard%WHITE% + %RED%Fragment%WHITE% = 3 %RED%Worldstone Sliver%NL%%NAME%}%CONTINUE%
+
+ItemDisplay[wssl]: %NAME%{%NAME%}
 
 //////////////////////////////////
 //	FILTER CONT.		//
@@ -5451,8 +5494,18 @@ ItemDisplay[tcoi]: %NAME%{%NAME%%TAN%Note%WHITE%: Refunded on successful item cr
 //Always show me those items
 ItemDisplay[UNI OR SET OR RW OR CRAFT OR GEMMED OR EQUIPPED OR SHOP OR leg]: %NAME%{%NAME%}
 
+//////////////////////////////////
+// 	PD2SPE			//
+//////////////////////////////////
+
+// new items aren't unknown
+
 //Notifying for Unknown Items (future proofing) (Thanks to BetweenWalls)
-ItemDisplay[(ILVL>1 OR QTY>0 OR PRICE>1) !(ARMOR OR WEAPON OR amu OR rin OR QUIVER OR cm1 OR cm2 OR cm3 OR jew OR jewf OR RUNE>0 OR GEMTYPE>0 OR MAPTIER>-1 OR hp1 OR mp1 OR hp2 OR mp2 OR hp3 OR mp3 OR hp4 OR mp4 OR hp5 OR mp5 OR pvpp OR rvs OR rvl OR vps OR wms OR yps OR key OR tsc OR isc OR tbk OR ibk OR ear OR bks OR bkd OR box OR vip OR tr1 OR ass OR j34 OR g34 OR xyz OR bbb OR qbr OR qey OR qhr OR mss OR ice OR tr2 OR toa OR tes OR ceh OR bet OR fed OR dhn OR bey OR mbr OR pk1 OR pk2 OR pk3 OR std OR wss OR cwss OR lpp OR lbox OR lmal OR crfb OR crfc OR crfh OR crfs OR crfv OR crfu OR crfp OR rtp OR rid OR rkey OR lsvl OR llmr OR ubtm OR uba OR ubaa OR ubab OR ubac OR dcma OR dcso OR dcho OR dcbl OR rtma OR rtmv OR rtmo OR cm2f OR rtmf OR iwss OR scrb OR upmp OR scou OR irma OR irra OR urma OR rrra OR imma OR imra OR upma OR rera OR fort OR ram OR luca OR lucb OR lucc OR lucd OR imrn OR cm1p OR cm2p OR cm3p)]: %SOUNDID-705%%MAP-0A%%PX-62%%NAME%{%NAME%%CL%%WHITE%Item description will be adjusted later during the season.%CL%%TAN%Note%WHITE%: This item is recently added to the game.}	// notifications for unknown items (the first group of conditions including ilvl/qty/price is a workaround for !GOLD>0 since that doesn't work like other conditions)
+ItemDisplay[(ILVL>1 OR QTY>0 OR PRICE>1) !(ARMOR OR WEAPON OR amu OR rin OR QUIVER OR cm1 OR cm2 OR cm3 OR jew OR jewf OR RUNE>0 OR GEMTYPE>0 OR MAPTIER>-1 OR hp1 OR mp1 OR hp2 OR mp2 OR hp3 OR mp3 OR hp4 OR mp4 OR hp5 OR mp5 OR pvpp OR rvs OR rvl OR vps OR wms OR yps OR key OR tsc OR isc OR tbk OR ibk OR ear OR bks OR bkd OR box OR vip OR tr1 OR ass OR j34 OR g34 OR xyz OR bbb OR qbr OR qey OR qhr OR mss OR ice OR tr2 OR toa OR tes OR ceh OR bet OR fed OR dhn OR bey OR mbr OR pk1 OR pk2 OR pk3 OR std OR wss OR cwss OR lpp OR lbox OR lmal OR crfb OR crfc OR crfh OR crfs OR crfv OR crfu OR crfp OR rtp OR rid OR rkey OR lsvl OR llmr OR ubtm OR uba OR ubaa OR ubab OR ubac OR dcma OR dcso OR dcho OR dcbl OR rtma OR rtmv OR rtmo OR cm2f OR rtmf OR iwss OR scrb OR upmp OR scou OR irma OR irra OR urma OR rrra OR imma OR imra OR upma OR rera OR fort OR ram OR luca OR lucb OR lucc OR lucd OR imrn OR cm1p OR cm2p OR cm3p OR PD2SPE)]: %SOUNDID-705%%MAP-0A%%PX-62%%NAME%{%NAME%%CL%%WHITE%Item description will be adjusted later during the season.%CL%%TAN%Note%WHITE%: This item is recently added to the game.}	// notifications for unknown items (the first group of conditions including ilvl/qty/price is a workaround for !GOLD>0 since that doesn't work like other conditions)
+
+//////////////////////////////////
+//	FILTER CONT.		//
+//////////////////////////////////
 
 //HIDE EVERYTHING ELSE
 ItemDisplay[(ARMOR OR WEAPON OR QUIVER) (MAG OR RARE) !ID (FILTLVL<2 OR (CLVL<41 FILTLVL<6))]: %NAME%

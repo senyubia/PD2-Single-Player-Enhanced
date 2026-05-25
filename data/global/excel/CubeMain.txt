@@ -2385,6 +2385,8 @@ Convert prerolled base quiver to unique	1			100	18	361	2000		5	misl,bas,uni	"mfo
 Convert prerolled exceptional quiver to unique	1			100	18	361	2000		6	misl,exc,uni	"mfo,qty=1"	ecoi,qty=1	tes,qty=1	ceh,qty=1	bet,qty=1		useitem,reg	99																																																																																						0
 Convert prerolled elite quiver to unique	1			100	18	361	2000		7	misl,eli,uni	"mfo,qty=1"	ecoi,qty=1	tes,qty=1	ceh,qty=1	bet,qty=1	fed,qty=1	useitem,reg	99																																																																																						0
 																																																																																																								0
+Dissolve into fragments of potential	1			100					2	key,qty=1	mfo,qty=1						useitem			100																										fpot,qty=25																																																										0
+																																																																																																								0
 EXALTED ORB																																																																																																								0
 																																																																																																								0
 Convert magic armor to set preroll	1			100	18	361	0		3	armo,mag	"exo,qty=1"	tcoi					usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
@@ -2407,26 +2409,57 @@ Convert rare amulet to set preroll	1			100	18	361	0		2	amul,rar	"exo,qty=1"					
 Reroll prerolled set amulet	1			100	18	361	2000		2	amul,set	"exo,qty=1"						usetype,set	99			levelreq	100		100	100	corruptnum	100		2000	2000																"exo,qty=1"																																																										0
 Convert prerolled amulet to set	1			100	18	361	2000		4	amul,set	"exo,qty=1"	ecoi,qty=1	tes,qty=1				useitem,reg	99																																																																																						0
 																																																																																																								0
+Dissolve into fragments of potential	1			100					2	key,qty=1	exo,qty=1						useitem			100																										fpot,qty=5																																																										0
+																																																																																																								0
 CRAFTING																																																																																																								0
 																																																																																																								0
-Create Caster crafting infusion	1			100	18	361	0		3	jewf,qty=1	gpvs,qty=1	r19s,qty=1					crfc																																																																																							0
-Create Bountiful crafting infusion	1			100	18	361	0		3	jewf,qty=1	gpys,qty=1	r19s,qty=1					crfu																																																																																							0
-Create Vampiric crafting infusion	1			100	18	361	0		3	jewf,qty=1	skzs,qty=1	r19s,qty=1					crfv																																																																																							0
-Create Bloody crafting infusion	1			100	18	361	0		3	jewf,qty=1	gprs,qty=1	r19s,qty=1					crfb																																																																																							0
-Create Brilliant crafting infusion	1			100	18	361	0		3	jewf,qty=1	gpws,qty=1	r19s,qty=1					crfp																																																																																							0
-Create Hitpower crafting infusion	1			100	18	361	0		3	jewf,qty=1	gpbs,qty=1	r19s,qty=1					crfh																																																																																							0
-Create Safety crafting infusion	1			100	18	361	0		3	jewf,qty=1	gpgs,qty=1	r19s,qty=1					crfs																																																																																							0
+Create Caster crafting infusion	1			100					2	gpvs,qty=1	fpot,qty=1						crfc,qty=1																																																																																							0
+Create Bountiful crafting infusion	1			100					2	gpys,qty=1	fpot,qty=1						crfu,qty=1																																																																																							0
+Create Vampiric crafting infusion	1			100					2	skzs,qty=1	fpot,qty=1						crfv,qty=1																																																																																							0
+Create Bloody crafting infusion	1			100					2	gprs,qty=1	fpot,qty=1						crfb,qty=1																																																																																							0
+Create Brilliant crafting infusion	1			100					2	gpws,qty=1	fpot,qty=1						crfp,qty=1																																																																																							0
+Create Hitpower crafting infusion	1			100					2	gpbs,qty=1	fpot,qty=1						crfh,qty=1																																																																																							0
+Create Safety crafting infusion	1			100					2	gpgs,qty=1	fpot,qty=1						crfs,qty=1																																																																																							0
+																																																																																																								0
+WORLDSTONE SLIVER																																																																																																								0
+																																																																																																								0
+Degrade crafted to magic	1			100					2	any,crf	wssl,qty=1						usetype,mag			100																																																																																				0
 																																																																																																								0
 EXCHANGES																																																																																																								0
 																																																																																																								0
-3x LPP + 2x Coin = Larzuk's Puzzle Box	1			100					2	lpp,qty=3	ecoi,qty=1						lbox																																																																																							0
-2x gcbx + key = 1x ecoi	1			100					2	key,qty=1	gcbx,qty=2						useitem			100																										ecoi,qty=1																																																										0
-1x exo + key = 1x ecoi	1			100					2	key,qty=1	exo,qty=1						useitem			100																										ecoi,qty=1																																																										0
-1x mfo + key = 2x ecoi	1			100					2	key,qty=1	mfo,qty=1						useitem			100																										ecoi,qty=2																																																										0
-																	useitem			100																																																																																				0
+3x lpp + fpot = lbox	1			100					2	lpp,qty=3	fpot,qty=1						lbox,qty=1																																																																																							0
+1x lbox + wss + fpot = imrn	1			100					3	lbox,qty=1	wss,qty=1	fpot,qty=1					imrn,qty=1																																																																																							0
+																																																																																																								0
+3x tes + fpot = ceh	1			100					2	tes,qty=3	fpot,qty=1						ceh,qty=1																																																																																							0
+3x ceh + fpot = bet	1			100					2	ceh,qty=3	fpot,qty=1						bet,qty=1																																																																																							0
+3x bet + fpot = fed	1			100					2	bet,qty=3	fpot,qty=1						fed,qty=1																																																																																							0
+1x fed + fpot = bet	1			100					2	fed,qty=1	fpot,qty=1						bet,qty=1																																																																																							0
+1x bet + fpot = ceh	1			100					2	bet,qty=1	fpot,qty=1						ceh,qty=1																																																																																							0
+1x ceh + fpot = tes	1			100					2	ceh,qty=1	fpot,qty=1						tes,qty=1																																																																																							0
+																																																																																																								0
+1x r18 + fpot = r17	1			100					2	r18g,qty=1	fpot,qty=1						r17s,qty=1																																																																																							0
+1x r17 + fpot = r16	1			100					2	r17g,qty=1	fpot,qty=1						r16s,qty=1																																																																																							0
+1x r16 + fpot = r15	1			100					2	r16g,qty=1	fpot,qty=1						r15s,qty=1																																																																																							0
+1x r15 + fpot = r14	1			100					2	r15g,qty=1	fpot,qty=1						r14s,qty=1																																																																																							0
+1x r14 + fpot = r13	1			100					2	r14g,qty=1	fpot,qty=1						r13s,qty=1																																																																																							0
+1x r13 + fpot = r12	1			100					2	r13g,qty=1	fpot,qty=1						r12s,qty=1																																																																																							0
+1x r12 + fpot = r11	1			100					2	r12g,qty=1	fpot,qty=1						r11s,qty=1																																																																																							0
+1x r11 + fpot = r10	1			100					2	r11g,qty=1	fpot,qty=1						r10s,qty=1																																																																																							0
+1x r10 + fpot = r09	1			100					2	r10g,qty=1	fpot,qty=1						r09s,qty=1																																																																																							0
+1x r09 + fpot = r08	1			100					2	r09g,qty=1	fpot,qty=1						r08s,qty=1																																																																																							0
+1x r08 + fpot = r07	1			100					2	r08g,qty=1	fpot,qty=1						r07s,qty=1																																																																																							0
+1x r07 + fpot = r06	1			100					2	r07g,qty=1	fpot,qty=1						r06s,qty=1																																																																																							0
+1x r06 + fpot = r05	1			100					2	r06g,qty=1	fpot,qty=1						r05s,qty=1																																																																																							0
+1x r05 + fpot = r04	1			100					2	r05g,qty=1	fpot,qty=1						r04s,qty=1																																																																																							0
+1x r04 + fpot = r03	1			100					2	r04g,qty=1	fpot,qty=1						r03s,qty=1																																																																																							0
+1x r03 + fpot = r02	1			100					2	r03g,qty=1	fpot,qty=1						r02s,qty=1																																																																																							0
+1x r02 + fpot = r01	1			100					2	r02g,qty=1	fpot,qty=1						r01s,qty=1																																																																																							0
+																																																																																																								0
+fpot + wss = 3x wssl	1			100					2	fpot,qty=1	wss,qty=1						wssl,qty=3																																																																																							0
+																																																																																																								0
 GHEED'S CURIOUS BOX																																																																																																								0
 																																																																																																								0
-Gheed's Curious Box Roll	1			100	18	361	0		2	gcbx,qty=1	ecoi,qty=1						gcbo				corruptnum	100		1501	1520																																																																															0
+Gheed's Curious Box Roll	1			100					2	gcbx,qty=1	ecoi,qty=1						gcbo				corruptnum	100		1501	1520																																																																															0
 Perfect Emeralds	1			100	15	361	1518		1	gcbo							"gpgs,qty=50"																																																																																							0
 Perfect Sapphires	1			100	15	361	1515		1	gcbo							"gpbs,qty=50"																																																																																							0
 Perfect Diamonds	1			100	15	361	1512		1	gcbo							"gpws,qty=50"																																																																																							0
@@ -2434,6 +2467,15 @@ Perfect Rubies	1			100	15	361	1509		1	gcbo							"gprs,qty=50"																		
 Perfect Skulls	1			100	15	361	1507		1	gcbo							"skzs,qty=50"																																																																																							0
 Perfets Topazes	1			100	15	361	1504		1	gcbo							"gpys,qty=50"																																																																																							0
 Perfect Amethysts	1			100	15	361	1501		1	gcbo							"gpvs,qty=50"																																																																																							0
+																																																																																																								0
+Gheed's Curious Box Roll - imperfect	1			100					1	gcbx,qty=1							gcbo				corruptnum	100		1401	1420																																																																															0
+Perfect Emeralds - imperfect	1			100	15	361	1418		1	gcbo							"gpgs,qty=3"																																																																																							0
+Perfect Sapphires - imperfect	1			100	15	361	1415		1	gcbo							"gpbs,qty=3"																																																																																							0
+Perfect Diamonds - imperfect	1			100	15	361	1412		1	gcbo							"gpws,qty=3"																																																																																							0
+Perfect Rubies - imperfect	1			100	15	361	1409		1	gcbo							"gprs,qty=3"																																																																																							0
+Perfect Skulls - imperfect	1			100	15	361	1407		1	gcbo							"skzs,qty=3"																																																																																							0
+Perfets Topazes - imperfect	1			100	15	361	1404		1	gcbo							"gpys,qty=3"																																																																																							0
+Perfect Amethysts - imperfect	1			100	15	361	1401		1	gcbo							"gpvs,qty=3"																																																																																							0
 																																																																																																								0
 UNIQUE MIRRORING RECIPES																																																																																																								0
 																																																																																																								0
@@ -2447,14 +2489,64 @@ SET MIRRORING RECIPES																																																											
 																																																																																																								0
 Mirror set armor	1			100					2	armo,set	llmr						useitem	99		100	dye	100		4	4	mirrored	100		1	1																useitem	99		100	dye	100		21	21	mirrored	100		1	1																																													0
 Mirror set weapon	1			100					2	weap,set	llmr						useitem	99		100	dye	100		4	4	mirrored	100		1	1																useitem	99		100	dye	100		21	21	mirrored	100		1	1																																													0
-Mirror set ring	1			100					2	ring,set	llmr						useitem				dye	100		4	4	mirrored	100		1	1																useitem				dye	100		4	4	mirrored	100		1	1																																													0
-Mirror set amulet	1			100					2	amul,set	llmr						useitem				dye	100		4	4	mirrored	100		1	1																useitem				dye	100		4	4	mirrored	100		1	1																																													0
+Mirror set ring	1			100					2	ring,set	llmr						useitem	99		100	dye	100		4	4	mirrored	100		1	1																useitem	99		100	dye	100		21	21	mirrored	100		1	1																																													0
+Mirror set amulet	1			100					2	amul,set	llmr						useitem	99		100	dye	100		4	4	mirrored	100		1	1																useitem	99		100	dye	100		21	21	mirrored	100		1	1																																													0
 																																																																																																								0
 HORADRIM SCARAB																																																																																																								0
 																																																																																																								0
-Multiply t1 map	1			100					2	t1me	scrb,qty=1	upmp,qty=1					useitem																													useitem,qty=1																													useitem,qty=1																													0
-Multiply t2 map	1			100					2	t2me	scrb,qty=1	upmp,qty=1					useitem																													useitem,qty=1																													useitem,qty=1																													0
-Multiply t3 map	1			100					2	t3me	scrb,qty=1	upmp,qty=1					useitem																													useitem,qty=1																													useitem,qty=1																													0
+Multiply t1 map	1			100					3	t1me	scrb,qty=1	upmp,qty=1					useitem																													useitem,qty=1																													useitem,qty=1																													0
+Multiply t2 map	1			100					3	t2me	scrb,qty=1	upmp,qty=1					useitem																													useitem,qty=1																													useitem,qty=1																													0
+Multiply t3 map	1			100					3	t3me	scrb,qty=1	upmp,qty=1					useitem																													useitem,qty=1																													useitem,qty=1																													0
+																																																																																																								0
+COLORING																																																																																																								0
+																																																																																																								0
+ARMOR																																																																																																								0
+Bleach	1			100	15	477	1		2	armo	dye,qty=1						useitem				dye	100		-1	-1																																																																															0
+Color bright white	1			100					3	armo	dye,qty=1	gpws,qty=2					useitem				dye	100		21	21																																																																															0
+Color white	1			100					3	armo	dye,qty=1	gpws,qty=1					useitem				dye	100		1	1																																																																															0
+Color light grey	1			100					4	armo	dye,qty=1	gpws,qty=2	skzs,qty=1				useitem				dye	100		2	2																																																																															0
+Color dark grey	1			100					4	armo	dye,qty=1	gpws,qty=1	skzs,qty=2				useitem				dye	100		3	3																																																																															0
+Color black	1			100					3	armo	dye,qty=1	skzs,qty=1					useitem				dye	100		4	4																																																																															0
+Color light blue	1			100					4	armo	dye,qty=1	gpbs,qty=1	gpws,qty=1				useitem				dye	100		5	5																																																																															0
+Color dark blue	1			100					4	armo	dye,qty=1	gpbs,qty=1	skzs,qty=1				useitem				dye	100		6	6																																																																															0
+Color crystal blue	1			100					3	armo	dye,qty=1	gpbs,qty=1					useitem				dye	100		7	7																																																																															0
+Color light red	1			100					4	armo	dye,qty=1	gprs,qty=1	gpws,qty=1				useitem				dye	100		8	8																																																																															0
+Color dark red	1			100					4	armo	dye,qty=1	gprs,qty=1	skzs,qty=1				useitem				dye	100		9	9																																																																															0
+Color crystal red	1			100					3	armo	dye,qty=1	gprs,qty=1					useitem				dye	100		10	10																																																																															0
+Color light green	1			100					4	armo	dye,qty=1	gpgs,qty=1	gpws,qty=1				useitem				dye	100		11	11																																																																															0
+Color dark green	1			100					4	armo	dye,qty=1	gpgs,qty=1	skzs,qty=1				useitem				dye	100		12	12																																																																															0
+Color crystal green	1			100					3	armo	dye,qty=1	gpgs,qty=1					useitem				dye	100		13	13																																																																															0
+Color light yellow	1			100					4	armo	dye,qty=1	gpys,qty=2	gpws,qty=1				useitem				dye	100		14	14																																																																															0
+Color dark yellow	1			100					4	armo	dye,qty=1	gpys,qty=2	skzs,qty=1				useitem				dye	100		15	15																																																																															0
+Color light gold	1			100					4	armo	dye,qty=1	gpys,qty=1	gpws,qty=1				useitem				dye	100		16	16																																																																															0
+Color dark gold	1			100					4	armo	dye,qty=1	gpys,qty=1	skzs,qty=1				useitem				dye	100		17	17																																																																															0
+Color light purple	1			100					4	armo	dye,qty=1	gpvs,qty=1	gpws,qty=1				useitem				dye	100		18	18																																																																															0
+Color dark purple	1			100					4	armo	dye,qty=1	gpvs,qty=1	skzs,qty=1				useitem				dye	100		19	19																																																																															0
+Color orange	1			100					4	armo	dye,qty=1	gprs,qty=1	gpys,qty=1				useitem				dye	100		20	20																																																																															0
+																																																																																																								0
+WEAPON																																																																																																								0
+Bleach	1			100	15	477	1		2	weap	dye,qty=1						useitem				dye	100		-1	-1																																																																															0
+Color bright white	1			100					3	weap	dye,qty=1	gpws,qty=2					useitem				dye	100		21	21																																																																															0
+Color white	1			100					3	weap	dye,qty=1	gpws,qty=1					useitem				dye	100		1	1																																																																															0
+Color light grey	1			100					4	weap	dye,qty=1	gpws,qty=2	skzs,qty=1				useitem				dye	100		2	2																																																																															0
+Color dark grey	1			100					4	weap	dye,qty=1	gpws,qty=1	skzs,qty=2				useitem				dye	100		3	3																																																																															0
+Color black	1			100					3	weap	dye,qty=1	skzs,qty=1					useitem				dye	100		4	4																																																																															0
+Color light blue	1			100					4	weap	dye,qty=1	gpbs,qty=1	gpws,qty=1				useitem				dye	100		5	5																																																																															0
+Color dark blue	1			100					4	weap	dye,qty=1	gpbs,qty=1	skzs,qty=1				useitem				dye	100		6	6																																																																															0
+Color crystal blue	1			100					3	weap	dye,qty=1	gpbs,qty=1					useitem				dye	100		7	7																																																																															0
+Color light red	1			100					4	weap	dye,qty=1	gprs,qty=1	gpws,qty=1				useitem				dye	100		8	8																																																																															0
+Color dark red	1			100					4	weap	dye,qty=1	gprs,qty=1	skzs,qty=1				useitem				dye	100		9	9																																																																															0
+Color crystal red	1			100					3	weap	dye,qty=1	gprs,qty=1					useitem				dye	100		10	10																																																																															0
+Color light green	1			100					4	weap	dye,qty=1	gpgs,qty=1	gpws,qty=1				useitem				dye	100		11	11																																																																															0
+Color dark green	1			100					4	weap	dye,qty=1	gpgs,qty=1	skzs,qty=1				useitem				dye	100		12	12																																																																															0
+Color crystal green	1			100					3	weap	dye,qty=1	gpgs,qty=1					useitem				dye	100		13	13																																																																															0
+Color light yellow	1			100					4	weap	dye,qty=1	gpys,qty=2	gpws,qty=1				useitem				dye	100		14	14																																																																															0
+Color dark yellow	1			100					4	weap	dye,qty=1	gpys,qty=2	skzs,qty=1				useitem				dye	100		15	15																																																																															0
+Color light gold	1			100					4	weap	dye,qty=1	gpys,qty=1	gpws,qty=1				useitem				dye	100		16	16																																																																															0
+Color dark gold	1			100					4	weap	dye,qty=1	gpys,qty=1	skzs,qty=1				useitem				dye	100		17	17																																																																															0
+Color light purple	1			100					4	weap	dye,qty=1	gpvs,qty=1	gpws,qty=1				useitem				dye	100		18	18																																																																															0
+Color dark purple	1			100					4	weap	dye,qty=1	gpvs,qty=1	skzs,qty=1				useitem				dye	100		19	19																																																																															0
+Color orange	1			100					4	weap	dye,qty=1	gprs,qty=1	gpys,qty=1				useitem				dye	100		20	20																																																																															0
 																																																																																																								0
 MISC																																																																																																								0
 																																																																																																								0

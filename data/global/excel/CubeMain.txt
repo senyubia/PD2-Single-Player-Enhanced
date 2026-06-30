@@ -2437,6 +2437,21 @@ EXCHANGES																																																																							
 1x bet + fpot = ceh	1			100					2	bet,qty=1	fpot,qty=1						ceh,qty=1																																																																																							0
 1x ceh + fpot = tes	1			100					2	ceh,qty=1	fpot,qty=1						tes,qty=1																																																																																							0
 																																																																																																								0
+1x r33 + fpot = r32	1			100					2	r33g,qty=1	fpot,qty=5						r32s,qty=1																																																																																							0
+1x r32 + fpot = r31	1			100					2	r32g,qty=1	fpot,qty=5						r31s,qty=1																																																																																							0
+1x r31 + fpot = r30	1			100					2	r31g,qty=1	fpot,qty=5						r30s,qty=1																																																																																							0
+1x r30 + fpot = r29	1			100					2	r30g,qty=1	fpot,qty=5						r29s,qty=1																																																																																							0
+1x r29 + fpot = r28	1			100					2	r29g,qty=1	fpot,qty=5						r28s,qty=1																																																																																							0
+1x r28 + fpot = r27	1			100					2	r28g,qty=1	fpot,qty=5						r27s,qty=1																																																																																							0
+1x r27 + fpot = r26	1			100					2	r27g,qty=1	fpot,qty=5						r26s,qty=1																																																																																							0
+1x r26 + fpot = r25	1			100					2	r26g,qty=1	fpot,qty=5						r25s,qty=1																																																																																							0
+1x r25 + fpot = r24	1			100					2	r25g,qty=1	fpot,qty=3						r24s,qty=1																																																																																							0
+1x r24 + fpot = r23	1			100					2	r24g,qty=1	fpot,qty=3						r23s,qty=1																																																																																							0
+1x r23 + fpot = r22	1			100					2	r23g,qty=1	fpot,qty=3						r22s,qty=1																																																																																							0
+1x r22 + fpot = r21	1			100					2	r22g,qty=1	fpot,qty=3						r21s,qty=1																																																																																							0
+1x r21 + fpot = r20	1			100					2	r21g,qty=1	fpot,qty=3						r20s,qty=1																																																																																							0
+1x r20 + fpot = r19	1			100					2	r20g,qty=1	fpot,qty=3						r19s,qty=1																																																																																							0
+1x r19 + fpot = r18	1			100					2	r19g,qty=1	fpot,qty=1						r18s,qty=1																																																																																							0
 1x r18 + fpot = r17	1			100					2	r18g,qty=1	fpot,qty=1						r17s,qty=1																																																																																							0
 1x r17 + fpot = r16	1			100					2	r17g,qty=1	fpot,qty=1						r16s,qty=1																																																																																							0
 1x r16 + fpot = r15	1			100					2	r16g,qty=1	fpot,qty=1						r15s,qty=1																																																																																							0

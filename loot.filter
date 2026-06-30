@@ -5,7 +5,7 @@
 //
 //	For Casual and EndGame Players
 // 
-//	Edited by Senyubia for PD2SPE v3.2.0
+//	Edited by Senyubia for PD2SPE v3.2.1
 
 //Define Filter Strict Levels
 ItemDisplayFilterName[]: Hide Just Trash Items
@@ -18,7 +18,7 @@ ItemDisplayFilterName[]: Strict Filter - w/o Potions
 ItemDisplayFilterName[]: Max-Strictness Filter
 
 //Show info about current Filter Level in description of Horadric Cube
-ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%item.filter ver 13.3.2 PD2SPE v3.2.0 %BLACK%| %GRAY% updated: 2026-05-25}%CONTINUE%
+ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%item.filter ver 13.3.2 PD2SPE v3.2.1 %BLACK%| %GRAY% updated: 2026-06-30}%CONTINUE%
 ItemDisplay[box FILTLVL=0]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%0 - %TAN%Show All Items%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
 ItemDisplay[box FILTLVL=1]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%1 - %TAN%Hide Just Trash Items%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
 ItemDisplay[box FILTLVL=2]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%2 - %TAN%More Notify%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
@@ -5440,9 +5440,9 @@ ItemDisplay[mfo]: %SOUNDID-34%%BORDER-60%%DOT-69%%NAME%{%NAME%%TAN%Note%WHITE%: 
 ItemDisplay[mfo]: %NAME%{%CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE% + %ORANGE%Eternal Coin%WHITE% + %ORANGE%Essences%WHITE% = %GOLD%Unique%NL%%NAME%}%CONTINUE%
 ItemDisplay[mfo]: %NAME%{%WHITE%Add %ORANGE%Transient Coin%WHITE% to first preroll if creating equipment%NL%%NL%%NAME%}%CONTINUE%
 ItemDisplay[mfo]: %NAME%{%RED%You must preroll and create an item in the same game%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%ORANGE%Essences%WHITE%: %BLUE%Blue%WHITE% + %YELLOW%Yellow%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%WHITE%+ %RED%Red%WHITE% if Exceptional/Elite or Grand Charm%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%WHITE%+ %GREEN%Green%WHITE% if Elite or Jewellery%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%ORANGE%Essences%WHITE%: %BLUE%B%WHITE% + %YELLOW%Y%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%WHITE%+ %RED%R%WHITE% if Exceptional/Elite or Grand Charm%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%WHITE%+ %GREEN%G%WHITE% if Elite or Jewellery%NL%%NAME%}%CONTINUE%
 ItemDisplay[mfo]: %NAME%{%GOLD%Mythic Orb%WHITE% + %GRAY%key%WHITE% = %RED%Fragment of Potential%NL%%NL%%NAME%}
 
 ItemDisplay[exo]: %SOUNDID-1118%%MAP-7F%%PX-84%%NAME%{%NAME%%TAN%Note%WHITE%: %WHITE%Non-%RED%Corrupted %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb}%CONTINUE%
@@ -5483,7 +5483,7 @@ ItemDisplay[fpot]: %NAME%{%GOLD%Larzuk's Box%WHITE% + %RED%Worldstone Shard%WHIT
 ItemDisplay[fpot]: %NAME%{%WHITE%3 %ORANGE%Lower Tier Essence%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Higher Tier Essence%NL%%NAME%}%CONTINUE%
 ItemDisplay[fpot]: %NAME%{%ORANGE%Higher Tier Essence%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Lower Tier Essence%NL%%NAME%}%CONTINUE%
 ItemDisplay[fpot]: %NAME%{%ORANGE%Higher Tier Rune%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Lower Tier Rune%NL%%NAME%}%CONTINUE%
-ItemDisplay[fpot]: %NAME%{%RED%Worldstone Shard%WHITE% + %RED%Fragment%WHITE% = 3 %RED%Worldstone Sliver%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%RED%Worldstone Shard%WHITE% + %RED%Fragment%WHITE% = %RED%Worldstone Sliver%NL%%NAME%}%CONTINUE%
 
 ItemDisplay[wssl]: %NAME%{%NAME%}
 

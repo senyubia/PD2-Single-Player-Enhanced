@@ -10,6 +10,69 @@
 //
 //	Edited by Senyubia for PD2SPE v4.0.0
 
+//////////////////////////////////
+// 	PD2SPE                      //
+//////////////////////////////////
+
+// modded items
+Alias[PD2SPE]: (mfo OR exo OR gcbx OR gcbo OR ecoi OR tcoi OR dye OR fpot OR wssl)
+
+// new items
+ItemDisplay[mfo]: %SOUNDID-34%%BORDER-60%%DOT-69%%NAME%{%NAME%%TAN%Note%WHITE%: Non-%RED%Corrupted %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE% + %ORANGE%Eternal Coin%WHITE% + %ORANGE%Essences%WHITE% = %GOLD%Unique%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%WHITE%Add %ORANGE%Transient Coin%WHITE% to first preroll if creating equipment%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%RED%You must preroll and create an item in the same game%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%ORANGE%Essences%WHITE%: %BLUE%B%WHITE% + %YELLOW%Y%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%WHITE%+ %RED%R%WHITE% if Exceptional/Elite or Grand Charm%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%WHITE%+ %GREEN%G%WHITE% if Elite or Jewellery%NL%%NAME%}%CONTINUE%
+ItemDisplay[mfo]: %NAME%{%GOLD%Mythic Orb%WHITE% + %GRAY%key%WHITE% = %RED%Fragment of Potential%NL%%NL%%NAME%}
+
+ItemDisplay[exo]: %SOUNDID-1118%%MAP-7F%%PX-84%%NAME%{%NAME%%TAN%Note%WHITE%: %WHITE%Non-%RED%Corrupted %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb}%CONTINUE%
+ItemDisplay[exo]: %NAME%{%CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE% + %ORANGE%Eternal Coin%WHITE% + %BLUE%Blue%ORANGE% Essence%WHITE% = %GREEN%Set%NL%%NAME%}%CONTINUE%
+ItemDisplay[exo]: %NAME%{%WHITE%Add %ORANGE%Transient Coin%WHITE% to first preroll if creating equipment%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[exo]: %NAME%{%RED%You must preroll and create an item in the same game%NL%%NAME%}%CONTINUE%
+ItemDisplay[exo]: %NAME%{%GREEN%Exalted Orb%WHITE% + %GRAY%key%WHITE% = %RED%Fragment of Potential%WHITE%%NL%%NL%%NAME%}
+
+ItemDisplay[gcbx]: %SOUNDID-248%%MAP-0A%%PX-62%%NAME%{%NAME%%TAN%Note%WHITE%: %ORANGE%Gheed's Curious Box%WHITE% + %ORANGE%Eternal Coin%WHITE% = %ORANGE%Opened Gheed's Curious Box%WHITE%}%CONTINUE%
+ItemDisplay[gcbx]: %NAME%{%ORANGE%Gheed's Curious Box%WHITE% = %ORANGE%Opened Gheed's Curious Box%WHITE% (imperfect)%NL%%NAME%}
+
+ItemDisplay[gcbo]: %NAME%{%NAME%%TAN%Note%WHITE%: Probability distribution of gems from the box is the same as on mob drop}
+
+ItemDisplay[ecoi]: %NAME%{%NAME%}%CONTINUE%
+
+ItemDisplay[tcoi]: %NAME%{%NAME%%TAN%Note%WHITE%: Refunded on successful item creation}
+
+ItemDisplay[dye]: %NAME%{%NAME%%TAN%Note%WHITE%: Cube with item and gems to apply color}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Only armor and weapons are dyeable%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Colors and required perf gems:%NL%%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Original (nothing)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%White (O)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Grey (O%GRAY%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Black (%GRAY%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Blue (%BLUE%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Red (%RED%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Green (%GREEN%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Yellow (%YELLOW%OO%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Gold (%YELLOW%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Purple (%PURPLE%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Orange (%RED%O%YELLOW%O%WHITE%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[dye]: %NAME%{%WHITE%Add O/%GRAY%O%WHITE% to make color lighter/darker where applicable%NL%%NAME%}
+
+ItemDisplay[fpot]: %NAME%{%NAME%%TAN%Note%WHITE%: Known recipes:}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%WHITE%Perf gem + %RED%Fragment%WHITE% = %ORANGE%Crafting infusion%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%WHITE%3 %GOLD%Larzuk's Piece%WHITE% + %RED%Fragment%WHITE% = %GOLD%Larzuk's Box%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%GOLD%Larzuk's Box%WHITE% + %RED%Worldstone Shard%WHITE% + %RED%Fragment%WHITE% = %GOLD%Demonic Cube%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%WHITE%3 %ORANGE%Lower Tier Essence%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Higher Tier Essence%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%ORANGE%Higher Tier Essence%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Lower Tier Essence%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%ORANGE%Higher Tier Rune%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Lower Tier Rune%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%RED%Worldstone Shard%WHITE% + %RED%Fragment%WHITE% = %RED%Worldstone Sliver%NL%%NAME%}%CONTINUE%
+
+ItemDisplay[wssl]: %NAME%{%NAME%}
+
+//////////////////////////////////
+//	FILTER CONT.                //
+//////////////////////////////////
+
 // Filter level names shown in the in-game strictness menu
 ItemDisplayFilterName[]: ÿc2Levelingÿc0 - ÿc5Hide Just Trash
 ItemDisplayFilterName[]: ÿc2Mid Gameÿc0 - ÿc9Runes and Gems Alert
@@ -22,17 +85,6 @@ ItemDisplayFilterName[]: ÿc;Endgameÿc0 - ÿc0All Flawless ÿc1Gÿc9eÿc3mÿc2s
 //=================== HOLY GRAIL ===================
 // Made in PD2 Filter Forge (Season 14): tags uniques and sets you haven't found yet, and hides the ones you have. Does nothing on older game versions.
 //@ffg options {"uniques":true,"sets":true,"mark":true,"markText":" [GRAIL]","markColor":"PURPLE","unid":"any","hide":4,"keepExtra":["uni.t51","uni.t52","uni.t53","uni.t54","uni.t55","uni.t56","uni.t57","uni.t58"],"hideAnyway":[],"icon":{"size":"border","hex":"9B"},"sound":4715,"outsideTownOnly":true,"unidOnly":true,"markExcept":"ID OR (t51 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58) OR (jew !ID)","alertYields":true}
-
-//////////////////////////////////
-// 	PD2SPE                      //
-//////////////////////////////////
-
-// modded items
-Alias[PD2SPE]: (mfo OR exo OR gcbx OR gcbo OR ecoi OR tcoi OR dye OR fpot OR wssl)
-
-//////////////////////////////////
-//	FILTER CONT.                //
-//////////////////////////////////
 
 // ===============================
 // SAFETY NET (Roofoo Filter Builder)
@@ -5670,66 +5722,6 @@ ItemDisplay[NMAG !RW !WEAPON SORSTAFF (FILTLVL<2 OR (CLVL<80 AND FILTLVL=2))]: %
 
 // Always-visible item safety rules
 ItemDisplay[UNI OR SET OR RW OR CRAFT OR GEMMED OR EQUIPPED OR SHOP OR leg]: %NAME%{%NAME%}
-
-//////////////////////////////////
-// 	PD2SPE                      //
-//////////////////////////////////
-
-// new items
-ItemDisplay[mfo]: %SOUNDID-34%%BORDER-60%%DOT-69%%NAME%{%NAME%%TAN%Note%WHITE%: Non-%RED%Corrupted %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%CORAL%Prerolled%WHITE% + %GOLD%Mythic Orb%WHITE% + %ORANGE%Eternal Coin%WHITE% + %ORANGE%Essences%WHITE% = %GOLD%Unique%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%WHITE%Add %ORANGE%Transient Coin%WHITE% to first preroll if creating equipment%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%RED%You must preroll and create an item in the same game%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%ORANGE%Essences%WHITE%: %BLUE%B%WHITE% + %YELLOW%Y%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%WHITE%+ %RED%R%WHITE% if Exceptional/Elite or Grand Charm%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%WHITE%+ %GREEN%G%WHITE% if Elite or Jewellery%NL%%NAME%}%CONTINUE%
-ItemDisplay[mfo]: %NAME%{%GOLD%Mythic Orb%WHITE% + %GRAY%key%WHITE% = %RED%Fragment of Potential%NL%%NL%%NAME%}
-
-ItemDisplay[exo]: %SOUNDID-1118%%MAP-7F%%PX-84%%NAME%{%NAME%%TAN%Note%WHITE%: %WHITE%Non-%RED%Corrupted %BLUE%Magic%WHITE%/%YELLOW%Rare%WHITE%/%CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE% = %CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb}%CONTINUE%
-ItemDisplay[exo]: %NAME%{%CORAL%Prerolled%WHITE% + %GREEN%Exalted Orb%WHITE% + %ORANGE%Eternal Coin%WHITE% + %BLUE%Blue%ORANGE% Essence%WHITE% = %GREEN%Set%NL%%NAME%}%CONTINUE%
-ItemDisplay[exo]: %NAME%{%WHITE%Add %ORANGE%Transient Coin%WHITE% to first preroll if creating equipment%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[exo]: %NAME%{%RED%You must preroll and create an item in the same game%NL%%NAME%}%CONTINUE%
-ItemDisplay[exo]: %NAME%{%GREEN%Exalted Orb%WHITE% + %GRAY%key%WHITE% = %RED%Fragment of Potential%WHITE%%NL%%NL%%NAME%}
-
-ItemDisplay[gcbx]: %SOUNDID-248%%MAP-0A%%PX-62%%NAME%{%NAME%%TAN%Note%WHITE%: %ORANGE%Gheed's Curious Box%WHITE% + %ORANGE%Eternal Coin%WHITE% = %ORANGE%Opened Gheed's Curious Box%WHITE%}%CONTINUE%
-ItemDisplay[gcbx]: %NAME%{%ORANGE%Gheed's Curious Box%WHITE% = %ORANGE%Opened Gheed's Curious Box%WHITE% (imperfect)%NL%%NAME%}
-
-ItemDisplay[gcbo]: %NAME%{%NAME%%TAN%Note%WHITE%: Probability distribution of gems from the box is the same as on mob drop}
-
-ItemDisplay[ecoi]: %NAME%{%NAME%}%CONTINUE%
-
-ItemDisplay[tcoi]: %NAME%{%NAME%%TAN%Note%WHITE%: Refunded on successful item creation}
-
-ItemDisplay[dye]: %NAME%{%NAME%%TAN%Note%WHITE%: Cube with item and gems to apply color}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%Only armor and weapons are dyeable%NL%%NAME%}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%Colors and required perf gems:%NL%%NL%%NAME%}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%Original (nothing)%NL%%NAME%}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%White (O)%NL%%NAME%}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%Grey (O%GRAY%O%WHITE%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%Black (%GRAY%O%WHITE%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%Blue (%BLUE%O%WHITE%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%Red (%RED%O%WHITE%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%Green (%GREEN%O%WHITE%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%Yellow (%YELLOW%OO%WHITE%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%Gold (%YELLOW%O%WHITE%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%Purple (%PURPLE%O%WHITE%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%Orange (%RED%O%YELLOW%O%WHITE%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[dye]: %NAME%{%WHITE%Add O/%GRAY%O%WHITE% to make color lighter/darker where applicable%NL%%NAME%}
-
-ItemDisplay[fpot]: %NAME%{%NAME%%TAN%Note%WHITE%: Known recipes:}%CONTINUE%
-ItemDisplay[fpot]: %NAME%{%WHITE%Perf gem + %RED%Fragment%WHITE% = %ORANGE%Crafting infusion%NL%%NAME%}%CONTINUE%
-ItemDisplay[fpot]: %NAME%{%WHITE%3 %GOLD%Larzuk's Piece%WHITE% + %RED%Fragment%WHITE% = %GOLD%Larzuk's Box%NL%%NAME%}%CONTINUE%
-ItemDisplay[fpot]: %NAME%{%GOLD%Larzuk's Box%WHITE% + %RED%Worldstone Shard%WHITE% + %RED%Fragment%WHITE% = %GOLD%Demonic Cube%NL%%NAME%}%CONTINUE%
-ItemDisplay[fpot]: %NAME%{%WHITE%3 %ORANGE%Lower Tier Essence%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Higher Tier Essence%NL%%NAME%}%CONTINUE%
-ItemDisplay[fpot]: %NAME%{%ORANGE%Higher Tier Essence%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Lower Tier Essence%NL%%NAME%}%CONTINUE%
-ItemDisplay[fpot]: %NAME%{%ORANGE%Higher Tier Rune%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Lower Tier Rune%NL%%NAME%}%CONTINUE%
-ItemDisplay[fpot]: %NAME%{%RED%Worldstone Shard%WHITE% + %RED%Fragment%WHITE% = %RED%Worldstone Sliver%NL%%NAME%}%CONTINUE%
-
-ItemDisplay[wssl]: %NAME%{%NAME%}
-
-//////////////////////////////////
-//	FILTER CONT.                //
-//////////////////////////////////
 
 //////////////////////////////////
 // 	PD2SPE                      //

@@ -17,7 +17,9 @@ If for some reason you don't want to deal with the separate shortcut to run the 
 
 Existing characters should be compatible between vanilla and modded (and backwards). There might be some issues with unique/set items with changed ID, so after transfer if you see items with wrong names or wrong sprites/types, you should either delete them, regenerate them using a custom cube recipe, or keep them at your own risk.
 
-Using this mod online with the official PD2 gateway might result in a ban.
+Using this mod online with the official PD2 gateway will either crash the game, result in a ban or work just fine (without the mod's content).
+
+You might also want be interested in [patched BH.dll with maphack](https://github.com/senyubia/PD2-BH-MH).
 
 ## What do new items do
 Check their notes from the loot filter.

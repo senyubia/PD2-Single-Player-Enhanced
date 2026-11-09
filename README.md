@@ -3,7 +3,7 @@ Updated to: **S14 patch 2**
 ## What is it
 Mod for Project Diablo 2 to enhance single player experience, mainly by improving drop rates of certain items and adding some QoL™ changes, while maintaining fairness.
 
-Based on [Project Diablo 2 Single Player+ mod by Lukaszpg](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod) v11.0.3.
+Inspired by [Project Diablo 2 Single Player+ mod by Lukaszpg](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod) v11.0.3.
 
 ## How to use it
 1. Patch the game to the supported version. For other versions you'll have to manually merge differences into corresponding .txt files. If you don't, any of these can happen: game will work fine, game will crash on character load, game will launch but you won't have access to newest changes from PD2 patch.

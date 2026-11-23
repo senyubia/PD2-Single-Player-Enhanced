@@ -6,56 +6,35 @@ Mod for Project Diablo 2 to enhance single player experience, mainly by improvin
 Inspired by [Project Diablo 2 Single Player+ mod by Lukaszpg](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod) v11.0.3.
 
 ## How to use it
-1. Patch the game to the supported version. For other versions you'll have to manually merge differences into corresponding .txt files. If you don't, any of these can happen: game will work fine, game will crash on character load, game will launch but you won't have access to newest changes from PD2 patch.
+1. Patch the game to the supported version. For other versions you'll have to manually merge differences into corresponding files. If you don't, any of these can happen: game will work fine, game will crash on character load, game will launch but you won't have access to newest changes from PD2 patch.
 2. Download ``data`` folder and ``loot.filter`` and place them in ``<YOUR D2 INSTALL PATH>/ProjectD2/``.
 3. Create a new shortcut to ``<YOUR D2 INSTALL PATH>/ProjectD2/Diablo II.exe`` and include ``-direct -txt`` option string. You might also want to include ``-3dfx`` option if you plan on using D2GL.
 4. Use the newly created shortcut to play the game.
+5. If you want to play vanilla PD2, run the exe without ``-direct -txt`` options (or use the official launcher).
 
-If you want to play vanilla PD2, run the exe without ``-direct -txt`` options (or use the official launcher).
+Existing characters are compatible with this mod, the other way around can work if you don't have custom items in the inventory and stash.
 
-If for some reason you don't want to deal with the separate shortcut to run the game, you could always patch ``pd2data.mpq`` yourself with generated .bin files from running with above options. Of course by doing that you'll lose the ability to easily switch between the mod and vanilla PD2.
-
-Existing characters should be compatible between vanilla and modded (and backwards). There might be some issues with unique/set items with changed ID, so after transfer if you see items with wrong names or wrong sprites/types, you should either delete them, regenerate them using a custom cube recipe, or keep them at your own risk.
-
-Using this mod online with the official PD2 gateway will either crash the game, result in a ban or work just fine (without the mod's content).
-
-You might also want be interested in [patched BH.dll with maphack](https://github.com/senyubia/PD2-BH-MH).
+You might also be interested in [patched BH.dll with additional features](https://github.com/senyubia/PD2-BH).
 
 ## What do new items do
 Check their notes from the loot filter.
 
 ## What is changed
-For the complete list of changes, get official PD2 (or SP+) .txt files and diff them with included files. Also check release info for more up to date changes.
-
-**Main changes compared to vanilla PD2:**
 - NoLimit flag for not-encounter-locked uniques set to 1 (the same unique may drop multiple times in a single game),
 - modified rarity of uniques with the same base (e.g. Tyrael's Might or high-level jewelery is more common),
-- quest bug always active on all act bosses,
-- improved drop rates for runes (r1-r8 vanilla, r9-r16 3x, r17-r24 7x, r25-r33 20x),
-- improved drop rate for Horadrim Scarabs,
-- improved drop rates for uber ingredients,
-- improved drop rates for super-rare utility items (e.g. puzzlepieces, mirrors, vials),
+- quest bug always active on all act bosses (achieved by using the same drop table),
+- greatly improved drop rates for runes,
+- greatly improved drop rates for almost all PD2 exclusive items,
 - improved drop rates for uniques/sets,
-- improved roll chances for desired charm affixes (e.g. skillers, life),
+- improved roll chances for desired charm and jewel affixes (e.g. skillers, life, %elemental dmg),
 - improved sell values on higher difficulties - they continue on increasing by 5k per act,
-- new items: Exalted Orb (used to craft set items), Mythic Orb (used to craft unique items), (Opened) Gheed's Curious Box (contains random 50 pgems), Eternal Coin (used in cubing recipes), Transient Coin (used in armour/weapon set/unique crafting),
+- new items: Exalted Orb (used to craft set items), Mythic Orb (used to craft unique items), Gheed's Curious Box (contains batch of pgems of random type), Eternal Coin (used in cubing recipes), Transient Coin (used in armour/weapon set/unique crafting), Fragment of Potential (qol recipes), Worldstone Sliver (downgrade item to magic), Dye (item dyeing),
 - added safe unsocketting recipe (don't eat socketed items) - item + Ist + tp scroll,
-- new grand charm: Cain's Wisdom,
-- crafting infusions can be crafted - 1 corresponding pgem + fragment of potential,
-- using 3 Larzuk's Puzzlepieces and fragment of potential you can upgrade them to Larzuk's Puzzlebox,
-- Anya sells HRs, rejuvs, rare misc items (including ToA moved from Akara) and mod items; you might need Gheed's Fortune to buy some of them,
-- maps can be multiplied by using Horadrim Scarab and Cartographer Orb (only t1-t3 maps),
-- changed launch splash, main menu, tcp/ip menu and character select screens to LoD (delete ``data/global/ui`` if you don't want that).
+- new unique grand charm: Cain's Wisdom (bonus to xp, req clvl 88),
+- qol crafting recipes (craftable infusions, ppiece upgrading, corrupting pbox to demonic cube),
+- map multiplication using scarabs (same restrictions as with lilith's mirror),
+- qol shop at anya,
+- changed launch splash, main menu, tcp/ip menu and character select screens to lod (delete ``data/global/ui`` to revert).
 
-**Main changes compared to PD2 Single Player+:**
-- removed recipes to downgrade runes,
-- Cain's Wisdom is now a grand charm requiring clvl 88 to use,
-- Cain's Wisdom can drop starting from alvl 87,
-- removed the recipe to turn essences into Cain's Wisdom,
-- modified improved drop rates (in general, rates are lower/worse compared to SP+, still more reasonable than vanilla),
-- ItemType for new items changed to ``Single Player Orb`` with ID ``spob``,
-- Eternal Coin ID changed to ``ecoi``,
-- Eternal Coin ItemType changed from ``scro`` to ``spob``,
-- Eternal Coin used in most cubing recipes (check lootfilter notes on orbs),
-- deterministic unique/set creation - cube a base with an orb (and a Transient Coin if base is armour/weapon) to create a random unique with +100 lvl req, pick the desired item by repeating the transmutation with the orb only (the orb gets refunded), then cube with Eternal Coin and essences to finalize the transmutation (the orb and coins get consumed, the item gets rerolled into a proper version),
-- mob resists in t4s are the same as in vanilla.
+## Bugs / limitations
+- when safe unsocketing, resulting runes and gems have quantity equal to 0; they function as normal items (can be socketed and give correct bonuses, can create runewords), but trying to stack them with others of the same type (including putting them back to the stash) eats them - bug with pd2 code, not this mod

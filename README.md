@@ -35,6 +35,7 @@ Check their notes from the loot filter.
 - map multiplication using scarabs (same restrictions as with lilith's mirror),
 - qol shop at anya,
 - additional bases in gambling,
+- corrupting stuff no longer bricks items (if you roll what would've been a brick, the item gets corrupted with nothing added); corrupting white items for sockets still can change it into a rare
 - changed launch splash, main menu, tcp/ip menu and character select screens to lod (delete ``data/global/ui`` to revert).
 
 ## Bugs / limitations

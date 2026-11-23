@@ -8,7 +8,7 @@
 //
 //	For Casual and EndGame Players
 //
-//	Edited by Senyubia for PD2SPE v4.1.0
+//	Edited by Senyubia for PD2SPE v4.1.1
 
 //////////////////////////////////
 // 	PD2SPE                      //
@@ -129,7 +129,7 @@ Alias[GRAIL_NEW]: ((UNI !(msf OR hst OR hfh OR qf1 OR qf2 OR vip OR g33 OR d33 O
 //////////////////////////////////
 
 // Mod info
-ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%PD2SPE v4.1.0 %BLACK%| %GRAY% updated: 2026-11-23}%CONTINUE%
+ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%PD2SPE v4.1.1 %BLACK%| %GRAY% updated: 2026-11-23}%CONTINUE%
 
 //////////////////////////////////
 //	FILTER CONT.                //
@@ -5243,7 +5243,7 @@ ItemDisplay[(ARMOR OR WEAPON OR QUIVER) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]
 //////////////////////////////////
 
 // wss doesn't brick anymore
-//ItemDisplay[wss]: %MAP-0A%%DOT-66%%NAME% %ORANGE%*{%RED%Warning%WHITE%: It can Brick your Item%NL%%TAN%Note%WHITE%: Use to %RED%Corrupt %WHITE%Item/Map:}
+ItemDisplay[wss]: %MAP-0A%%DOT-66%%NAME% %ORANGE%*{%TAN%Note%WHITE%: Use to %RED%Corrupt %WHITE%Item/Map}
 
 //////////////////////////////////
 //	FILTER CONT.                //
@@ -5313,7 +5313,7 @@ ItemDisplay[cm2f]: %MAP-0A%%PX-62%%NAME% %TAN%*{%TAN%Note%WHITE%: %RED%Rathma %G
 //////////////////////////////////
 
 // cwss doesn't brick anymore
-//ItemDisplay[cwss]: %MAP-0A%%DOT-84%%NAME% %GREEN%*{%RED%Warning%WHITE%: You can actually BRICK it%NL%%TAN%Note%WHITE%: Use to %RED%Corrupt %GOLD%Annihilus}
+ItemDisplay[cwss]: %MAP-0A%%DOT-84%%NAME% %GREEN%*{%TAN%Note%WHITE%: Use to %RED%Corrupt %GOLD%Annihilus}
 
 //////////////////////////////////
 //	FILTER CONT.                //

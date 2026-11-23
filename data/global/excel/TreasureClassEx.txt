@@ -34,25 +34,25 @@ Runes 1			1						r01	3	r02	2																				0
 Runes 2			1						r03	3	r04	2	Runes 1	2																		0
 Runes 3			1						r05	3	r06	2	Runes 2	5																		0
 Runes 4			1						r07	3	r08	2	Runes 3	7																		0
-Runes 5			1						r09	6	r10	4	Runes 4	12																		0
-Runes 6			1						r11	9	r12	6	Runes 5	22																		0
-Runes 7			1						r13	9	r14	6	Runes 6	45																		0
-Runes 8			1						r15	12	r16	8	Runes 7	90																		0
-Runes 9			1						r17	15	r18	10	Runes 8	180																		0
-Runes 10			1						r19	24	r20	16	Runes 9	360																		0
-Runes 11			1						r21	36	r22	24	Runes 10	720																		0
-Runes 12			1						r23	48	r24	32	Runes 11	1066																		0
-Runes 13			1						r25	60	r26	40	Runes 12	1519																		0
-Runes 14			1						r27	60	r28	40	Runes 13	2170																		0
-Runes 15			1						r29	60	r30	40	Runes 14	2941																		0
-Runes 16			1						r31	60	r32	40	Runes 15	3957																		0
-Runes 17			1						r33	20	Runes 16	5170																				0
-Runes 12 equiv			1						r23	48	r24	32	Runes 11	1066																		0
-Runes 13 equiv			1						r25	60	r26	40	Runes 12 equiv	1517																		0
-Runes 14 equiv			1						r27	60	r28	40	Runes 13 equiv	2170																		0
-Runes 15 equiv			1						r29	60	r30	40	Runes 14 equiv	2941																		0
-Runes 16 equiv			1						r31	60	r32	40	Runes 15 equiv	3957																		0
-Runes 17 equiv			1						r33	20	Runes 16 equiv	5170																				0
+Runes 5			1						r09	6	r10	4	Runes 4	19																		0
+Runes 6			1						r11	3	r12	2	Runes 5	12																		0
+Runes 7			1						r13	4	r14	3	Runes 6	20																		0
+Runes 8			1						r15	4	r16	3	Runes 7	30																		0
+Runes 9			1						r17	4	r18	3	Runes 8	41																		0
+Runes 10			1						r19	4	r20	3	Runes 9	56																		0
+Runes 11			1						r21	4	r22	3	Runes 10	70																		0
+Runes 12			1						r23	24	r24	18	Runes 11	549																		0
+Runes 13			1						r25	60	r26	48	Runes 12	1734																		0
+Runes 14			1						r27	30	r28	24	Runes 13	1085																		0
+Runes 15			1						r29	60	r30	48	Runes 14	2941																		0
+Runes 16			1						r31	20	r32	16	Runes 15	1319																		0
+Runes 17			1						r33	42	Runes 16	5170																				0
+Runes 12 equiv			1						r23	24	r24	18	Runes 11	549																		0
+Runes 13 equiv			1						r25	60	r26	48	Runes 12 equiv	1734																		0
+Runes 14 equiv			1						r27	30	r28	24	Runes 13 equiv	1085																		0
+Runes 15 equiv			1						r29	60	r30	48	Runes 14 equiv	2941																		0
+Runes 16 equiv			1						r31	20	r32	16	Runes 15 equiv	1319																		0
+Runes 17 equiv			1						r33	42	Runes 16 equiv	5170																				0
 Map Tier 1			1			400	800		t34	1	t22	1	t24	1	t36	1	t21	1	t26	1	t11	1	t33	1	t18	1	t14	1				0
 Map Tier 2			1			400	800		t16	1	t12	1	t3a	1	t37	1	t25	1	t38	1	t32	1	t17	1	t29	1	t2a	1				0
 Map Tier 3			1			400	800		t35	1	t3b	1	t15	1	t23	1	t13	1	t28	1	t27	1	t31	1	t39	1						0
@@ -721,16 +721,16 @@ Map Swarm t2	28	74	1					415	Potion 6	292	Misc 2	143	Map Good t2	23	Act 3 (H) Ma
 Map Swarm t3	28	74	1					415	Potion 6	292	Misc 2	143	Map Good t3	23	Act 3 (H) Magic A	143																0
 Andariel			7	995	995	1024	1024	1	Act 2 Equip A	845	Act 2 Good	133																				0
 Andariel (N)			7	995	995	1024	1024	1	Act 2 (N) Equip A	824	Act 2 (N) Good	133	tes	42	exo	21																0
-Andariel (H)			7	995	995	1024	1024	1	Act 4 (H) Equip A	715	Act 4 (H) Good	127	tes	126	mfo	11																0
+Andariel (H)			7	995	995	1024	1024	1	Act 4 (H) Equip A	718	Act 4 (H) Good	127	tes	126	mfo	8																0
 Andarielq			7	995	995	1024	1024	1	Act 2 Equip A	845	Act 2 Good	133																				0
 Andarielq (N)			7	995	995	1024	1024	1	Act 2 (N) Equip A	824	Act 2 (N) Good	133	tes	42	exo	21																0
-Andarielq (H)			7	995	995	1024	1024	1	Act 4 (H) Equip A	715	Act 4 (H) Good	127	tes	126	mfo	11																0
+Andarielq (H)			7	995	995	1024	1024	1	Act 4 (H) Equip A	718	Act 4 (H) Good	127	tes	126	mfo	8																0
 Duriel - Base			7	993	993	1024	1024	0	Act 3 Equip A	845	Act 3 Good	133																				0
 Duriel (N) - Base			7	993	993	1024	1024	0	Act 3 (N) Equip A	824	Act 3 (N) Good	133	tes	42	exo	21																0
-Duriel (H) - Base			7	993	993	1024	1024	0	Act 5 (H) Equip B	808	Act 5 (H) Good	53	tes	126	mfo	11																0
+Duriel (H) - Base			7	993	993	1024	1024	0	Act 5 (H) Equip B	811	Act 5 (H) Good	53	tes	126	mfo	8																0
 Durielq - Base			7	993	993	1024	1024	0	Act 3 Equip A	845	Act 3 Good	133																				0
 Durielq (N) - Base			7	993	993	1024	1024	0	Act 3 (N) Equip A	824	Act 3 (N) Good	133	tes	42	exo	21																0
-Durielq (H) - Base			7	993	993	1024	1024	0	Act 5 (H) Equip B	808	Act 5 (H) Good	53	tes	126	mfo	11																0
+Durielq (H) - Base			7	993	993	1024	1024	0	Act 5 (H) Equip B	811	Act 5 (H) Good	53	tes	126	mfo	8																0
 Radament			5	900	900	900	1024	1	"gld,mul=1280"	228	Act 3 Equip B	395	Act 3 Junk	311	Act 3 Good	62																0
 Radament (N)			5	900	900	900	1024	1	"gld,mul=1536"	228	Act 3 (N) Equip B	395	Act 3 (N) Junk	311	Act 3 (N) Good	62																0
 Radament (H)			5	900	900	900	1024	1	"gld,mul=2048"	228	Act 3 (H) Equip C	395	Act 3 (H) Junk	311	Act 3 (H) Good	62																0
@@ -739,16 +739,16 @@ Flying Scimitar (N)			1					95	Act 2 (N) Good	45	scm	376	9sm	482																
 Flying Scimitar (H)			1					95	Act 2 (H) Good	45	scm	105	9sm	271	7sm	482																0
 Mephisto			7	993	993	1024	1024	0	Act 4 Equip A	945	Act 4 Good	54																				0
 Mephisto (N)			7	993	993	1024	1024	0	Act 4 (N) Equip A	936	Act 4 (N) Good	54	ceh	17	exo	9																0
-Mephisto (H)			7	993	993	1024	1024	0	Act 4 (H) Equip A	873	Act 4 (H) Good	53	ceh	51	dcso	17	mfo	4														0
+Mephisto (H)			7	993	993	1024	1024	0	Act 4 (H) Equip A	874	Act 4 (H) Good	53	ceh	51	dcso	17	mfo	3														0
 Mephistoq			7	993	993	1024	1024	0	Act 4 Equip A	945	Act 4 Good	54																				0
 Mephistoq (N)			7	993	993	1024	1024	0	Act 4 (N) Equip A	936	Act 4 (N) Good	54	ceh	17	exo	9																0
-Mephistoq (H)			7	993	993	1024	1024	0	Act 4 (H) Equip A	873	Act 4 (H) Good	53	ceh	51	dcso	17	mfo	4														0
+Mephistoq (H)			7	993	993	1024	1024	0	Act 4 (H) Equip A	874	Act 4 (H) Good	53	ceh	51	dcso	17	mfo	3														0
 Diablo			7	993	993	1024	1024	0	Act 5 Equip A	945	Act 5 Good	54																				0
 Diablo (N)			7	993	993	1024	1024	0	Act 5 (N) Equip A	936	Act 5 (N) Good	54	bet	17	exo	9																0
-Diablo (H)			7	993	993	1024	1024	0	Act 5 (H) Equip A	864	Act 5 (H) Good	53	bet	51	dcso	26	mfo	4														0
+Diablo (H)			7	993	993	1024	1024	0	Act 5 (H) Equip A	865	Act 5 (H) Good	53	bet	51	dcso	26	mfo	3														0
 Diabloq			7	993	993	1024	1024	0	Act 5 Equip A	945	Act 5 Good	54																				0
 Diabloq (N)			7	993	993	1024	1024	0	Act 5 (N) Equip A	936	Act 5 (N) Good	54	bet	17	exo	9																0
-Diabloq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip A	864	Act 5 (H) Good	53	bet	51	dcso	26	mfo	4														0
+Diabloq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip A	865	Act 5 (H) Good	53	bet	51	dcso	26	mfo	3														0
 Summoner			5	900	900	972	1024	4	"gld,mul=1280"	248	Act 2 Equip C	414	Act 3 Junk	138	Act 2 Good	82	Act 3 Magic A	110														0
 Summoner (N)			5	900	900	972	1024	4	"gld,mul=1536"	248	Act 2 (N) Equip C	414	Act 3 (N) Junk	138	Act 2 (N) Good	82	Act 3 (N) Magic A	110														0
 Summoner (H)			5	900	900	972	1024	4	"gld,mul=2048"	188	Act 2 (H) Equip C	403	Act 3 (H) Junk	134	Act 2 (H) Good	80	Act 3 (H) Magic A	107	pk2	81												0
@@ -779,10 +779,10 @@ Nihlathak (N)			5	900	900	900	1024	3	"gld,mul=1536"	340	Act 5 (N) Equip B	461	Ac
 Nihlathak (H)			5	900	900	900	1024	2	"gld,mul=2048"	284	Act 5 (H) Equip B	451	Act 5 (H) Junk	71	Act 5 (H) Good	71	pk3	72														0
 Baal			7	993	993	1024	1024	0	Act 1 (N) Equip A	945	Act 1 (N) Good	54																				0
 Baal (N)			7	993	993	1024	1024	0	Act 1 (H) Equip A	936	Act 1 (H) Good	54	fed	17	exo	9																0
-Baal (H)			7	993	993	1024	1024	0	Act 5 (H) Equip B	856	Act 5 (H) Good	53	fed	51	dcso	34	mfo	4														0
+Baal (H)			7	993	993	1024	1024	0	Act 5 (H) Equip B	857	Act 5 (H) Good	53	fed	51	dcso	34	mfo	3														0
 Baalq			7	993	993	1024	1024	0	Act 1 (N) Equip A	945	Act 1 (N) Good	54																				0
 Baalq (N)			7	993	993	1024	1024	0	Act 1 (H) Equip A	936	Act 1 (H) Good	54	fed	17	exo	9																0
-Baalq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip B	856	Act 5 (H) Good	53	fed	51	dcso	34	mfo	4														0
+Baalq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip B	857	Act 5 (H) Good	53	fed	51	dcso	34	mfo	3														0
 Blood Raven			5	800	800	972	1024	3	"gld,mul=1280"	340	Act 1 Equip B	461	Act 1 Junk	121	Act 1 Good	121																0
 Blood Raven (N)			5	800	800	972	1024	3	"gld,mul=1536"	340	Act 1 (N) Equip B	461	Act 1 (N) Junk	121	Act 1 (N) Good	121																0
 Blood Raven (H)			5	800	800	972	1024	3	"gld,mul=2048"	288	Act 1 (H) Equip B	461	Act 1 (H) Junk	121	Act 1 (H) Good	121	pk1	78														0
@@ -1018,7 +1018,7 @@ Lillith Mirror H				3000	100																											0
 Vial of Lightsong N				7500	100																											0
 Vial of Lightsong NM				3750	100																											0
 Vial of Lightsong H				1000	100																											0
-Corrupted Zone				150																												0
+Corrupted Zone				175																												0
 Unique Map Monsters				3750	10																											0
 Unique Map MapBoss				2000																												0
 Rathma Jawbone N				0	100																											0
@@ -1034,14 +1034,14 @@ lucc				1000																												0
 lucdN				0	100																											0
 lucdNM				0	10																											0
 lucdH				2600	1																											0
-T4MidMapBoss		90	6	950	960	990	1024	0	Act 5 (H) Equip C	701	Jewelry C	100	Runes 17 equiv	30	wss	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10	scrb	60	exo	10	mfo	32				0
-T4FinalMapBoss		90	6	950	960	990	1024	0	Act 5 (H) Equip C	701	Jewelry C	100	Runes 17 equiv	30	wss	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10	scrb	60	exo	10	mfo	32				0
-LucionChestLow		90	6	800	900	990	1024	0	Act 5 (H) Equip C	165	Act 5 (H) Good	100	Runes 15 equiv	30	wss	25	exo	10	mfo	25												0
+T4MidMapBoss		90	6	950	960	990	1024	0	Act 5 (H) Equip C	725	Jewelry C	100	Runes 17 equiv	30	wss	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10	scrb	60	mfo	18						0
+T4FinalMapBoss		90	6	950	960	990	1024	0	Act 5 (H) Equip C	725	Jewelry C	100	Runes 17 equiv	30	wss	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10	scrb	60	mfo	18						0
+LucionChestLow		90	6	800	900	990	1024	0	Act 5 (H) Equip C	200	Act 5 (H) Good	100	Runes 15 equiv	30	wss	25																0
 LucionChestHigh		90	6	950	960	990	1024	0	Act 5 (H) Equip C	743	Jewelry C	100	Runes 17 equiv	30	scrb	60																0
 Demonic Cube N				5000	10																											0
 Demonic Cube NM				2500	10																											0
 Demonic Cube H				800	10																											0
-Corrupted Zone T1 Maps				375																												0
+Corrupted Zone T1 Maps				350																												0
 InvaderLightArmor			1	850	850	1307	200		uul	1	uea	1	ula	1	utu	1	urs	1	utp	1												0
 InvaderMediumArmor			1	850	850	1307	200		ung	1	ucl	1	uhn	1	upl	1																0
 InvaderHeavyArmor			1	850	850	1307	200		ult	2	uul	2	uar	1	uth	2	uld	2														0

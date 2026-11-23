@@ -8,7 +8,7 @@
 //
 //	For Casual and EndGame Players
 //
-//	Edited by Senyubia for PD2SPE v4.0.2
+//	Edited by Senyubia for PD2SPE v4.1.0
 
 //////////////////////////////////
 // 	PD2SPE                      //
@@ -59,9 +59,8 @@ ItemDisplay[dye]: %NAME%{%WHITE%Orange (%RED%O%YELLOW%O%WHITE%)%NL%%NAME%}%CONTI
 ItemDisplay[dye]: %NAME%{%WHITE%Add O/%GRAY%O%WHITE% to make color lighter/darker where applicable%NL%%NAME%}
 
 ItemDisplay[fpot]: %NAME%{%NAME%%TAN%Note%WHITE%: Known recipes:}%CONTINUE%
-ItemDisplay[fpot]: %NAME%{%WHITE%Perf gem + %RED%Fragment%WHITE% = %ORANGE%Crafting infusion%NL%%NAME%}%CONTINUE%
+ItemDisplay[fpot]: %NAME%{%WHITE%Perf gem + %BLUE%Jewel%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Crafting infusion%NL%%NAME%}%CONTINUE%
 ItemDisplay[fpot]: %NAME%{%WHITE%3 %GOLD%Larzuk's Piece%WHITE% + %RED%Fragment%WHITE% = %GOLD%Larzuk's Box%NL%%NAME%}%CONTINUE%
-ItemDisplay[fpot]: %NAME%{%GOLD%Larzuk's Box%WHITE% + %RED%Worldstone Shard%WHITE% + %RED%Fragment%WHITE% = %GOLD%Demonic Cube%NL%%NAME%}%CONTINUE%
 ItemDisplay[fpot]: %NAME%{%WHITE%3 %ORANGE%Lower Tier Essence%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Higher Tier Essence%NL%%NAME%}%CONTINUE%
 ItemDisplay[fpot]: %NAME%{%ORANGE%Higher Tier Essence%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Lower Tier Essence%NL%%NAME%}%CONTINUE%
 ItemDisplay[fpot]: %NAME%{%ORANGE%Higher Tier Rune%WHITE% + %RED%Fragment%WHITE% = %ORANGE%Lower Tier Rune%NL%%NAME%}%CONTINUE%
@@ -130,7 +129,7 @@ Alias[GRAIL_NEW]: ((UNI !(msf OR hst OR hfh OR qf1 OR qf2 OR vip OR g33 OR d33 O
 //////////////////////////////////
 
 // Mod info
-ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%PD2SPE v4.0.2 %BLACK%| %GRAY% updated: 2026-11-12}%CONTINUE%
+ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%PD2SPE v4.1.0 %BLACK%| %GRAY% updated: 2026-11-23}%CONTINUE%
 
 //////////////////////////////////
 //	FILTER CONT.                //
@@ -5238,7 +5237,18 @@ ItemDisplay[UNI ID STAT270>0 !(6ws OR uap OR xhn OR dr6 OR uit)]: %NAME% %GRAY%[
 ItemDisplay[(ARMOR OR WEAPON OR QUIVER) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
 
 // Project Diablo 2 items
-ItemDisplay[wss]: %MAP-0A%%DOT-66%%NAME% %ORANGE%*{%RED%Warning%WHITE%: It can Brick your Item%NL%%TAN%Note%WHITE%: Use to %RED%Corrupt %WHITE%Item/Map:}
+
+//////////////////////////////////
+// 	PD2SPE                      //
+//////////////////////////////////
+
+// wss doesn't brick anymore
+//ItemDisplay[wss]: %MAP-0A%%DOT-66%%NAME% %ORANGE%*{%RED%Warning%WHITE%: It can Brick your Item%NL%%TAN%Note%WHITE%: Use to %RED%Corrupt %WHITE%Item/Map:}
+
+//////////////////////////////////
+//	FILTER CONT.                //
+//////////////////////////////////
+
 ItemDisplay[iwss]: %MAP-0A%%DOT-66%%NAME% %ORANGE%*{%WHITE%Random Event to Your Map%NL%%TAN%Note%WHITE%: Use to %PURPLE%Add %WHITE%a Guaranteed}%CONTINUE%
 
 //////////////////////////////////
@@ -5297,7 +5307,18 @@ ItemDisplay[rtmf]: %MAP-0A%%PX-62%%NAME% %TAN%*{%TAN%Note%WHITE%: 2x %ORANGE%Bon
 ItemDisplay[rtmv]: %MAP-0A%%PX-62%%NAME% %TAN%*{%TAN%Note%WHITE%: %RED%Rathma %GRAY%is getting closer...}%CONTINUE%
 ItemDisplay[rtmo]: %MAP-0A%%PX-62%%NAME% %TAN%*{%TAN%Note%WHITE%: %RED%Rathma %GRAY%is getting closer...}%CONTINUE%
 ItemDisplay[cm2f]: %MAP-0A%%PX-62%%NAME% %TAN%*{%TAN%Note%WHITE%: %RED%Rathma %GRAY%is getting closer...}%CONTINUE%
-ItemDisplay[cwss]: %MAP-0A%%DOT-84%%NAME% %GREEN%*{%RED%Warning%WHITE%: You can actually BRICK it%NL%%TAN%Note%WHITE%: Use to %RED%Corrupt %GOLD%Annihilus}
+
+//////////////////////////////////
+// 	PD2SPE                      //
+//////////////////////////////////
+
+// cwss doesn't brick anymore
+//ItemDisplay[cwss]: %MAP-0A%%DOT-84%%NAME% %GREEN%*{%RED%Warning%WHITE%: You can actually BRICK it%NL%%TAN%Note%WHITE%: Use to %RED%Corrupt %GOLD%Annihilus}
+
+//////////////////////////////////
+//	FILTER CONT.                //
+//////////////////////////////////
+
 ItemDisplay[rid]: %MAP-0A%%PX-62%%GRAY%*%LIGHT_GRAY%*%RED%*   %NAME%    %RED%*%LIGHT_GRAY%*%GRAY%*
 ItemDisplay[rtp]: %MAP-0A%%PX-62%%GRAY%*%LIGHT_GRAY%*%BLUE%*   %NAME%    %BLUE%*%LIGHT_GRAY%*%GRAY%*{%TAN%Note%WHITE%: You won't lose it in Cube recipes}
 
@@ -5503,15 +5524,16 @@ ItemDisplay[pk3]: %DOT-9D%%ORANGE%%NAME%%ORANGE%{%TAN%Key %WHITE%from: %PURPLE%N
 // Organs
 ItemDisplay[(mbr OR bey OR dhn)]: %PX-9D%%NAME%{%WHITE%to get %RED%Pandemonium Talisman%NL%%TAN%Note%WHITE%: Cube %ORANGE%One of each %WHITE%of the three Organs}
 
-// Rune pings and notifications
-ItemDisplay[(RUNE<18 OR r19 OR r19s)]: %PX-62%%TIER-2%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[(RUNE<18 OR r19 OR r19s) (CLVL<80 AND FILTLVL<3)]: %PX-62%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[(r11 OR r11s)]: %PX-68%%TIER-3%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[(r03 OR r03s OR r08 OR r08s OR r09 OR r09s OR r12 OR r12s OR r15 OR r15s OR r19 OR r19s)]: %MAP-68%%SAGE%*   %NAME%%SAGE%   *{%NAME%}%CONTINUE%
-ItemDisplay[(r18 OR r18s)]: %PX-62%%TIER-2%%TAN%*  %NAME%%TAN%  *{%NAME%}%CONTINUE%
-ItemDisplay[(r17 OR r17s)]: %PX-68% %TAN%*   %NAME%%TAN%   *{%NAME%}%CONTINUE%
-ItemDisplay[RUNE>19 AND RUNE<26]: %DOT-62%%YELLOW%*     %NAME%%YELLOW%     *{%NAME%}%CONTINUE%
-ItemDisplay[RUNE>25]: %MAP-62% %ORANGE%*%ORANGE%*%ORANGE%*          %NAME%%ORANGE%          *%ORANGE%*%ORANGE%*{%NAME%}%CONTINUE%
+//////////////////////////////////
+// 	PD2SPE                      //
+//////////////////////////////////
+
+// uniform rune notification
+ItemDisplay[RUNE>0]: %PX-62%%NAME%{%NAME%}%CONTINUE%
+
+//////////////////////////////////
+//	FILTER CONT.                //
+//////////////////////////////////
 
 // Rune notes
 

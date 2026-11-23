@@ -313,7 +313,7 @@ armour -> + sockets  (25%)	1	1		100	16	361	1000		2	"armo,nos,low"	"wss,qty=1"			
 	0																																																																																																							0
 PHASE 2 (outcomes)	0																																																																																																							0
 	0																																																																																																							0
-weapon -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"weap,nos"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
+weapon -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"weap,nos"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
 weapon -> + sockets  (7.5%) -- bows	1	1		100	16	361	325		2	"bow,nos"	"wss,qty=1"						useitem			100	corrupt	100		32	32	sock	100		3	3	corruptnum	100		1001	1001																																																																					0
 weapon -> + sockets  (7%)	1	1		100	16	361	395		2	"bow,nos"	"wss,qty=1"						useitem			100	corrupt	100		32	32	sock	100		4	4	corruptnum	100		1001	1001																																																																					0
 weapon -> + sockets  (6%)	1	1		100	16	361	455		2	"bow,nos"	"wss,qty=1"						useitem			100	corrupt	100		32	32	sock	100		5	5	corruptnum	100		1001	1001																																																																					0
@@ -366,12 +366,12 @@ weapon -> + sockets  (12%)	1	1		100	16	361	370		2	"weap,nos"	"wss,qty=1"						us
 weapon -> + sockets  (7%)	1	1		100	16	361	440		2	"weap,nos"	"wss,qty=1"						useitem			100	corrupt	100		32	32	sock	100		3	3	corruptnum	100		1001	1001																																																																					0
 weapon -> + sockets  (6%)	1	1		100	16	361	500		2	"weap,nos"	"wss,qty=1"						useitem			100	corrupt	100		32	32	sock	100		4	4	corruptnum	100		1001	1001																																																																					0
 	0																																																																																																							0
-armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"boot"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"glov"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"belt"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"tors,nos"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"helm,nos"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"shld,nos"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
+armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"belt"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"tors,nos"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"helm,nos"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"shld,nos"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
 	0																																																																																																							0
 armour -> + 1 sockets  (12%)	1	1		100	16	361	370		2	"tors,nos"	"wss,qty=1"						useitem			100	corrupt	100		32	32	sock	100		1	1	corruptnum	100		1001	1001																																																																					0
 armour -> + 2 sockets  (7%)	1	1		100	16	361	440		2	"tors,nos"	"wss,qty=1"						useitem			100	corrupt	100		32	32	sock	100		2	2	corruptnum	100		1001	1001																																																																					0
@@ -385,16 +385,16 @@ armour -> + 1 sockets  (12%)	1	1		100	16	361	370		2	"shld,nos"	"wss,qty=1"						
 armour -> + 2 sockets  (7%)	1	1		100	16	361	440		2	"shld,nos"	"wss,qty=1"						useitem			100	corrupt	100		32	32	sock	100		2	2	corruptnum	100		1001	1001																																																																					0
 armour -> + 3 sockets  (6%)	1	1		100	16	361	500		2	"shld,nos"	"wss,qty=1"						useitem			100	corrupt	100		32	32	sock	100		3	3	corruptnum	100		1001	1001																																																																					0
 																																																																																																								
-quiver -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"misl,nos"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
+quiver -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"misl,nos"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
 																																																																																																								
 quiver -> + 1 sockets  (18%)	1	1		100	16	361	430		2	"misl,nos"	"wss,qty=1"						useitem			100	corrupt	100		32	32	sock	100		1	1	corruptnum	100		1001	1001																																																																					0
 quiver -> + 2 sockets  (7%)	1	1		100	16	361	500		2	"misl,nos"	"wss,qty=1"						useitem			100	corrupt	100		32	32	sock	100		2	2	corruptnum	100		1001	1001																																																																					0
 	0																																																																																																							0
-ring -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"ring"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
+ring -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
 	0																																																																																																							0
-amulet -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"amul"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
+amulet -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"amul"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
 	0																																																																																																							0
-anni-> destroyed (rare) (20%)	1	1		100	16	361	200		2	"Annihilus"	"cwss,qty=1"						"cm1,mag"			100	corrupt	100		1	1	corruptnum	100		1001	1001	dye	100		10	10																																																																					0
+anni-> destroyed (rare) (20%)	1	1		100	16	361	200		2	"Annihilus"	"cwss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001	dye	100		10	10																																																																					0
 																																																																																																								0
 ANNIHILUS	0																																																																																																							0
 item -> added mod 1	1	1		100	16	361	400		2	"Annihilus"	"cwss,qty=1"						useitem			100	corrupt	100		27	27	corruptnum	100		1001	1001	allskills	100		1	1	dye	100		10	10																																																																0
@@ -708,23 +708,23 @@ add corrupt factor to armour	1	2		100	18	361	0		2	"armo,sock,crf"	"wss,qty=1"			
 add corrupt factor to quiver	1	2		100	18	361	0		2	"misl,sock,crf"	"wss,qty=1"						useitem			100	corruptnum	100		1	1000																					"wss,qty=1"																																																										0
 	0																																																																																																							0
 PHASE 2 (Socketed)	0																																																																																																							0
-weapon -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"weap,sock,mag"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-weapon -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"weap,sock,rar"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-weapon -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"weap,sock,set"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-weapon -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"weap,sock,uni"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-weapon -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"weap,sock,crf"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
+weapon -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"weap,sock,mag"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+weapon -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"weap,sock,rar"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+weapon -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"weap,sock,set"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+weapon -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"weap,sock,uni"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+weapon -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"weap,sock,crf"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
 	0																																																																																																							0
-armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"armo,sock,mag"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"armo,sock,rar"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"armo,sock,set"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"armo,sock,uni"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"armo,sock,crf"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
+armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"armo,sock,mag"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"armo,sock,rar"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"armo,sock,set"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"armo,sock,uni"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+armour -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"armo,sock,crf"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
 																																																																																																								
-quiver -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"misl,sock,mag"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-quiver -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"misl,sock,rar"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-quiver -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"misl,sock,set"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-quiver -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"misl,sock,uni"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
-quiver -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"misl,sock,crf"	"wss,qty=1"						"usetype,rar"			100																																																																																				0
+quiver -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"misl,sock,mag"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+quiver -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"misl,sock,rar"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+quiver -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"misl,sock,set"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+quiver -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"misl,sock,uni"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
+quiver -> destroyed (rare) (25%)	1	3		100	16	361	250		2	"misl,sock,crf"	"wss,qty=1"						useitem			100	corrupt	100		1	1	corruptnum	100		1001	1001																																																																										0
 	0																																																																																																							0
 WEAPONS (socketed) -----------------------	0																																																																																																							0
 Tier 1 - magic weap	0																																																																																																							0
@@ -2332,7 +2332,7 @@ Convert prerolled base quiver to unique	1			100	18	361	2000		5	misl,bas,uni	"mfo
 Convert prerolled exceptional quiver to unique	1			100	18	361	2000		6	misl,exc,uni	"mfo,qty=1"	ecoi,qty=1	tes,qty=1	ceh,qty=1	bet,qty=1		useitem,reg	99																																																																																						0
 Convert prerolled elite quiver to unique	1			100	18	361	2000		7	misl,eli,uni	"mfo,qty=1"	ecoi,qty=1	tes,qty=1	ceh,qty=1	bet,qty=1	fed,qty=1	useitem,reg	99																																																																																						0
 																																																																																																								0
-Dissolve into fragments of potential	1			100					2	key,qty=1	mfo,qty=1						useitem			100																										fpot,qty=5																																																										0
+Dissolve into fragments of potential	1			100					2	key,qty=1	mfo,qty=1						useitem			100																										fpot,qty=10																																																										0
 																																																																																																								0
 EXALTED ORB																																																																																																								0
 																																																																																																								0
@@ -2360,13 +2360,13 @@ Dissolve into fragments of potential	1			100					2	key,qty=1	exo,qty=1						usei
 																																																																																																								0
 CRAFTING																																																																																																								0
 																																																																																																								0
-Create Caster crafting infusion	1			100					2	gpv,qty=1	fpot,qty=1						crfc,qty=1																																																																																							0
-Create Bountiful crafting infusion	1			100					2	gpy,qty=1	fpot,qty=1						crfu,qty=1																																																																																							0
-Create Vampiric crafting infusion	1			100					2	skz,qty=1	fpot,qty=1						crfv,qty=1																																																																																							0
-Create Bloody crafting infusion	1			100					2	gpr,qty=1	fpot,qty=1						crfb,qty=1																																																																																							0
-Create Brilliant crafting infusion	1			100					2	gpw,qty=1	fpot,qty=1						crfp,qty=1																																																																																							0
-Create Hitpower crafting infusion	1			100					2	gpb,qty=1	fpot,qty=1						crfh,qty=1																																																																																							0
-Create Safety crafting infusion	1			100					2	gpg,qty=1	fpot,qty=1						crfs,qty=1																																																																																							0
+Create Caster crafting infusion	1			100					3	gpv,qty=1	fpot,qty=1	jewg,qty=1					crfc,qty=1																																																																																							0
+Create Bountiful crafting infusion	1			100					3	gpy,qty=1	fpot,qty=1	jewg,qty=1					crfu,qty=1																																																																																							0
+Create Vampiric crafting infusion	1			100					3	skz,qty=1	fpot,qty=1	jewg,qty=1					crfv,qty=1																																																																																							0
+Create Bloody crafting infusion	1			100					3	gpr,qty=1	fpot,qty=1	jewg,qty=1					crfb,qty=1																																																																																							0
+Create Brilliant crafting infusion	1			100					3	gpw,qty=1	fpot,qty=1	jewg,qty=1					crfp,qty=1																																																																																							0
+Create Hitpower crafting infusion	1			100					3	gpb,qty=1	fpot,qty=1	jewg,qty=1					crfh,qty=1																																																																																							0
+Create Safety crafting infusion	1			100					3	gpg,qty=1	fpot,qty=1	jewg,qty=1					crfs,qty=1																																																																																							0
 																																																																																																								0
 WORLDSTONE SLIVER																																																																																																								0
 																																																																																																								0
@@ -2375,7 +2375,6 @@ Degrade crafted to magic	1			100					2	any,crf	wssl,qty=1						usetype,mag			100
 EXCHANGES																																																																																																								0
 																																																																																																								0
 3x lpp + fpot = lbox	1			100					2	lpp,qty=3	fpot,qty=1						lbox,qty=1																																																																																							0
-1x lbox + wss + fpot = imrn	1			100					3	lbox,qty=1	wss,qty=1	fpot,qty=1					imrn,qty=1																																																																																							0
 																																																																																																								0
 3x tes + fpot = ceh	1			100					2	tes,qty=3	fpot,qty=1						ceh,qty=1																																																																																							0
 3x ceh + fpot = bet	1			100					2	ceh,qty=3	fpot,qty=1						bet,qty=1																																																																																							0
@@ -2456,9 +2455,9 @@ Mirror set amulet	1			100					2	amul,set	llmr						useitem	99		100	dye	100		4	4	
 																																																																																																								0
 HORADRIM SCARAB																																																																																																								0
 																																																																																																								0
-Multiply t1 map	1			100					3	t1me	scrb,qty=1	upmp,qty=1					useitem																													useitem,qty=1																													useitem,qty=1																													0
-Multiply t2 map	1			100					3	t2me	scrb,qty=1	upmp,qty=1					useitem																													useitem,qty=1																													useitem,qty=1																													0
-Multiply t3 map	1			100					3	t3me	scrb,qty=1	upmp,qty=1					useitem																													useitem,qty=1																													useitem,qty=1																													0
+Multiply t1 map	1			100					3	t1me	scrb,qty=1	upmp,qty=1					useitem				mirrored	100		1	1																					useitem,qty=1				mirrored	100		1	1																					useitem,qty=1				mirrored	100		1	1																					0
+Multiply t2 map	1			100					3	t2me	scrb,qty=1	upmp,qty=1					useitem				mirrored	100		1	1																					useitem,qty=1				mirrored	100		1	1																					useitem,qty=1				mirrored	100		1	1																					0
+Multiply t3 map	1			100					3	t3me	scrb,qty=1	upmp,qty=1					useitem				mirrored	100		1	1																					useitem,qty=1				mirrored	100		1	1																					useitem,qty=1				mirrored	100		1	1																					0
 																																																																																																								0
 COLORING																																																																																																								0
 																																																																																																								0
@@ -2513,3 +2512,4 @@ Color orange	1			100					4	weap	dye,qty=1	gpr,qty=1	gpy,qty=1				useitem				dye	
 MISC																																																																																																								0
 																																																																																																								0
 Safely unsocket	1			100					3	any,sock	r24,qty=1	tsc					useitem,rem																																																																																							0
+1x lbox + wss = imrn	1			100					2	lbox,qty=1	wss,qty=1						imrn,qty=1																																																																																							0

@@ -163,3 +163,7 @@ Battle Staff	bst
 War Staff	wst
 Arrows	aqv
 Bolts	cqv
+Dagger	dgr
+Dirk	dir
+Kriss	kri
+Blade	bld

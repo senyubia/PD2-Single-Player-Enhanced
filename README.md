@@ -34,6 +34,7 @@ Check their notes from the loot filter.
 - qol crafting recipes (craftable infusions, ppiece upgrading, corrupting pbox to demonic cube),
 - map multiplication using scarabs (same restrictions as with lilith's mirror),
 - qol shop at anya,
+- additional bases in gambling,
 - changed launch splash, main menu, tcp/ip menu and character select screens to lod (delete ``data/global/ui`` to revert).
 
 ## Bugs / limitations

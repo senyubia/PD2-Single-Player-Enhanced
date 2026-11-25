@@ -8,7 +8,7 @@
 //
 //	For Casual and EndGame Players
 //
-//	Edited by Senyubia for PD2SPE v4.1.2
+//	Edited by Senyubia for PD2SPE v4.1.3
 
 //////////////////////////////////
 // 	PD2SPE                      //
@@ -129,7 +129,7 @@ Alias[GRAIL_NEW]: ((UNI !(msf OR hst OR hfh OR qf1 OR qf2 OR vip OR g33 OR d33 O
 //////////////////////////////////
 
 // Mod info
-ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%PD2SPE v4.1.2 %BLACK%| %GRAY% updated: 2026-11-24}%CONTINUE%
+ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%PD2SPE v4.1.3 %BLACK%| %GRAY% updated: 2026-11-25}%CONTINUE%
 
 //////////////////////////////////
 //	FILTER CONT.                //
